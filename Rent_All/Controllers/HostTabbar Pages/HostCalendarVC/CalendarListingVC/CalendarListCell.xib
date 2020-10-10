@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="linetocircular.ttf">
+            <string>Circular-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="101" id="KGk-i7-Jjw" customClass="CalendarListCell" customModule="Rent_All" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FeJ-uQ-LNU">
+                        <rect key="frame" x="10" y="90" width="349" height="1"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entire Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5F-Ku-kyh">
+                        <rect key="frame" x="140" y="60.5" width="188" height="19"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="188" id="MUm-CP-5Yq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="15"/>
+                        <color key="textColor" red="0.64705882349999999" green="0.16078431369999999" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-1" translatesAutoresizingMaskIntoConstraints="NO" id="GSe-u3-Okj">
+                        <rect key="frame" x="10" y="9" width="110" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="96S-72-eBh"/>
+                            <constraint firstAttribute="width" constant="110" id="oxP-NW-d7u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Royal castle with cozy bed rooms Royal castle with cozy bed rooms" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuH-no-YoD">
+                        <rect key="frame" x="140" y="11" width="200" height="43.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_white" translatesAutoresizingMaskIntoConstraints="NO" id="IuN-x2-L4x">
+                        <rect key="frame" x="347" y="33" width="13" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="H0A-em-cIg"/>
+                            <constraint firstAttribute="height" constant="22" id="TiA-j8-BJy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IuN-x2-L4x" firstAttribute="centerY" secondItem="GSe-u3-Okj" secondAttribute="centerY" id="6Eg-JK-cZg"/>
+                    <constraint firstAttribute="trailing" secondItem="NuH-no-YoD" secondAttribute="trailing" constant="35" id="6ux-za-Iy6"/>
+                    <constraint firstItem="GSe-u3-Okj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="DNX-Tg-pFf"/>
+                    <constraint firstItem="NuH-no-YoD" firstAttribute="leading" secondItem="GSe-u3-Okj" secondAttribute="trailing" constant="20" id="EJx-dF-qJH"/>
+                    <constraint firstItem="NuH-no-YoD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Z16-3i-Aw9"/>
+                    <constraint firstAttribute="trailing" secondItem="IuN-x2-L4x" secondAttribute="trailing" constant="15" id="eln-Q2-ADA"/>
+                    <constraint firstItem="M5F-Ku-kyh" firstAttribute="top" secondItem="NuH-no-YoD" secondAttribute="bottom" constant="6" id="eyD-dX-GJT"/>
+                    <constraint firstItem="GSe-u3-Okj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="t9f-Zr-tyR"/>
+                    <constraint firstItem="M5F-Ku-kyh" firstAttribute="leading" secondItem="GSe-u3-Okj" secondAttribute="trailing" constant="20" id="w6G-ci-XBc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="entireLabel" destination="M5F-Ku-kyh" id="Da2-jF-qyu"/>
+                <outlet property="listimage" destination="GSe-u3-Okj" id="O8M-P0-qf4"/>
+                <outlet property="tickImage" destination="IuN-x2-L4x" id="g3A-oE-gFJ"/>
+                <outlet property="titleLabel" destination="NuH-no-YoD" id="oLE-61-lWz"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="140.95982142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home-1" width="1429.3333740234375" height="949.33331298828125"/>
+        <image name="right_white" width="200" height="200"/>
+    </resources>
+</document>

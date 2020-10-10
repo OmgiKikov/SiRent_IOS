@@ -1,0 +1,98 @@
+# Listing Details
+query viewListingDetails(
+$listId:Int!,
+$preview: Boolean
+) {
+viewListing (
+listId:$listId,
+preview: $preview
+) {
+results {
+id
+userId
+title
+description
+coverPhoto
+city
+state
+country
+isPublished
+lat
+lng
+houseType
+roomType
+bookingType
+bedrooms
+beds
+personCapacity
+bathrooms
+coverPhoto
+listPhotoName
+listPhotos{
+id
+name
+}
+listingPhotos{
+id
+name
+}
+user {
+email
+profile{
+profileId
+displayName
+picture
+firstName
+}
+}
+userAmenities {
+id
+itemName
+}
+userSafetyAmenities {
+id
+itemName
+}
+userSpaces {
+id
+itemName
+}
+houseRules {
+id
+itemName
+}
+listingData {
+bookingNoticeTime,
+checkInStart,
+checkInEnd,
+maxDaysNotice,
+minNight,
+maxNight,
+basePrice,
+cleaningPrice,
+currency,
+weeklyDiscount,
+monthlyDiscount,
+cancellation{
+id
+policyName
+policyContent
+}
+}
+blockedDates{
+blockedDates,
+reservationId,
+calendarStatus,
+isSpecialPrice,
+listId
+}
+reviewsCount,
+reviewsStarRating
+isListOwner
+wishListStatus
+wishListGroupCount
+}
+status
+errorMessage
+}
+}

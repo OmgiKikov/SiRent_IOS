@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lineto-circular-pro-medium.ttf">
+            <string>Circular-Medium</string>
+        </array>
+        <array key="linetocircular.ttf">
+            <string>Circular-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhonekitVC" customModule="Rent_All" customModuleProvider="target">
+            <connections>
+                <outlet property="closeBtn" destination="mfv-FQ-yfE" id="qjW-mu-UrK"/>
+                <outlet property="confirmphoneLabel" destination="5di-2L-AF8" id="q6d-6V-F9y"/>
+                <outlet property="countryBtn" destination="DiT-U2-7PS" id="0Az-nq-r3X"/>
+                <outlet property="nextBtn" destination="SEl-dt-hex" id="1Gv-oM-Rkk"/>
+                <outlet property="phoneLabel" destination="zeK-XC-dbs" id="8Tg-8o-nog"/>
+                <outlet property="phoneTF" destination="2gY-cQ-lnj" id="10k-iy-Ezn"/>
+                <outlet property="phoneView" destination="jvA-Um-GeT" id="eYQ-c0-cvN"/>
+                <outlet property="phonedescLabel" destination="Djq-uZ-Psn" id="b01-0m-ldj"/>
+                <outlet property="topView" destination="O9k-cv-zhe" id="izv-Ds-P5o"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9k-cv-zhe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfv-FQ-yfE">
+                            <rect key="frame" x="8" y="18" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="agL-Ou-lxa"/>
+                                <constraint firstAttribute="width" constant="45" id="hPJ-NR-Re2"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="14" minY="14" maxX="14" maxY="14"/>
+                            <state key="normal" image="close-black"/>
+                            <connections>
+                                <action selector="closeBtnTapped:" destination="-1" eventType="touchUpInside" id="bGz-qO-ScJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="mfv-FQ-yfE" firstAttribute="top" secondItem="O9k-cv-zhe" secondAttribute="top" constant="18" id="Cd4-LQ-MSP"/>
+                        <constraint firstItem="mfv-FQ-yfE" firstAttribute="leading" secondItem="O9k-cv-zhe" secondAttribute="leading" constant="8" id="IK8-Sc-TUY"/>
+                        <constraint firstAttribute="height" constant="70" id="uIC-jq-DbC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvA-Um-GeT">
+                    <rect key="frame" x="0.0" y="70" width="375" height="589"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmar su número de teléfono" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5di-2L-AF8">
+                            <rect key="frame" x="20" y="0.0" width="340" height="63.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="a0L-Nx-gwd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2gY-cQ-lnj">
+                            <rect key="frame" x="85" y="224.5" width="284" height="60"/>
+                            <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="rvV-UL-g1L"/>
+                            </constraints>
+                            <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="0.84610445209999996" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="6OF-2E-NoO"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeK-XC-dbs">
+                            <rect key="frame" x="20" y="192.5" width="340" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="8ua-u3-5Fu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Medium" family="Circular" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8t8-3c-9uX">
+                            <rect key="frame" x="20" y="288.5" width="345" height="1"/>
+                            <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="aAN-d2-uc1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djq-uZ-Psn">
+                            <rect key="frame" x="20" y="59.5" width="340" height="131"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="131" id="vW4-NK-cC1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiT-U2-7PS">
+                            <rect key="frame" x="20" y="228.5" width="60" height="52"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="cvT-Kk-lDa"/>
+                                <constraint firstAttribute="width" constant="60" id="khS-qf-Adq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="20"/>
+                            <state key="normal" title="+91">
+                                <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </state>
+                            <connections>
+                                <action selector="phoneBtnTapped:" destination="-1" eventType="touchUpInside" id="ktv-YC-uWx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEl-dt-hex">
+                            <rect key="frame" x="210" y="514" width="135" height="45"/>
+                            <color key="backgroundColor" red="0.0" green="0.51764705879999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="135" id="fsI-a1-WkI"/>
+                                <constraint firstAttribute="height" constant="45" id="oGt-dl-hOi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Medium" family="Circular" pointSize="21"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="nextBtnTapped:" destination="-1" eventType="touchUpInside" id="uC2-to-0P5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="2gY-cQ-lnj" firstAttribute="top" secondItem="zeK-XC-dbs" secondAttribute="bottom" constant="4" id="17K-R9-dFc"/>
+                        <constraint firstAttribute="trailing" secondItem="zeK-XC-dbs" secondAttribute="trailing" constant="15" id="B2f-SE-VBB"/>
+                        <constraint firstItem="zeK-XC-dbs" firstAttribute="leading" secondItem="jvA-Um-GeT" secondAttribute="leading" constant="20" id="KS0-ka-cfh"/>
+                        <constraint firstItem="5di-2L-AF8" firstAttribute="leading" secondItem="jvA-Um-GeT" secondAttribute="leading" constant="20" id="MOi-jX-jPJ"/>
+                        <constraint firstItem="DiT-U2-7PS" firstAttribute="top" secondItem="zeK-XC-dbs" secondAttribute="bottom" constant="8" symbolic="YES" id="PlG-sH-scW"/>
+                        <constraint firstItem="DiT-U2-7PS" firstAttribute="leading" secondItem="jvA-Um-GeT" secondAttribute="leading" constant="20" id="Qlq-sO-Dfg"/>
+                        <constraint firstAttribute="trailing" secondItem="SEl-dt-hex" secondAttribute="trailing" constant="30" id="Y3Q-vP-3tM"/>
+                        <constraint firstAttribute="trailing" secondItem="5di-2L-AF8" secondAttribute="trailing" constant="15" id="ZAx-cr-T58"/>
+                        <constraint firstItem="Djq-uZ-Psn" firstAttribute="leading" secondItem="jvA-Um-GeT" secondAttribute="leading" constant="20" id="au1-i4-OrA"/>
+                        <constraint firstItem="2gY-cQ-lnj" firstAttribute="leading" secondItem="DiT-U2-7PS" secondAttribute="trailing" constant="5" id="awI-fA-JG0"/>
+                        <constraint firstItem="5di-2L-AF8" firstAttribute="top" secondItem="jvA-Um-GeT" secondAttribute="top" id="gTT-bY-32H"/>
+                        <constraint firstItem="8t8-3c-9uX" firstAttribute="top" secondItem="DiT-U2-7PS" secondAttribute="bottom" constant="8" symbolic="YES" id="paL-Ty-B1W"/>
+                        <constraint firstAttribute="trailing" secondItem="2gY-cQ-lnj" secondAttribute="trailing" constant="6" id="qW2-n6-nGq"/>
+                        <constraint firstAttribute="bottom" secondItem="SEl-dt-hex" secondAttribute="bottom" constant="30" id="qhb-1z-iEE"/>
+                        <constraint firstAttribute="trailing" secondItem="8t8-3c-9uX" secondAttribute="trailing" constant="10" id="rEu-bS-64k"/>
+                        <constraint firstAttribute="trailing" secondItem="Djq-uZ-Psn" secondAttribute="trailing" constant="15" id="s1m-se-66q"/>
+                        <constraint firstItem="Djq-uZ-Psn" firstAttribute="top" secondItem="5di-2L-AF8" secondAttribute="bottom" constant="-4" id="sPG-Wd-z0S"/>
+                        <constraint firstItem="zeK-XC-dbs" firstAttribute="top" secondItem="Djq-uZ-Psn" secondAttribute="bottom" constant="2" id="via-cY-wFd"/>
+                        <constraint firstItem="8t8-3c-9uX" firstAttribute="leading" secondItem="jvA-Um-GeT" secondAttribute="leading" constant="20" id="yIp-so-YMR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="O9k-cv-zhe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="B5M-cH-TWk"/>
+                <constraint firstAttribute="bottom" secondItem="jvA-Um-GeT" secondAttribute="bottom" constant="8" id="GTS-gh-tx6"/>
+                <constraint firstItem="jvA-Um-GeT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NPE-Hh-QTD"/>
+                <constraint firstItem="jvA-Um-GeT" firstAttribute="top" secondItem="O9k-cv-zhe" secondAttribute="bottom" id="f6M-FW-zZq"/>
+                <constraint firstItem="jvA-Um-GeT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="qIA-xA-jFd"/>
+                <constraint firstItem="O9k-cv-zhe" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="wW1-1x-pxO"/>
+                <constraint firstItem="O9k-cv-zhe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zWG-9P-PiA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="124.58770614692655"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close-black" width="25" height="25"/>
+    </resources>
+</document>

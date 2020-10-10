@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="linetocircular.ttf">
+            <string>Circular-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReceiverMessageCell" rowHeight="178" id="KGk-i7-Jjw" customClass="ReceiverMessageCell" customModule="Rent_All" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="174.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQt-lg-3a5">
+                        <rect key="frame" x="65" y="73" width="267" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Hiietwtweygrsyrsygsfvvcryey" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uih-fT-sea">
+                                <rect key="frame" x="10" y="10" width="247" height="38"/>
+                                <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Sun,22 Sep 2019 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6c-kI-WA9">
+                                <rect key="frame" x="10" y="56" width="242" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YuJ-vd-9U3">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="87"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85890763998031616" green="0.85956227779388428" blue="0.8590090274810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uih-fT-sea" firstAttribute="leading" secondItem="ZQt-lg-3a5" secondAttribute="leading" constant="10" id="63m-ZS-chh"/>
+                            <constraint firstItem="x6c-kI-WA9" firstAttribute="leading" secondItem="ZQt-lg-3a5" secondAttribute="leading" constant="10" id="DSk-QC-LyF"/>
+                            <constraint firstItem="Uih-fT-sea" firstAttribute="top" secondItem="ZQt-lg-3a5" secondAttribute="top" constant="10" id="Hnv-bY-Lw7"/>
+                            <constraint firstAttribute="bottom" secondItem="x6c-kI-WA9" secondAttribute="bottom" constant="10" id="Uzf-d4-jW3"/>
+                            <constraint firstItem="x6c-kI-WA9" firstAttribute="top" secondItem="Uih-fT-sea" secondAttribute="bottom" constant="8" id="k9o-Kb-0WI"/>
+                            <constraint firstAttribute="trailing" secondItem="Uih-fT-sea" secondAttribute="trailing" constant="10" id="rzx-Sy-lKt"/>
+                            <constraint firstAttribute="trailing" secondItem="x6c-kI-WA9" secondAttribute="trailing" constant="15" id="vyx-Mu-mBu"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="YuJ-vd-9U3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="Request to Book" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOc-gl-F6y">
+                        <rect key="frame" x="70" y="15" width="231" height="20.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Sun,22 Sep 2019 - Fri,27 Sep 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tU-54-YSl">
+                        <rect key="frame" x="40" y="41" width="292" height="20.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unknown" translatesAutoresizingMaskIntoConstraints="NO" id="zNM-5V-4av">
+                        <rect key="frame" x="15" y="117" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Fk8-EH-rZ2"/>
+                            <constraint firstAttribute="width" constant="40" id="a8A-fa-lIU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_sender" translatesAutoresizingMaskIntoConstraints="NO" id="mjM-4H-dOl">
+                        <rect key="frame" x="50" y="129" width="20" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="HEf-pU-buX"/>
+                            <constraint firstAttribute="width" constant="20" id="Qey-aV-yWq"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4tU-54-YSl" firstAttribute="top" secondItem="BOc-gl-F6y" secondAttribute="bottom" constant="5.5" id="6mr-Tl-VJx"/>
+                    <constraint firstAttribute="bottom" secondItem="zNM-5V-4av" secondAttribute="bottom" constant="17.5" id="Fby-YV-kVY"/>
+                    <constraint firstAttribute="bottom" secondItem="ZQt-lg-3a5" secondAttribute="bottom" constant="17.5" id="IaC-9p-Bhn"/>
+                    <constraint firstItem="4tU-54-YSl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="KfI-ZT-y2y"/>
+                    <constraint firstAttribute="trailing" secondItem="ZQt-lg-3a5" secondAttribute="trailing" constant="40" id="NAa-dT-J2e"/>
+                    <constraint firstAttribute="trailing" secondItem="BOc-gl-F6y" secondAttribute="trailing" constant="71" id="gve-qD-dZB"/>
+                    <constraint firstItem="zNM-5V-4av" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ibB-Yg-vrf"/>
+                    <constraint firstItem="ZQt-lg-3a5" firstAttribute="top" secondItem="4tU-54-YSl" secondAttribute="bottom" constant="11.5" id="jEr-ZO-GDB"/>
+                    <constraint firstAttribute="trailing" secondItem="4tU-54-YSl" secondAttribute="trailing" constant="40" id="lRb-YV-jj9"/>
+                    <constraint firstItem="ZQt-lg-3a5" firstAttribute="leading" secondItem="zNM-5V-4av" secondAttribute="trailing" constant="10" id="lcl-MU-Q1K"/>
+                    <constraint firstAttribute="bottom" secondItem="mjM-4H-dOl" secondAttribute="bottom" constant="15.5" id="lgm-uO-tsg"/>
+                    <constraint firstItem="BOc-gl-F6y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="oZb-Az-bXV"/>
+                    <constraint firstItem="BOc-gl-F6y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="70" id="qYF-DF-oaZ"/>
+                    <constraint firstItem="mjM-4H-dOl" firstAttribute="leading" secondItem="zNM-5V-4av" secondAttribute="trailing" constant="-5" id="vqZ-rf-uNu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLAbel" destination="4tU-54-YSl" id="uKZ-nt-Dxj"/>
+                <outlet property="profileImage" destination="zNM-5V-4av" id="wHW-Su-8aJ"/>
+                <outlet property="receiverDateLabel" destination="x6c-kI-WA9" id="uX1-ig-KUp"/>
+                <outlet property="receiverMsgLabel" destination="Uih-fT-sea" id="s58-vr-Uj4"/>
+                <outlet property="receiverView" destination="ZQt-lg-3a5" id="HxV-lv-dcK"/>
+                <outlet property="requestLabel" destination="BOc-gl-F6y" id="Fuo-4n-dhe"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="181.13839285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gray_sender" width="60" height="71"/>
+        <image name="unknown" width="600" height="600"/>
+    </resources>
+</document>

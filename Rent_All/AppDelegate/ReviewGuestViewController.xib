@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lineto-circular-pro-medium.ttf">
+            <string>Circular-Medium</string>
+        </array>
+        <array key="linetocircular.ttf">
+            <string>Circular-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReviewGuestViewController" customModule="Rent_All" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="VdA-9k-6aP" id="Val-FN-5Ky"/>
+                <outlet property="errorLabel" destination="WbS-ga-7tQ" id="NKk-mO-e1I"/>
+                <outlet property="nextArrow" destination="H1U-Va-eG8" id="FbK-zP-3a0"/>
+                <outlet property="nextBtn" destination="aGB-ut-PMp" id="NgS-Lc-w01"/>
+                <outlet property="offlineUIView" destination="VtM-81-X0n" id="eRQ-DB-H0V"/>
+                <outlet property="retryButn" destination="Tzh-NL-W3D" id="fWI-Sd-ltA"/>
+                <outlet property="saveandExitBtn" destination="Y0n-yI-K7V" id="4Ql-lR-e39"/>
+                <outlet property="tableView" destination="eCO-31-3hp" id="Hej-Pb-P52"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="eCO-31-3hp">
+                    <rect key="frame" x="5" y="73" width="310" height="334"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="xkp-5u-9CT"/>
+                        <outlet property="delegate" destination="-1" id="Hru-AO-UYK"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGB-ut-PMp">
+                    <rect key="frame" x="169" y="415" width="135" height="45"/>
+                    <color key="backgroundColor" red="0.0" green="0.51764705879999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Ldq-uT-9Bq"/>
+                        <constraint firstAttribute="width" constant="135" id="Val-VO-V3V"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Circular-Medium" family="Circular" pointSize="21"/>
+                    <inset key="titleEdgeInsets" minX="-23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="RedirectNextPage:" destination="-1" eventType="touchUpInside" id="vER-QE-FR6"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRD-kA-MjF">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0n-yI-K7V">
+                            <rect key="frame" x="135" y="19" width="170" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="jqG-11-9LJ"/>
+                                <constraint firstAttribute="width" constant="170" id="ltQ-Uc-Q34"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="16"/>
+                            <state key="normal" title="Save and Exit">
+                                <color key="titleColor" red="0.0" green="0.51764705879999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="SaveAndExitAction:" destination="-1" eventType="touchUpInside" id="dh9-hY-Edh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdA-9k-6aP">
+                            <rect key="frame" x="5" y="10" width="45" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <inset key="imageEdgeInsets" minX="14" minY="14" maxX="14" maxY="14"/>
+                            <state key="normal" image="back_black"/>
+                            <connections>
+                                <action selector="backBtnPressed:" destination="-1" eventType="touchUpInside" id="2NB-dt-FI8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Y0n-yI-K7V" secondAttribute="trailing" constant="15" id="LAL-I1-R6U"/>
+                        <constraint firstAttribute="height" constant="65" id="WdP-Tq-3Lm"/>
+                        <constraint firstItem="Y0n-yI-K7V" firstAttribute="top" secondItem="lRD-kA-MjF" secondAttribute="top" constant="19" id="f8a-oV-A6p"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="next_green" translatesAutoresizingMaskIntoConstraints="NO" id="H1U-Va-eG8">
+                    <rect key="frame" x="281" y="431" width="15" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="NBu-yc-F8A"/>
+                        <constraint firstAttribute="width" constant="15" id="Wx8-lN-ATG"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VtM-81-X0n">
+                    <rect key="frame" x="0.0" y="425" width="320" height="55"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbS-ga-7tQ">
+                            <rect key="frame" x="16" y="8" width="218" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Error ">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system" size="15"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="You are currently offline">
+                                    <attributes>
+                                        <color key="NSColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" metaFont="system" size="15"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Tzh-NL-W3D">
+                            <rect key="frame" x="227" y="8" width="84" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Circular-Book" family="Circular" pointSize="13"/>
+                            <state key="normal" title="RETRY">
+                                <color key="titleColor" red="0.0" green="0.51764705879999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="retryBtnTapped:" destination="-1" eventType="touchUpInside" id="I7I-n1-vkT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="zsg-dK-doc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lRD-kA-MjF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="PMH-ke-jaX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VtM-81-X0n" secondAttribute="trailing" id="R1Q-Gh-Rhj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VtM-81-X0n" secondAttribute="bottom" id="Sre-nk-sMw"/>
+                <constraint firstItem="eCO-31-3hp" firstAttribute="top" secondItem="lRD-kA-MjF" secondAttribute="bottom" constant="8" id="UZH-Xb-HfW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aGB-ut-PMp" secondAttribute="bottom" constant="20" id="Xid-UB-G7I"/>
+                <constraint firstItem="H1U-Va-eG8" firstAttribute="centerY" secondItem="aGB-ut-PMp" secondAttribute="centerY" constant="1" id="ZXd-xY-hpA"/>
+                <constraint firstItem="eCO-31-3hp" firstAttribute="top" secondItem="lRD-kA-MjF" secondAttribute="bottom" constant="8" id="bde-Zd-oGx"/>
+                <constraint firstItem="aGB-ut-PMp" firstAttribute="top" secondItem="eCO-31-3hp" secondAttribute="bottom" constant="8" id="dQb-G3-d3U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lRD-kA-MjF" secondAttribute="trailing" id="j1j-gj-cLr"/>
+                <constraint firstItem="H1U-Va-eG8" firstAttribute="leading" secondItem="aGB-ut-PMp" secondAttribute="trailing" constant="-23" id="nbG-gW-4Jm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eCO-31-3hp" secondAttribute="trailing" constant="5" id="nka-S8-LNG"/>
+                <constraint firstItem="lRD-kA-MjF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oFa-1w-OAZ"/>
+                <constraint firstItem="eCO-31-3hp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="oQX-r7-0UF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aGB-ut-PMp" secondAttribute="trailing" constant="16" id="qOi-Hg-ua0"/>
+                <constraint firstItem="VtM-81-X0n" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qxt-s6-jcG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="46.875" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_black" width="25" height="25"/>
+        <image name="next_green" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,90 @@
+query getReservation($reservationId: Int!,$convertCurrency: String) {
+getReservation(reservationId: $reservationId,convertCurrency: $convertCurrency) {
+ status
+ errorMessage
+ results {
+   id
+   nights
+   listId
+   hostId
+   guestId
+   checkIn
+   checkOut
+   guests
+   message
+   basePrice
+   cleaningPrice
+   currency
+   discount
+   checkInStart
+   checkInEnd
+   discountType
+   isSpecialPriceAverage
+   guestServiceFee
+   hostServiceFee
+   total
+   totalWithGuestServiceFee
+   confirmationCode
+   paymentState
+   payoutId
+   paymentMethodId
+   reservationState
+   createdAt
+   updatedAt
+   listData {
+   id
+   title
+   street
+   city
+   state
+   country
+   zipcode
+   reviewsCount
+   reviewsStarRating
+   roomType
+   bookingType
+   wishListStatus
+   listPhotoName
+   listPhotos {
+      id
+      name
+   }
+   listingData {
+     checkInStart
+     checkInEnd
+   }
+   settingsData {
+     id
+     listsettings {
+       id
+       itemName
+     }
+   }
+ }
+   messageData {
+     id
+   }
+   hostData {
+     userId
+     profileId
+     displayName
+     picture
+   }
+   guestData {
+    userId
+    profileId
+    displayName
+    picture
+  }
+ }
+ convertedBasePrice
+convertedHostServiceFee
+convertedGuestServicefee
+convertedIsSpecialAverage
+convertedTotalNightsAmount
+convertTotalWithGuestServiceFee
+convertedTotalWithHostServiceFee
+convertedCleaningPrice
+convertedDiscount
+}
+}
