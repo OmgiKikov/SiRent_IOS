@@ -313,7 +313,7 @@ class BathroomsListingViewController: BaseHostTableviewController {
             {
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "textfieldcell", for: indexPath) as? TextFieldCell
-                cell?.queryTitleLbl.text = "\(Utility.shared.getLanguage()?.value(forKey: "Place_kind")as! String)"
+                cell?.queryTitleLbl.text = "Тип санузла"
                 cell?.txtField.attributedPlaceholder = NSAttributedString(string: bathroomTypeLbl,
                                                                           attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkText])
                 cell?.selectionStyle = .none

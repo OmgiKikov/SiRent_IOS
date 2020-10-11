@@ -83,15 +83,15 @@ let BOOKING_PRICING_COLOR = UIColor().hexValue(hex:"dee0de")
 let grayColorCode = UIColor().hexValue(hex:"767676")
 
 
-let GOOGLE_API_KEY = "AIzaSyC9m6krbH5eL5yGkNcytue09p9xtloLoPU"
+let GOOGLE_API_KEY = "AIzaSyAzSCNAX6UtdOiDuARA8r5RvQQGWmtEkkc"
 
 var STRIPE_PUBLISHABLE_KEY : String{
     get{
         switch environment{
         case .development:
-            return "<Your Development URL STRIPE PUBLISHABLE KEY>"
+            return "pk_test_51HbAHpICJPA7MtUpZ5oCT5R8IvNVOfMPWuJWfPhxU3KBhKptDNmoOXkLMKr3BRhNK9G37V92g5xe1uqsJ81nN9Ep00nTvFIqzO"
         case .production:
-            return "<Your Production URL STRIPE PUBLISHABLE KEY>"
+            return "pk_test_51HbAHpICJPA7MtUpZ5oCT5R8IvNVOfMPWuJWfPhxU3KBhKptDNmoOXkLMKr3BRhNK9G37V92g5xe1uqsJ81nN9Ep00nTvFIqzO"
         case .localhost:
             return ""
         }

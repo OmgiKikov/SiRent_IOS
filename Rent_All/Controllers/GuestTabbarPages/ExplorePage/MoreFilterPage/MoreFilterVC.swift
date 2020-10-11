@@ -497,7 +497,7 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
             cell.lotSwitch.addTarget(self, action: #selector(switchToggled), for: .valueChanged)
            // cell.lotSwitch.thumbTintColor = UIColor(patternImage: image)
             
-       
+            cell.isHidden = true
             return cell
         }
         else if(indexPath.section == 1) {
@@ -549,7 +549,7 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
                 }
                 else
                 {
-//                     currency = Utility.shared.getPreferredCurrency()!
+                     currency = Utility.shared.getPreferredCurrency()!
                 }
                 let price_value1 = self.getCurrencyRate(basecurrency:Utility.shared.currencyvalue_from_API_base, fromCurrency:from_currency, toCurrency:currency, CurrencyRate:Utility.shared.currency_Dict, amount:Double(max_currency_amount))
                 if(Utility.shared.priceRangeArray.count != 0){
@@ -605,17 +605,17 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
             if(indexPath.row == 0){
                 
                 
-                cell.roomsTitleLabel.text = RoomsFilterArray[4].typeLabel
+                cell.roomsTitleLabel.text = "Жилая Комната"//RoomsFilterArray[4].typeLabel
                 cell.countshowLabel.text =  String(Utility.shared.bedrooms_count)
             }
             else if(indexPath.row == 1){
 
-                cell.roomsTitleLabel.text = RoomsFilterArray[5].typeLabel
+                cell.roomsTitleLabel.text = "Спальная Комната"//RoomsFilterArray[5].typeLabel
                 cell.countshowLabel.text = String(Utility.shared.beds_count)
             }
             else{
                
-                cell.roomsTitleLabel.text = RoomsFilterArray[7].typeLabel
+                cell.roomsTitleLabel.text = "Санузел"//RoomsFilterArray[7].typeLabel
                 cell.countshowLabel.text =  String(Utility.shared.bathroom_count)
             }
             
@@ -624,7 +624,6 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
             cell.plusBtn.layer.borderWidth = 1.0
             cell.plusBtn.tag = indexPath.row
             cell.minusBtn.tag = indexPath.row
-            cell.isHidden = true
             
             cell.plusBtn.addTarget(self, action: #selector(plusBtnTapped), for: .touchUpInside)
             cell.plusBtn.layer.borderColor = Theme.PRIMARY_COLOR.cgColor

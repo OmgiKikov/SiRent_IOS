@@ -12,7 +12,9 @@ class DescriptionCell: UITableViewCell {
     //MARK:****************************************************** IBOUTLET CONNECTIONS *******************************************************>
     
 
+    @IBOutlet weak var bedroomLabel: UILabel!
     @IBOutlet weak var privateBathLabel: UILabel!
+    @IBOutlet weak var bedLabel: UILabel!
     @IBOutlet weak var guestLabel: UILabel!
     @IBOutlet weak var readmoreBtn: UIButton!
     @IBOutlet weak var descriptionLabel: UILabel!
