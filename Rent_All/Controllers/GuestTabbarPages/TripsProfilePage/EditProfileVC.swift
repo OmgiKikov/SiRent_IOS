@@ -410,7 +410,7 @@ class EditProfileVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
         }
         else if(section == 3)
         {
-            return 3
+            return 1
         }
         return 0
     }
@@ -713,46 +713,7 @@ class EditProfileVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 }
                 
             }
-            else if(indexPath.row == 1)
-            {
-              
-                cell.editLabel.isHidden = true
-                cell.phoneLabel.isHidden = true
-                cell.rightArrowimg.isHidden = false
-                if((EditProfileArray.verification?.isFacebookConnected!)!)
-                {
-                    cell.rightArrowimg.image =  #imageLiteral(resourceName: "right_white").withRenderingMode(.alwaysTemplate)
-                    cell.rightArrowimg.tintColor = Theme.PRIMARY_COLOR
-                      cell.aboutLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"connectedfb"))!)"
-                    // cell.rightArrowimg.image = #imageLiteral(resourceName: "right_white")
-                }
-                else
-                {
-                    cell.rightArrowimg.image = #imageLiteral(resourceName: "right-arrow")
-                      cell.aboutLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"connectfb"))!)"
-                }
-                
-            }
-            else if(indexPath.row == 2)
-            {
-               
-                cell.editLabel.isHidden = true
-                cell.phoneLabel.isHidden = true       
-                cell.rightArrowimg.isHidden = false
-                if((EditProfileArray.verification?.isGoogleConnected!)!)
-                {
-                    cell.rightArrowimg.image =  #imageLiteral(resourceName: "right_white").withRenderingMode(.alwaysTemplate)
-                    cell.rightArrowimg.tintColor = Theme.PRIMARY_COLOR
-                    // cell.rightArrowimg.image = #imageLiteral(resourceName: "right_white")
-                     cell.aboutLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"connectedgoogle"))!)"
-                }
-                else
-                {
-                    cell.rightArrowimg.image = #imageLiteral(resourceName: "right-arrow")
-                     cell.aboutLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"connectgoogle"))!)"
-                }
-                
-            }
+            
              return cell
         }
                 
@@ -841,8 +802,6 @@ class EditProfileVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
         else if(indexPath.section == 3)
         {
             let verifyObj = EmailGoogleFBViewController()
-            verifyObj.is_fb_verify = (EditProfileArray.verification?.isFacebookConnected!)!
-            verifyObj.is_google_verify = (EditProfileArray.verification?.isGoogleConnected!)!
             verifyObj.is_email_verify = (EditProfileArray.verification?.isEmailConfirmed!)!
             verifyObj.modalPresentationStyle = .fullScreen
             self.present(verifyObj, animated: true, completion: nil)

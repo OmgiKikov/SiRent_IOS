@@ -376,6 +376,7 @@ class PlaceListingViewController: BaseHostTableviewController,GuestListingViewCo
                 cell?.txtField.attributedPlaceholder = NSAttributedString(string: roomTypeLbl,
                                                                           attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkText])
                 cell?.txtField.tag = 1
+                cell?.isHidden = true
 
             }else if indexPath.row == 2
             {
@@ -383,6 +384,7 @@ class PlaceListingViewController: BaseHostTableviewController,GuestListingViewCo
                 cell?.txtField.attributedPlaceholder = NSAttributedString(string: buildingSizeLbl,
                                                                           attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkText])
                 cell?.txtField.tag = 2
+                cell?.isHidden = true
 
             }else if indexPath.row == 3
             {

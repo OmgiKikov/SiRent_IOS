@@ -524,6 +524,7 @@ class BaseHostTableviewController: UIViewController, UITableViewDelegate, UITabl
                 cell?.queryTitleLbl.text = "\(Utility.shared.getLanguage()?.value(forKey: "No_of_guestAccommodated")as! String)"
                 cell?.txtField.attributedPlaceholder = NSAttributedString(string: guestLabel,
                                                                           attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkText])
+                cell?.isHidden = true
                 cell?.selectionStyle = .none
                 let toolBar = UIToolbar().ToolbarPikerSelect(mySelect: #selector(dismissgenderPicker))
                 cell?.txtField.inputAccessoryView = toolBar

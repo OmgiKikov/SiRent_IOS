@@ -549,7 +549,7 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
                 }
                 else
                 {
-                     currency = Utility.shared.getPreferredCurrency()!
+//                     currency = Utility.shared.getPreferredCurrency()!
                 }
                 let price_value1 = self.getCurrencyRate(basecurrency:Utility.shared.currencyvalue_from_API_base, fromCurrency:from_currency, toCurrency:currency, CurrencyRate:Utility.shared.currency_Dict, amount:Double(max_currency_amount))
                 if(Utility.shared.priceRangeArray.count != 0){
@@ -624,6 +624,7 @@ class MoreFilterVC: UIViewController,UITableViewDelegate,UITableViewDataSource,R
             cell.plusBtn.layer.borderWidth = 1.0
             cell.plusBtn.tag = indexPath.row
             cell.minusBtn.tag = indexPath.row
+            cell.isHidden = true
             
             cell.plusBtn.addTarget(self, action: #selector(plusBtnTapped), for: .touchUpInside)
             cell.plusBtn.layer.borderColor = Theme.PRIMARY_COLOR.cgColor

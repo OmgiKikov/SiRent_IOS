@@ -1522,17 +1522,21 @@ func initialSetup()
             }
             if(viewListingArray.beds == 1)
             {
-               cell.bedLabel.text = "\(viewListingArray.beds!) \((Utility.shared.getLanguage()?.value(forKey:"bed"))!)"
+//               cell.bedLabel.text = "\(viewListingArray.beds!) \((Utility.shared.getLanguage()?.value(forKey:"bed"))!)"
+//                cell.bedLabel.isHidden = true
             }
             else{
-                cell.bedLabel.text = "\(viewListingArray.beds!) \((Utility.shared.getLanguage()?.value(forKey:"beds"))!)"
+//                cell.bedLabel.text = "\(viewListingArray.beds!) \((Utility.shared.getLanguage()?.value(forKey:"beds"))!)"
+//                cell.bedLabel.isHidden = true
             }
             if(viewListingArray.bedrooms == "1")
             {
-                cell.bedroomLabel.text = "\(viewListingArray.bedrooms!) \((Utility.shared.getLanguage()?.value(forKey:"bedroom"))!)"
+//                cell.bedroomLabel.text = "\(viewListingArray.bedrooms!) \((Utility.shared.getLanguage()?.value(forKey:"bedroom"))!)"
+//                cell.bedroomLabel.isHidden = true
             }
             else{
-                cell.bedroomLabel.text = "\(viewListingArray.bedrooms!) \((Utility.shared.getLanguage()?.value(forKey:"bedrooms"))!)"
+//                cell.bedroomLabel.text = "\(viewListingArray.bedrooms!) \((Utility.shared.getLanguage()?.value(forKey:"bedrooms"))!)"
+//                cell.bedroomLabel.isHidden = true
             }
             
             if(viewListingArray.bathrooms == 1)
@@ -1836,7 +1840,7 @@ func initialSetup()
                         }
                         if(self.getreviewArray[0].isAdmin! == true){
                             cell1.profileImg.image = #imageLiteral(resourceName: "adminAvatar")
-                            cell1.verifyLabel.text = "Verify by RentALL"
+                            cell1.verifyLabel.text = "Verify by Heku"
                         }
                         else
                         {
@@ -1940,7 +1944,7 @@ func initialSetup()
                         }
                         if(self.getreviewArray[0].isAdmin! == true){
                             cell2.profileImg.image = #imageLiteral(resourceName: "adminAvatar")
-                            cell2.verifyLabel.text = "Verify by RentALL"
+                            cell2.verifyLabel.text = "Verify by Heku"
                         }
                         else
                         {

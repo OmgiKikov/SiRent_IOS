@@ -1,3 +1,6 @@
+/* Bank name when bank is offline for maintenance. */
+"%@ - Offline" = "%@ Offline-tila";
+
 /* {card brand} ending in {last4} */
 "%@ Ending In %@" = "%1$@ päättyy numeroihin %2$@";
 
@@ -49,6 +52,9 @@
 /* Title for bank picker section */
 "BANK" = "PANKKI";
 
+/* Label for Bank Account selection or detail entry form */
+"Bank Account" = "Pankkitili";
+
 /* Title for bank account information form */
 "BANK ACCOUNT INFORMATION" = "PANKKITILIN TIEDOT";
 
@@ -77,10 +83,10 @@
 "City" = "Paikkakunta";
 
 /* Title for contact info form */
-"Contact" = "Yhteystiedot";
+"CONTACT" = "YHTEYSTIEDOT";
 
 /* Title for contact info form */
-"CONTACT" = "YHTEYSTIEDOT";
+"Contact" = "Yhteystiedot";
 
 /* Text for continue button */
 "Continue" = "Jatka";
@@ -121,6 +127,9 @@
 /* accessibility label for text field */
 "expiration date" = "erääntymispäivä";
 
+/* Payment Method type brand name */
+"FPX" = "FPX";
+
 /* Label for free shipping method */
 "Free" = "Maksuton";
 
@@ -130,14 +139,23 @@
 /* Source type brand name */
 "Giropay" = "Giropay";
 
+/* Payment Method type brand name. */
+"giropay" = "giropay";
+
 /* IBAN placeholder – don't translate */
 "IBAN" = "IBAN";
 
 /* Source type brand name */
 "iDEAL" = "iDEAL";
 
+/* Spoken during VoiceOver when a form field has failed validation. */
+"Invalid data." = "Virheelliset tiedot.";
+
 /* Shipping form error message */
 "Invalid Shipping Address" = "Toimitusosoite ei kelpaa";
+
+/* Source type brand name */
+"Klarna" = "Klarna";
 
 /* Title for screen when data is still loading from the network. */
 "Loading…" = "Lataa...";
@@ -169,6 +187,9 @@
 /* No comment provided by engineer. */
 "OK" = "OK";
 
+/* Button to pay with a Bank Account (using FPX). */
+"Online Banking (FPX)" = "Verkkopankki (FPX)";
+
 /* Source type brand name */
 "P24" = "P24";
 
@@ -190,11 +211,17 @@
 /* Caption for Province field on address form (only countries that use province, like Canada) */
 "Province" = "Provinssi";
 
+/* Payment Method type brand name. */
+"Przelewy24" = "Przelewy24";
+
 /* Text for button to scan a credit card */
 "Scan Card" = "Skannaa kortti";
 
 /* part of {SEPA Account} ending in {last4} */
 "SEPA Account" = "SEPA-tili";
+
+/* Payment method brand name */
+"SEPA Debit" = "SEPA Debit";
 
 /* Source type brand name */
 "SEPA Direct Debit" = "SEPA-suoraveloitus";
@@ -212,10 +239,11 @@
 "SHIPPING METHOD" = "TOIMITUSTAPA";
 
 /* Label for shipping method form */
-"Shipping Method" = "Lähetysmenetelmä";
+"Shipping Method" = "Toimitustapa";
 
-/* Source type brand name */
-"SOFORT" = "SOFORT";
+/* Payment Method type brand name
+   Source type brand name */
+"Sofort" = "Sofort";
 
 /* Caption for State field on address form (only countries that use state , like United States) */
 "State" = "Osavaltio";
@@ -239,7 +267,7 @@
 "There was an unexpected error -- try again in a few seconds" = "Odottamaton virhe – kokeile uudelleen muutaman sekunnin kuluttua";
 
 /* Error when 3DS2 authentication timed out. */
-"Timed out authenticating your payment method -- try again" = "Maksutapasi todennus aikakatkaistiin. Yritä uudelleen.";
+"Timed out authenticating your payment method -- try again" = "Maksutapasi todennus aikakatkaistiin – yritä uudelleen.";
 
 /* Default missing source type label */
 "Unknown" = "Tuntematon";
@@ -281,7 +309,7 @@
 "Your card's security code is invalid" = "Kortin turvakoodi ei kelpaa";
 
 /* Short string for zip code (United States only) Please keep to 5 characters or less if possible. */
-"ZIP" = "ZIP";
+"ZIP" = "Postinumero";
 
 /* Caption for Zip Code field on address form (only shown when country is United States only) */
 "ZIP Code" = "Postinumero";

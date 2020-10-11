@@ -53,7 +53,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
         floatingButton.backgroundColor = .white
         floatingButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         if(IS_IPHONE_X){
-            floatingButton.frame = CGRect(x:0.0, y:FULLHEIGHT - 77, width:48, height:70)
+            floatingButton.frame = CGRect(x:0.0, y:FULLHEIGHT - 77, width:48, height:75)
         }else{
             floatingButton.frame = CGRect(x:0.0, y:FULLHEIGHT - 60, width:50, height:50)
             

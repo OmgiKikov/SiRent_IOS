@@ -304,8 +304,8 @@ class LoginPageVC: UIViewController {
                 }
                 else
                 {
-                Utility.shared.setPreferredCurrency(currency_rate:"USD")
-                 Utility.shared.selectedCurrency = "USD"
+                Utility.shared.setPreferredCurrency(currency_rate:"RUB")
+                 Utility.shared.selectedCurrency = "RUB"
                 }
                 Utility.shared.setopenTabbar(iswhichtabbar:false)
                 Utility.shared.setUserToken(userID:(result?.data?.userLogin?.result?.userToken as AnyObject) as! NSString)

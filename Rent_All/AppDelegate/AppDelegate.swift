@@ -8,17 +8,11 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-import FBSDKLoginKit
-import GoogleSignIn
 import GoogleMaps
 import GooglePlacePicker
 import Apollo
 import Stripe
-import Firebase
-import FirebaseCrashlytics
 import UserNotifications
-import FirebaseMessaging
-import Siren
 
 
 //MARK: **************************************** GLOBAL VARIABLE DECLARATIONS **************************************************************>
@@ -30,7 +24,7 @@ var LauchShortcutItem: UIApplicationShortcutItem?
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate,MessagingDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
     
@@ -40,8 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
     var isreplyenabled:Bool = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
-        GIDSignIn.sharedInstance().clientID = "1042279124434-pd4c5gk3lao2odr52d2cuk6bh8dm0stb.apps.googleusercontent.com"
+//        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+//        GIDSignIn.sharedInstance().clientID = "1042279124434-pd4c5gk3lao2odr52d2cuk6bh8dm0stb.apps.googleusercontent.com"
         //config goole api
         GMSServices.provideAPIKey(GOOGLE_API_KEY)
         GMSPlacesClient.provideAPIKey(GOOGLE_API_KEY)
@@ -59,7 +53,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         
         //Siren.shared.wail()
         
-        self.annoyingRuleExample()
         // UniversalLink after the app got killed is handled here
         
         var shortCutItemIsCalled = false
@@ -270,11 +263,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.enableAutoToolbar = true
         window?.backgroundColor = .white
-        FirebaseApp.configure()
         
         application.registerForRemoteNotifications()
-        Messaging.messaging().delegate = self
-        Messaging.messaging().isAutoInitEnabled = true
 
         
         if #available(iOS 10, *) {
@@ -334,24 +324,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
     
     //MARK: - initial Language setup
     func LanguageinitialSetup(){
-        Utility.shared.setAppLanguage(Language: DEFAULT_LANGUAGE)
-//        //setup language
-//        if Utility.shared.getAppLanguage() == nil{
-//            Utility.shared.setAppLanguage(Language: DEFAULT_LANGUAGE)
-//
-//
-//        }else{
-//            Utility.shared.setAppLanguage(Language: Utility.shared.getAppLanguage()!)
-//
-//        }
-//          if Utility.shared.getAppLanguageCode() == nil{
-//
-//             Utility.shared.setAppLanguageCode(Language:"en")
-//        }
-//        else
-//          {
-//            Utility.shared.setAppLanguageCode(Language:Utility.shared.getAppLanguageCode()!)
-//        }
+//        Utility.shared.setAppLanguage(Language: DEFAULT_LANGUAGE)
+        //setup language
+        if Utility.shared.getAppLanguage() == nil{
+            Utility.shared.setAppLanguage(Language: DEFAULT_LANGUAGE)
+
+
+        }else{
+            Utility.shared.setAppLanguage(Language: Utility.shared.getAppLanguage()!)
+
+        }
+          if Utility.shared.getAppLanguageCode() == nil{
+
+             Utility.shared.setAppLanguageCode(Language:"ru-RU")
+        }
+        else
+          {
+            Utility.shared.setAppLanguageCode(Language:Utility.shared.getAppLanguageCode()!)
+        }
         Utility.shared.configureLanguage()
         
         //keyborad manager
@@ -823,12 +813,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
                }
         return true
     }
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-
-        let facebookHandle = ApplicationDelegate.shared.application(application,open: (url as URL?)!,sourceApplication: sourceApplication,annotation: annotation)
-        return facebookHandle
-
-    }
+//    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+//
+//        let facebookHandle = ApplicationDelegate.shared.application(application,open: (url as URL?)!,sourceApplication: sourceApplication,annotation: annotation)
+//        return facebookHandle
+//
+//    }
     
     func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
         
@@ -957,7 +947,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         application.applicationIconBadgeNumber = 0
-        AppEvents.activateApp()
+//        AppEvents.activateApp()
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
         
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
@@ -1090,48 +1080,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
  
     }
 
-    func messaging(_ messaging: Messaging, didReceive remoteMessage: MessagingRemoteMessage) {
-        
-        print("received remote notification \(remoteMessage.appData)")
-        
-        
-    }
     
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        
-//        if((Utility.shared.getCurrentUserToken()) != nil)
-//        {
-        // 1. Convert device token to string
-        let tokenParts = deviceToken.map { data -> String in
-            return String(format: "%02.2hhx", data)
-        }
-        let token = tokenParts.joined()
-        // 2. Print device token to use for PNs payloads
-        print("Device Token: \(token)")
-      //  Utility.shared.pushnotification_devicetoken = "\(token)"
-        Messaging.messaging().apnsToken = deviceToken as Data
-      //  }
-        
-    }
+//    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//
+////        if((Utility.shared.getCurrentUserToken()) != nil)
+////        {
+//        // 1. Convert device token to string
+//        let tokenParts = deviceToken.map { data -> String in
+//            return String(format: "%02.2hhx", data)
+//        }
+//        let token = tokenParts.joined()
+//        // 2. Print device token to use for PNs payloads
+//        print("Device Token: \(token)")
+//      //  Utility.shared.pushnotification_devicetoken = "\(token)"
+//        Messaging.messaging().apnsToken = deviceToken as Data
+//      //  }
+//
+//    }
   
     // MARK:- Messaging Delegates
-    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
-//        if((Utility.shared.getCurrentUserToken()) != nil)
-//        {
-            InstanceID.instanceID().instanceID { (result, error) in
-            if let error = error {
-                print("Error fetching remote instange ID: \(error)")
-            } else if let result = result {
-                 Utility.shared.pushnotification_devicetoken = "\(result.token)"
-                print("Remote instance ID token: \(result.token)")
-            //}
-        }
-        let dataDict:[String: String] = ["token": fcmToken]
-        Utility.shared.pushnotification_devicetoken  = fcmToken
-        NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
-       }
-        
-    }
+//    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+////        if((Utility.shared.getCurrentUserToken()) != nil)
+////        {
+//            InstanceID.instanceID().instanceID { (result, error) in
+//            if let error = error {
+//                print("Error fetching remote instange ID: \(error)")
+//            } else if let result = result {
+//                 Utility.shared.pushnotification_devicetoken = "\(result.token)"
+//                print("Remote instance ID token: \(result.token)")
+//            //}
+//        }
+//        let dataDict:[String: String] = ["token": fcmToken]
+//        Utility.shared.pushnotification_devicetoken  = fcmToken
+//        NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
+//       }
+//
+//    }
     //MARK: Register for push notification
     
     func registerForPushNotification(_ application: UIApplication)  {
@@ -1378,23 +1362,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         tabImage_RedArray = [#imageLiteral(resourceName: "tabsearch_red"),#imageLiteral(resourceName: "tabsaved_red"),#imageLiteral(resourceName: "tabtrip_red"),#imageLiteral(resourceName: "tabchat_red"),#imageLiteral(resourceName: "tabprofile_red")]
 
         
-    }
-    
-    func annoyingRuleExample() {
-        let siren = Siren.shared
-        siren.rulesManager = RulesManager(globalRules: .annoying)
-
-        siren.wail { results in
-            switch results {
-            case .success(let updateResults):
-                print("AlertAction ", updateResults.alertAction)
-                print("Localization ", updateResults.localization)
-                print("Model ", updateResults.model)
-                print("UpdateType ", updateResults.updateType)
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
-        }
     }
 
 }

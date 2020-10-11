@@ -278,7 +278,7 @@ class GuestListingViewController: BaseHostTableviewController {
             if indexPath.row == 0
             {
                 
-                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(personCapacityValue > 1 ? "s": "")"
+                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(personCapacityValue > 1 ? "": "")"
                 cell?.countshowLabel.text = "\(personCapacityValue)"
                 cell?.countValue = 1
                 cell?.plusBtn.tag = indexPath.row
@@ -294,6 +294,7 @@ class GuestListingViewController: BaseHostTableviewController {
                 cell?.plusBtn.tag = indexPath.row
                 cell?.minusBtn.tag = indexPath.row
                 cell?.tag = indexPath.row + 100
+                cell?.isHidden = true
                 cell?.plusBtn.addTarget(self, action: #selector(self.plusBtnTapped), for: .touchUpInside)
                 cell?.minusBtn.addTarget(self, action: #selector(self.minusBtnTapped), for: .touchUpInside)
             }else if indexPath.row == 2
@@ -304,6 +305,7 @@ class GuestListingViewController: BaseHostTableviewController {
                 cell?.plusBtn.tag = indexPath.row
                 cell?.minusBtn.tag = indexPath.row
                 cell?.tag = indexPath.row + 100
+                cell?.isHidden = true
                 cell?.plusBtn.addTarget(self, action: #selector(self.plusBtnTapped), for: .touchUpInside)
                 cell?.minusBtn.addTarget(self, action: #selector(self.minusBtnTapped), for: .touchUpInside)
             }

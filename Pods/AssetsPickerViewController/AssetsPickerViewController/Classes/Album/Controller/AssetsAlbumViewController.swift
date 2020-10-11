@@ -28,16 +28,12 @@ open class AssetsAlbumViewController: UIViewController {
     
     let cellReuseIdentifier: String = UUID().uuidString
     let headerReuseIdentifier: String = UUID().uuidString
+    let fetchService = AssetsFetchService()
     
     lazy var cancelButtonItem: UIBarButtonItem = {
         let buttonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
                                          target: self,
                                          action: #selector(pressedCancel(button:)))
-        return buttonItem
-    }()
-    
-    lazy var searchButtonItem: UIBarButtonItem = {
-        let buttonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(pressedSearch(button:)))
         return buttonItem
     }()
     
@@ -103,7 +99,6 @@ open class AssetsAlbumViewController: UIViewController {
         view.addSubview(collectionView)
         view.addSubview(loadingPlaceholderView)
         view.addSubview(loadingActivityIndicatorView)
-        view.setNeedsUpdateConstraints()
         
         AssetsManager.shared.subscribe(subscriber: self)
     }
@@ -121,7 +116,15 @@ open class AssetsAlbumViewController: UIViewController {
             make.edges.equalToSuperview()
         }
         
-        loadingPlaceholderView.isHidden = true
+        let isFetchedAlbums = AssetsManager.shared.isFetchedAlbums
+        if isFetchedAlbums {
+            loadingActivityIndicatorView.stopAnimating()
+            loadingPlaceholderView.isHidden = true
+        } else {
+            loadingActivityIndicatorView.startAnimating()
+            loadingPlaceholderView.isHidden = false
+        }
+        
         if #available(iOS 13.0, *) {
             loadingPlaceholderView.backgroundColor = .systemBackground
         } else {
@@ -134,20 +137,6 @@ open class AssetsAlbumViewController: UIViewController {
         loadingActivityIndicatorView.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
         }
-        
-        AssetsManager.shared.authorize(completion: { [weak self] isAuthorized in
-            if isAuthorized {
-                self?.loadingPlaceholderView.isHidden = false
-                self?.loadingActivityIndicatorView.startAnimating()
-                AssetsManager.shared.fetchAlbums { (_) in
-                    self?.collectionView.reloadData()
-                    self?.loadingPlaceholderView.isHidden = true
-                    self?.loadingActivityIndicatorView.stopAnimating()
-                }
-            } else {
-                self?.dismiss(animated: true, completion: nil)
-            }
-        })
     }
     
     open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -172,7 +161,6 @@ extension AssetsAlbumViewController {
     
     func setupBarButtonItems() {
         navigationItem.leftBarButtonItem = cancelButtonItem
-//        navigationItem.rightBarButtonItem = searchButtonItem
     }
     
     func updateLayout(layout: UICollectionViewLayout?, isPortrait: Bool) {
@@ -188,7 +176,7 @@ extension AssetsAlbumViewController {
 // MARK: - UICollectionViewDelegate
 extension AssetsAlbumViewController: UICollectionViewDelegate {
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        logi("[\(indexPath.section)][\(indexPath.row)]")
+        if LogConfig.isAlbumCellLogEnabled { logi("[\(indexPath.section)][\(indexPath.row)]") }
         dismiss(animated: true, completion: {
             AssetsManager.shared.unsubscribe(subscriber: self)
         })
@@ -201,18 +189,18 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
     
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         let count = AssetsManager.shared.numberOfSections
-        logi("\(count)")
+        if LogConfig.isAlbumCellLogEnabled { logi("\(count)") }
         return count
     }
     
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         let count = AssetsManager.shared.numberOfAlbums(inSection: section)
-        logi("numberOfItemsInSection[\(section)]: \(count)")
+        if LogConfig.isAlbumCellLogEnabled { logi("numberOfItemsInSection[\(section)]: \(count)") }
         return count
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        logi("cellForItemAt[\(indexPath.section)][\(indexPath.row)]")
+        if LogConfig.isAlbumCellLogEnabled { logi("cellForItemAt[\(indexPath.section)][\(indexPath.row)]") }
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellReuseIdentifier, for: indexPath)
         guard let _ = cell as? AssetsAlbumCellProtocol else {
             logw("Failed to cast UICollectionViewCell.")
@@ -234,7 +222,7 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
     }
     
     public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        logi("willDisplay[\(indexPath.section)][\(indexPath.row)]")
+        
         guard var albumCell = cell as? AssetsAlbumCellProtocol else {
             logw("Failed to cast UICollectionViewCell.")
             return
@@ -243,9 +231,14 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
         albumCell.titleText = AssetsManager.shared.title(at: indexPath)
         albumCell.count = AssetsManager.shared.numberOfAssets(at: indexPath)
         
-        AssetsManager.shared.imageOfAlbum(at: indexPath, size: pickerConfig.albumCacheSize, isNeedDegraded: true) { (image) in
+        if LogConfig.isAlbumCellLogEnabled { logi("[\(indexPath.section)][\(indexPath.row)] willDisplay[\(albumCell.titleText ?? "")]") }
+        
+        fetchService.cancelFetching(at: indexPath)
+        if let requestId = AssetsManager.shared.imageOfAlbum(at: indexPath, size: pickerConfig.albumCacheSize, isNeedDegraded: true, completion: { (image) in
             if let image = image {
-                logi("imageSize[\(indexPath.section)][\(indexPath.row)]: \(image.size)")
+                if LogConfig.isAlbumImageSizeLogEnabled {
+                    //logi("[\(indexPath.section)][\(indexPath.row)] \(albumCell.titleText ?? ""): imageSize: \(image.size)")
+                }
                 if let _ = albumCell.imageView.image {
                     UIView.transition(
                         with: albumCell.imageView,
@@ -262,7 +255,13 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
             } else {
                 albumCell.imageView.image = nil
             }
+        }) {
+            fetchService.registerFetching(requestId: requestId, at: indexPath)
         }
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        fetchService.cancelFetching(at: indexPath)
     }
     
     public func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
@@ -270,7 +269,7 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
             logw("Failed to cast UICollectionViewCell.")
             return false
         }
-        albumCell.imageView.dim(animated: false, color: .ap_label, alpha: 0.5)
+        albumCell.imageView.dmr_dim(animated: false, color: .ap_label, alpha: 0.5)
         return true
     }
     
@@ -279,7 +278,7 @@ extension AssetsAlbumViewController: UICollectionViewDataSource {
             logw("Failed to cast UICollectionViewCell.")
             return
         }
-        albumCell.imageView.undim()
+        albumCell.imageView.dmr_undim()
     }
 }
 
@@ -294,7 +293,7 @@ extension AssetsAlbumViewController: UICollectionViewDataSourcePrefetching {
         }
         if assets.count > 0 {
             AssetsManager.shared.cache(assets: assets, size: pickerConfig.albumCacheSize)
-            logi("Caching album images at \(indexPaths)")
+            if LogConfig.isAlbumCellLogEnabled { logi("Caching album images at \(indexPaths)") }
         }
     }
 }
@@ -340,6 +339,18 @@ extension AssetsAlbumViewController {
 // MARK: - AssetsManagerDelegate
 extension AssetsAlbumViewController: AssetsManagerDelegate {
     
+    public func assetsManagerFetched(manager: AssetsManager) {
+        collectionView.reloadData()
+        let isFetchedAlbums = AssetsManager.shared.isFetchedAlbums
+        if isFetchedAlbums {
+            loadingActivityIndicatorView.stopAnimating()
+            loadingPlaceholderView.isHidden = true
+        } else {
+            loadingActivityIndicatorView.startAnimating()
+            loadingPlaceholderView.isHidden = false
+        }
+    }
+    
     public func assetsManager(manager: AssetsManager, authorizationStatusChanged oldStatus: PHAuthorizationStatus, newStatus: PHAuthorizationStatus) {}
     
     public func assetsManager(manager: AssetsManager, reloadedAlbumsInSection section: Int) {
@@ -371,4 +382,3 @@ extension AssetsAlbumViewController: AssetsManagerDelegate {
     public func assetsManager(manager: AssetsManager, removedAssets assets: [PHAsset], at indexPaths: [IndexPath]) {}
     public func assetsManager(manager: AssetsManager, updatedAssets assets: [PHAsset], at indexPaths: [IndexPath]) {}
 }
-

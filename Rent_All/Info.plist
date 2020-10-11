@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>RentALL</string>
+	<string>Heku</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,26 +21,24 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb2198842060401395</string>
-			</array>
+			<array/>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.googleusercontent.apps.1042279124434-pd4c5gk3lao2odr52d2cuk6bh8dm0stb</string>
+			<string></string>
 			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.1042279124434-pd4c5gk3lao2odr52d2cuk6bh8dm0stb</string>
-			</array>
+			<array/>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>com.rs.RentALL</string>
+			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array/>
 		</dict>
@@ -53,22 +51,12 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FacebookAppID</key>
-	<string>2198842060401395</string>
 	<key>FacebookDisplayName</key>
-	<string>RentALL</string>
+	<string>Heku</string>
 	<key>FirebaseAppDelegateProxyEnabled = YES</key>
 	<string>YES</string>
 	<key>FirebaseMessagingAutoInitEnabled</key>
 	<string>NO</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbapi</string>
-		<string>fb-messenger-share-api</string>
-		<string>fbshareextension</string>
-		<string>fbauth2</string>
-		<string>com.googleusercontent.apps.384033910930-ii0dhaje5t1j55ei2tfcejo2vb4j97pt</string>
-	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -79,28 +67,7 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>akamaihd.net</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>facebook.com</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>fbcdn.net</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>https://demo.rentallscript.com</key>
+			<key>https://heku.world/</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>
@@ -114,13 +81,13 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Like to access you camera to Add Product</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app requires access to the location</string>
+	<string>Heku requires access to the location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app requires access to the location</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>RentALL needs permission to write photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app requires access to the photo library</string>
+	<string>Heku requires access to the photo library</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>lineto-circular-bold.ttf</string>
@@ -164,9 +131,5 @@
 	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-	<key>com.rs.RentALL</key>
-	<array>
-		<string>Default</string>
-	</array>
 </dict>
 </plist>

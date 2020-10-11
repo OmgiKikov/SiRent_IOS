@@ -212,8 +212,8 @@ class DateofBirthVC: UIViewController {
                 }
                 else
                 {
-                    Utility.shared.setPreferredCurrency(currency_rate:"USD")
-                    Utility.shared.selectedCurrency = "USD"
+                    Utility.shared.setPreferredCurrency(currency_rate:"RUB")
+                    Utility.shared.selectedCurrency = "RUB"
                 }
                     let appDelegate = UIApplication.shared.delegate as! AppDelegate
                     appDelegate.GuestTabbarInitialize(initialView: CustomTabbar())
@@ -266,16 +266,6 @@ class DateofBirthVC: UIViewController {
         birthTF.text = dateFormatter.string(from: sender.date)
         self.DOBValidation()
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 //Mark: ****************************************************** Textfield Delegate Methods *************************************************************>

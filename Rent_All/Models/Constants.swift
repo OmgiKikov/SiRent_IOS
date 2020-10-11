@@ -83,7 +83,7 @@ let BOOKING_PRICING_COLOR = UIColor().hexValue(hex:"dee0de")
 let grayColorCode = UIColor().hexValue(hex:"767676")
 
 
-let GOOGLE_API_KEY = "<Your GOOGLE API KEY>"
+let GOOGLE_API_KEY = "AIzaSyC9m6krbH5eL5yGkNcytue09p9xtloLoPU"
 
 var STRIPE_PUBLISHABLE_KEY : String{
     get{
@@ -104,7 +104,7 @@ var graphQLEndpoint : String {
         case .development:
             return "https://heku.world/api/graphql/"
         case .production:
-            return "https://heku.world/api/graphql/"
+            return "http://159.89.13.89:4000/graphql"
         case .localhost:
             return "https://heku.world/api/graphql/"
         }

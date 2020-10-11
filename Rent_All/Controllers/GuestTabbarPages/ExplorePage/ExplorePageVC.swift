@@ -14,7 +14,7 @@ import Apollo
 import Alamofire
 import SwiftyJSON
 import ISPageControl
-import FirebaseCrashlytics
+
 
 
 class ExplorePageVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,AirbnbDatePickerDelegate,AirbnbOccupantFilterControllerDelegate,UIScrollViewDelegate,WhishlistPageVCProtocol {
@@ -360,8 +360,8 @@ class ExplorePageVC: UIViewController,UICollectionViewDelegate,UICollectionViewD
         self.headerView.layer.shadowPath = shadowPath1.cgPath
        
         dateBtn.frame = CGRect(x:20, y: 5, width: 90, height: 33)
-        dateBtn.setTitle("Дата", for: .normal)
-        dateBtn.setTitle("Дата", for: .selected)
+        dateBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"dates"))!)", for: .normal)
+        dateBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"dates"))!)", for: .selected)
         dateBtn.setTitleColor(TextDarkColor, for: .normal)
         dateBtn.setTitleColor(TextDarkColor, for: .selected)
         dateBtn.titleLabel?.font = UIFont(name: "Circular-Medium", size: 14)
@@ -644,7 +644,7 @@ extension ExplorePageVC:UITableViewDataSource,UITableViewDelegate {
                     titleLabel.frame = CGRect(x:15, y: 5, width: FULLWIDTH-40, height:30)
                     titleLabel.tintColor = UIColor.black
                     titleLabel.textColor = UIColor.black
-                    titleLabel.font = UIFont(name: "Circular-Medium", size: 17)
+                    titleLabel.font = UIFont(name: "Circular-Medium", size: 22)
                     contentview.addSubview(titleLabel)
                     
                     let layout = UICollectionViewFlowLayout()
@@ -708,7 +708,7 @@ extension ExplorePageVC:UITableViewDataSource,UITableViewDelegate {
             titleLabel.text = ""
             }
             //titleLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"recommended"))!)"
-            titleLabel.font = UIFont(name: "Circular-Medium", size: 17)
+            titleLabel.font = UIFont(name: "Circular-Medium", size: 22)
             titleLabel.frame = CGRect(x:20, y: 0, width: FULLWIDTH - 40, height: 40)
             //titleLabel.textColor = UIColor(red: 111.0/255.0, green: 113.0/255.0, blue: 121.0/255.0, alpha: 1.0)
             contentview.addSubview(titleLabel)
@@ -780,7 +780,7 @@ extension ExplorePageVC:UITableViewDataSource,UITableViewDelegate {
             titleLabel.frame = CGRect(x:20, y: 0, width: FULLWIDTH - 40, height: 40)
             titleLabel.tintColor = UIColor.black
             titleLabel.textColor = UIColor.black
-            titleLabel.font = UIFont(name: "Circular-Medium", size: 17)
+            titleLabel.font = UIFont(name: "Circular-Medium", size: 22)
             contentview.addSubview(titleLabel)
             
             

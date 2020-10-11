@@ -1,3 +1,6 @@
+
+# Now iOS 14 supports multiple asset picker by default. I recommend use PHPickerViewController instead of this picker for many reasons.
+
 ## AssetsPickerViewController
 
 [![Version](https://img.shields.io/cocoapods/v/AssetsPickerViewController.svg?style=flat)](http://cocoapods.org/pods/AssetsPickerViewController)
@@ -94,11 +97,16 @@ Customizable Album & Asset Layout
 
 - supports dark mode from iOS 13
 
+- takes and auto-selects photo or video took inside picker
+
+- multiple selection by dragging cells (from iOS 13)
+
+- SPM(Swift Package Manager) support
+
 
 ## Features To-do
 
-- single select mode with crop
-
+- Cropping image before select
 
 ## Basic Usage
 
