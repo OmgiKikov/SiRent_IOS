@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_HekuVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HekuVersionString[];
+FOUNDATION_EXPORT double Pods_SiRentVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SiRentVersionString[];
 

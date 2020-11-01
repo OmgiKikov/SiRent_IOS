@@ -1607,10 +1607,10 @@ extension ExplorePageVC:UITableViewDataSource,UITableViewDelegate {
         self.guest_filter = adult
         
         let human = adult + children
-        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "s" : "")) : "")"
+        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "" : "")) : "")"
         let pet = "\(pet ? "pets" : "")"
         
-        let text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "s" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
+        let text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
         var value = String()
         if(human > 1)
         {

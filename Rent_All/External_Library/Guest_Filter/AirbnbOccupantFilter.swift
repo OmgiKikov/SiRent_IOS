@@ -74,10 +74,10 @@ extension AirbnbOccupantFilter: AirbnbOccupantFilterControllerDelegate {
         self.hasPet = pet
         
         let human = adult + children
-        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "s" : "")) : "")"
+        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "" : "")) : "")"
         let pet = "\(pet ? "pets" : "")"
         
-        let text = "\(human) guest\(human > 1 ? "s" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
+        let text = "\(human) guest\(human > 1 ? "" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
         occupantInputButton.setTitle(text, for: .normal)
     }
 }

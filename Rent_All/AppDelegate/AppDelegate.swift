@@ -34,16 +34,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
     var isreplyenabled:Bool = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
-//        GIDSignIn.sharedInstance().clientID = "1042279124434-pd4c5gk3lao2odr52d2cuk6bh8dm0stb.apps.googleusercontent.com"
-        //config goole api
         GMSServices.provideAPIKey(GOOGLE_API_KEY)
         GMSPlacesClient.provideAPIKey(GOOGLE_API_KEY)
         self.LanguageinitialSetup()
         self.GetDefaultSettingAPICall()
         self.getcurrencyAPICall()
         self.profileAPICall()
-      //  self.checkActivesociallogin()
        
          STPPaymentConfiguration.shared().publishableKey = STRIPE_PUBLISHABLE_KEY
       
@@ -740,7 +736,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
     
     
     // MARK:set initial view controller
-    func setInitialViewController(initialView: UIViewController)  {
+    public func setInitialViewController(initialView: UIViewController)  {
          IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.enableAutoToolbar = true
         window?.backgroundColor = .white

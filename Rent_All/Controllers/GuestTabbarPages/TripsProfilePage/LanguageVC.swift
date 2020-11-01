@@ -104,8 +104,8 @@ class LanguageVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         errorLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"error_field"))!)"
         retryBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"retry"))!)", for:.normal)
         doneBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"done"))!)", for:.normal)
-        LanguageArray = ["English","Español","Français","Italiano","Português"]
-        LanguagesymbolArray = ["En","es","fr","it","pt"]
+        LanguageArray = ["Русский", "English"]
+        LanguagesymbolArray = ["Ru", "En"]
         selectedLanguageArray.add("\(Utility.shared.getAppLanguage()!)")
         
         

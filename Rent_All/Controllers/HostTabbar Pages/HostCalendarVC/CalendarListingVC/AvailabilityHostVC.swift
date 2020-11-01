@@ -89,7 +89,7 @@ class AvailabilityHostVC: UIViewController,UITableViewDelegate,UITableViewDataSo
        
         errorLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"error_field"))!)"
         retryBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"retry"))!)", for:.normal)
-        nextBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"save"))!)", for:.normal)
+        nextBtn.setTitle("Далее", for:.normal)
         
         
     }

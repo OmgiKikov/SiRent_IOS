@@ -278,7 +278,7 @@ class GuestListingViewController: BaseHostTableviewController {
             if indexPath.row == 0
             {
                 
-                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(personCapacityValue > 1 ? "s": "")"
+                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(personCapacityValue > 1 ? "": "")"
                 cell?.countshowLabel.text = "\(personCapacityValue)"
                 cell?.countValue = 1
                 cell?.plusBtn.tag = indexPath.row
@@ -288,7 +288,7 @@ class GuestListingViewController: BaseHostTableviewController {
                 cell?.minusBtn.addTarget(self, action: #selector(self.minusBtnTapped), for: .touchUpInside)
             }else if indexPath.row == 1
             {
-                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(bedRoomCount > 1 ? "s": "") "
+                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(bedRoomCount > 1 ? "": "") "
                 cell?.countshowLabel.text = "\(bedRoomCount)"
                 cell?.countValue = 1
                 cell?.plusBtn.tag = indexPath.row
@@ -298,7 +298,7 @@ class GuestListingViewController: BaseHostTableviewController {
                 cell?.minusBtn.addTarget(self, action: #selector(self.minusBtnTapped), for: .touchUpInside)
             }else if indexPath.row == 2
             {
-                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(bedCount > 1 ? "s": "") "
+                cell?.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(bedCount > 1 ? "": "") "
                 cell?.countshowLabel.text = "\(bedCount)"
                 cell?.countValue = 1
                 cell?.plusBtn.tag = indexPath.row
@@ -378,15 +378,15 @@ class GuestListingViewController: BaseHostTableviewController {
             
             if(sender.tag == 0)
             {
-             cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "s": "")"
+             cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "total_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "": "")"
             }
             if(sender.tag == 1)
             {
-             cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "s": "")"
+             cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "": "")"
             }
             if(sender.tag == 2)
             {
-            cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "s": "")"
+            cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "": "")"
             }
             cell.minusBtn.isEnabled = true
             cell.minusBtn.layer.borderColor = Theme.PRIMARY_COLOR.cgColor
@@ -433,11 +433,11 @@ class GuestListingViewController: BaseHostTableviewController {
             }
             if(sender.tag == 1)
             {
-                cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "s": "")"
+                cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bedroom_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "": "")"
             }
             if(sender.tag == 2)
             {
-                cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "s": "")"
+                cell.roomsTitleLabel.text = "\(Utility.shared.getLanguage()?.value(forKey: "bed_guest")as! String)\(Int(cell.countshowLabel.text!)! > 1 ? "": "")"
             }                                                   
             cell.plusBtn.isEnabled = true
             cell.plusBtn.layer.borderColor = Theme.PRIMARY_COLOR.cgColor

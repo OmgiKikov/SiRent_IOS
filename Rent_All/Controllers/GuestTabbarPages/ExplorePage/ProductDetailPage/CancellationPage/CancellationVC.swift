@@ -159,7 +159,7 @@ class CancellationVC: UIViewController,UITableViewDelegate,UITableViewDataSource
         if(indexPath.section == 0)
         {
            let cell = tableView.dequeueReusableCell(withIdentifier: "CancellationCell", for: indexPath)as! CancellationCell
-            cell.flexibleLabel.text = "\(cancelpolicy): \(cancelpolicy_content)"
+//            cell.flexibleLabel.text = "\(cancelpolicy): \(cancelpolicy_content)"
             cell.selectionStyle = .none
            // isShowmoreClicked = false
             return cell

@@ -386,10 +386,10 @@ class BaseHostTableviewController: UIViewController, UITableViewDelegate, UITabl
             if i == 0
             {
                 incrVal = (Utility.shared.getListSettingsArray.personCapacity?.listSettings![0]?.startValue!)!
-                guestsDropdownArray.insert("\(Utility.shared.getLanguage()?.value(forKey: "Cap_for")as! String) \(getListSettingsArray.personCapacity?.listSettings![0]?.startValue ?? 0) \(Utility.shared.getLanguage()?.value(forKey: "guest")as! String)\(incrVal > 1 ? "s" : "")" , at: i)
+                guestsDropdownArray.insert("\(Utility.shared.getLanguage()?.value(forKey: "Cap_for")as! String) \(getListSettingsArray.personCapacity?.listSettings![0]?.startValue ?? 0) \(Utility.shared.getLanguage()?.value(forKey: "guest")as! String)\(incrVal > 1 ? "" : "")" , at: i)
             }else {
                 incrVal = (incrVal + 1)
-                guestsDropdownArray.insert("\(Utility.shared.getLanguage()?.value(forKey: "Cap_for")as! String) \(incrVal) \(Utility.shared.getLanguage()?.value(forKey: "guest")as! String)\(incrVal > 1 ? "s" : "")" , at: i)
+                guestsDropdownArray.insert("\(Utility.shared.getLanguage()?.value(forKey: "Cap_for")as! String) \(incrVal) \(Utility.shared.getLanguage()?.value(forKey: "guest")as! String)\(incrVal > 1 ? "" : "")" , at: i)
             }
         }
         if !Utility.shared.step1ValuesInfo.keys.contains("personCapacity")

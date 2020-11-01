@@ -24,6 +24,7 @@ class CancellationCell: UITableViewCell {
         cancelTitleLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"cancellations"))!)"
         checkinTimeLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"fri"))!), \((Utility.shared.getLanguage()?.value(forKey:"jun"))!) 09 3:00 PM"
             checkoutTimeLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"mon"))!), \((Utility.shared.getLanguage()?.value(forKey:"jun"))!) 12 11:00 AM"
+        flexibleLabel.text = "Гибкая система аннулирования: полный возврат средств за 1 день до прибытия"
         // Initialization code
     }
 

@@ -133,10 +133,10 @@ class TripsCancelVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
             let cell = tableView.dequeueReusableCell(withIdentifier: "tripscancellCell", for: indexPath)as! tripscancellCell
             cell.selectionStyle = .none
            // cell.backgroundColor = .gray
-            cell.startLabel.text = "\(cancelResrvarionArray.startedIn!) \((Utility.shared.getLanguage()?.value(forKey:"day"))!)\(cancelResrvarionArray.startedIn! > 1 ? "s" : "")"
+            cell.startLabel.text = "\(cancelResrvarionArray.startedIn!) \((Utility.shared.getLanguage()?.value(forKey:"day"))!)\(cancelResrvarionArray.startedIn! > 1 ? "" : "")"
              let night = Double(cancelResrvarionArray.stayingFor!)
-            cell.nightsLabel.text = "\(night.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "s" : "")"
-            cell.travellingLabel.text = "\(cancelResrvarionArray.guests!) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(cancelResrvarionArray.guests! > 1 ? "s" : "")"
+            cell.nightsLabel.text = "\(night.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "" : "")"
+            cell.travellingLabel.text = "\(cancelResrvarionArray.guests!) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(cancelResrvarionArray.guests! > 1 ? "" : "")"
             if(!Utility.shared.host_cancel_isfromCancel)
             {
             cell.tellLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"tell"))!) \(cancelResrvarionArray.hostName!) \((Utility.shared.getLanguage()?.value(forKey:"whycancel"))!)"
@@ -229,7 +229,7 @@ class TripsCancelVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                    // let currency_amount = (cancelResrvarionArray.listData?.listingData?.basePrice!)!
                     let currency_amount = (cancelResrvarionArray.isSpecialPriceAverage!)
                     let restricted_price =  Double(String(format: "%.2f",currency_amount))
-                    cell.hostnightLabel.text =  "\(currencysymbol!)\(restricted_price!.clean)  x \(cancelResrvarionArray.stayingFor!.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "s" : "")"
+                    cell.hostnightLabel.text =  "\(currencysymbol!)\(restricted_price!.clean)  x \(cancelResrvarionArray.stayingFor!.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "" : "")"
                 }
                 else
                 {
@@ -237,7 +237,7 @@ class TripsCancelVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                     let from_currency = cancelResrvarionArray.listData?.listingData?.currency!
                     let currency_amount = cancelResrvarionArray.isSpecialPriceAverage!
                     let restricted_price =  Double(String(format: "%.2f",currency_amount))
-                    cell.hostnightLabel.text = "\(currencysymbol!)\(restricted_price!.clean) x \(cancelResrvarionArray.stayingFor!.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "s" : "")"
+                    cell.hostnightLabel.text = "\(currencysymbol!)\(restricted_price!.clean) x \(cancelResrvarionArray.stayingFor!.clean) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(cancelResrvarionArray.stayingFor! > 1 ? "" : "")"
                 }
                 cell.totalLabel.isHidden = true
             }

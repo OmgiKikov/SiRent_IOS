@@ -90,8 +90,8 @@ class BookingstepOneVC: UIViewController,UITableViewDelegate,UITableViewDataSour
         self.topview.layer.shadowPath = shadowPath1.cgPath
         nextBtn.layer.cornerRadius = 5.0
         nextBtn.layer.masksToBounds = true
-        let main_string = "\(totalPriceLabel)  \((Utility.shared.getLanguage()?.value(forKey:"for"))!) \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
-        let string_to_color = "\((Utility.shared.getLanguage()?.value(forKey:"for"))!) \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+        let main_string = "\(totalPriceLabel)  \((Utility.shared.getLanguage()?.value(forKey:"for"))!) \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
+        let string_to_color = "\((Utility.shared.getLanguage()?.value(forKey:"for"))!) \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
         
         let range = (main_string as NSString).range(of: string_to_color)
         

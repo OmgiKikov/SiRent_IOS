@@ -76,7 +76,7 @@ let TextDarkColor = UIColor(red: 66.0 / 255.0, green: 66.0 / 255.0, blue: 66.0 /
 let TextDarkColorOne = UIColor(red: 66.0 / 255.0, green: 66.0 / 255.0, blue: 66.0 / 255.0, alpha:1)
 let TextLightColor = UIColor(red: 192.0 / 255.0, green: 192.0 / 255.0, blue: 192.0 / 255.0, alpha: 1)
 let TextBorderColor = UIColor(red: 235.0 / 255.0, green: 235.0 / 255.0, blue: 235.0 / 255.0, alpha: 1)
-let Red_color = UIColor(red: 255.0 / 255.0, green: 69.0 / 255.0, blue: 95.0 / 255.0, alpha: 1)
+let Red_color = UIColor.red
 let photo_color = UIColor(red: 31.0 / 255.0, green: 33.0 / 255.0, blue: 36.0 / 255.0, alpha:0.5)
 let SPECIAL_PRICING_COLOR = UIColor().hexValue(hex:"00B050")
 let BOOKING_PRICING_COLOR = UIColor().hexValue(hex:"dee0de")
@@ -93,7 +93,7 @@ var STRIPE_PUBLISHABLE_KEY : String{
         case .production:
             return "pk_test_51HbAHpICJPA7MtUpZ5oCT5R8IvNVOfMPWuJWfPhxU3KBhKptDNmoOXkLMKr3BRhNK9G37V92g5xe1uqsJ81nN9Ep00nTvFIqzO"
         case .localhost:
-            return ""
+            return "pk_test_51HbAHpICJPA7MtUpZ5oCT5R8IvNVOfMPWuJWfPhxU3KBhKptDNmoOXkLMKr3BRhNK9G37V92g5xe1uqsJ81nN9Ep00nTvFIqzO"
         }
     }
 }

@@ -28,7 +28,7 @@ class OfflinePage: UIViewController {
     
     @IBAction func retryBtnTapped(_ sender: Any) {
         if Utility().isConnectedToNetwork(){
-          //  Utility().goToHomePage()
+//            Utility().goToHomePage()
         }
     }
     

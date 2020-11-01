@@ -338,7 +338,7 @@ class RequestbookVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
                         {
@@ -367,7 +367,7 @@ class RequestbookVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
                         {
@@ -396,7 +396,7 @@ class RequestbookVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
@@ -431,7 +431,7 @@ class RequestbookVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 else{
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
@@ -583,10 +583,10 @@ class RequestbookVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
         self.guest_filter = adult
         
         let human = adult + children
-        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "s" : "")) : "")"
+        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "" : "")) : "")"
         let pet = "\(pet ? "pets" : "")"
         
-         guestLabel_text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "s" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
+         guestLabel_text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
         requestTable.reloadData()
         
     }

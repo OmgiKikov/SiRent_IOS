@@ -154,7 +154,7 @@ func stripeUISetup()
         paymentBtn.layer.masksToBounds = true
         self.lottieWholeView.isHidden = true
         self.lottieView.isHidden = true
-        self.offlineView.isHidden = true    
+        self.offlineView.isHidden = true
         lottieView = LOTAnimationView.init(name: "loading_qwe")
         paymentBtn.setTitle("\((Utility.shared.getLanguage()?.value(forKey:"addpayment"))!)", for: .normal)
         
@@ -322,7 +322,7 @@ func stripeUISetup()
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                       //  let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLeftLabel.text = "\(currencysymbol)\(getbillingArray.priceForDays!.clean)"
                         cell.priceLabel.sizeToFit()
@@ -350,7 +350,7 @@ func stripeUISetup()
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
@@ -378,7 +378,7 @@ func stripeUISetup()
                 {
                     if(indexPath.row == 0)
                     {
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)
@@ -413,7 +413,7 @@ func stripeUISetup()
                     if(indexPath.row == 0)
                     {
                         
-                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(getbillingArray.averagePrice!.clean) x \(Utility.shared.numberofnights_Selected) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",(getbillingArray.basePrice! * Double(Utility.shared.numberofnights_Selected))))as! Double
                         cell.priceLabel.sizeToFit()
                         if(getbillingArray.isSpecialPriceAssigned == true)

@@ -1,0 +1,6 @@
+framework module Pods_SiRent {
+  umbrella header "Pods-SiRent-umbrella.h"
+
+  export *
+  module * { export * }
+}

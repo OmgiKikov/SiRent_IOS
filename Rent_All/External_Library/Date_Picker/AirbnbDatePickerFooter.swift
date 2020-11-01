@@ -34,7 +34,7 @@ class AirbnbDatePickerFooter: UIView {
         label.textAlignment = .center
         if(Utility.shared.minimumstay != 0)
         {
-            label.text = "\((Utility.shared.getLanguage()?.value(forKey:"minimumstay"))!) \(Utility.shared.minimumstay) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\((Utility.shared.minimumstay) > 1 ? "s" : "")"
+            label.text = "\((Utility.shared.getLanguage()?.value(forKey:"minimumstay"))!) \(Utility.shared.minimumstay) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\((Utility.shared.minimumstay) > 1 ? "" : "")"
         }
         else{
          label.text = ""

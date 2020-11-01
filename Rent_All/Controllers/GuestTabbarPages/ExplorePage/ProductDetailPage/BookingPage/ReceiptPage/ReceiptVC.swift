@@ -220,7 +220,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
             cell.selectionStyle = .none
             cell.nameLabel.text = getReservationArray.guestData?.displayName!
             cell.destinationLabel.text = getReservationArray.listData?.city!
-            cell.durationLbel.text = "\(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+            cell.durationLbel.text = "\(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
             cell.accomadationLabel.text = getReservationArray.listData?.roomType!
             
             return cell
@@ -329,7 +329,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                               //  cell.specialImage.isHidden = false
                             }
                            
-                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                             let calculated_Price = Double(String(format: "%.2f",(getReservation_currencyArray.convertedTotalNightsAmount!)))
                             cell.priceLeftLabel.text = "\(currencysymbol!)\(calculated_Price!.clean)"
             
@@ -353,7 +353,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                              //   cell.specialImage.isHidden = false
                             }
                            
-                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                             let calculated_Price = Double(String(format: "%.2f",getReservation_currencyArray.convertedTotalNightsAmount!))
                             cell.priceLeftLabel.text = "\(currencysymbol!)\(calculated_Price!.clean)"
                     
@@ -450,7 +450,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                               //  cell.specialImage.isHidden = false
                             }
 
-                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                             let calculated_Price = Double(String(format: "%.2f",getReservation_currencyArray.convertedTotalNightsAmount!))
                             cell.priceLeftLabel.text = "\(currencysymbol!)\(calculated_Price!.clean)"
                             
@@ -474,7 +474,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                               //  cell.specialImage.isHidden = false
                             }
 
-                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                             let calculated_Price = Double(String(format: "%.2f",getReservation_currencyArray.convertedTotalNightsAmount!))
                             cell.priceLeftLabel.text = "\(currencysymbol!)\(calculated_Price!.clean)"
                             
@@ -560,7 +560,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                         {
                            // cell.specialImage.isHidden = false
                         }
-                        cell.priceLabel.text =  "\(currencysymbol)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "s" : "")"
+                        cell.priceLabel.text =  "\(currencysymbol)\(total.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(Utility.shared.numberofnights_Selected > 1 ? "" : "")"
                         let calculated_Price = Double(String(format: "%.2f",getReservation_currencyArray.convertedTotalNightsAmount!))
                         cell.priceLeftLabel.text = "\(currencysymbol)\(calculated_Price!.clean)"
                         if(getReservationArray.isSpecialPriceAverage != getReservationArray.basePrice)
@@ -683,7 +683,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                             {
                                   restricted_price =  Double(String(format: "%.2f",getReservation_currencyArray.convertedTotalNightsAmount ?? 0))
                             }
-                            cell.priceLabel.text =  "\(currencysymbol!)\(restricted_price!.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(restricted_price!.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                             if(getReservationArray.isSpecialPriceAverage != getReservationArray.basePrice)
                             {
                               //  cell.specialImage.isHidden = false
@@ -701,7 +701,7 @@ class ReceiptVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIDo
                                // cell.specialImage.isHidden = false
                             }
                           
-                            cell.priceLabel.text =  "\(currencysymbol!)\(getReservation_currencyArray.convertedIsSpecialAverage!.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+                            cell.priceLabel.text =  "\(currencysymbol!)\(getReservation_currencyArray.convertedIsSpecialAverage!.clean) x \(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
                              let calculated_Price = Double(String(format: "%.2f",(getReservation_currencyArray.convertedTotalNightsAmount!)))
                             cell.priceLeftLabel.text = "\(currencysymbol!)\(calculated_Price!.clean)"
                             if(getReservationArray.isSpecialPriceAverage != getReservationArray.basePrice)

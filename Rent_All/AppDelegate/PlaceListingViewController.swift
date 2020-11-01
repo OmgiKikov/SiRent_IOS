@@ -202,20 +202,20 @@ class PlaceListingViewController: BaseHostTableviewController,GuestListingViewCo
     
     func setResidenceType()
     {
-        staticArray.append("Yes")
-        staticArray.append("No")
+        staticArray.append("Да")
+        staticArray.append("Нет")
         if !Utility.shared.step1ValuesInfo.keys.contains("residenceType")
         {
             personalType = staticArray.first!
             pickerView.selectRow(0, inComponent: 0, animated: true)
             Utility.shared.step1ValuesInfo.updateValue("1", forKey: "residenceType")
         }else {
-            personalType = (Utility.shared.step1ValuesInfo["residenceType"]! as? String) == "1" ? "Yes" : "No"
-            if personalType == "Yes"
+            personalType = (Utility.shared.step1ValuesInfo["residenceType"]! as? String) == "1" ? "Да" : "Нет"
+            if personalType == "Да"
             {
                 pickerView.selectRow(0, inComponent: 0, animated: true)
                 Utility.shared.step1ValuesInfo.updateValue("1", forKey: "residenceType")
-            }else if personalType == "No"
+            }else if personalType == "Нет"
             {
                 pickerView.selectRow(1, inComponent: 0, animated: true)
                 Utility.shared.step1ValuesInfo.updateValue("0", forKey: "residenceType")

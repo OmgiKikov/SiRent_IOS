@@ -613,6 +613,7 @@ func initialSetup()
            currency = self.currencyvalue_from_API_base
         }
         else{
+            
            currency = Utility.shared.getPreferredCurrency()!
         }
         
@@ -1568,12 +1569,12 @@ func initialSetup()
             // cell.amenityLabel.text = (amenitiesArray[indexPath.row] as! String)
             if(indexPath.row == 0 &&  viewListingArray.listingData!.minNight! != 0)
             {
-                cell.amenityLabel.text = "\((viewListingArray.listingData?.minNight!)!) \((Utility.shared.getLanguage()?.value(forKey:"minnight"))!)\(((viewListingArray.listingData?.minNight!)!) > 1 ? "s": "")"
+                cell.amenityLabel.text = "\((viewListingArray.listingData?.minNight!)!) \((Utility.shared.getLanguage()?.value(forKey:"minnight"))!)\(((viewListingArray.listingData?.minNight!)!) > 1 ? "": "")"
             }
                 
             else if(viewListingArray.listingData!.maxNight! != 0)
             {
-                cell.amenityLabel.text = "\((viewListingArray.listingData?.maxNight)!) \((Utility.shared.getLanguage()?.value(forKey:"maxnight"))!)\(((viewListingArray.listingData?.maxNight!)!) > 1 ? "s": "")"
+                cell.amenityLabel.text = "\((viewListingArray.listingData?.maxNight)!) \((Utility.shared.getLanguage()?.value(forKey:"maxnight"))!)\(((viewListingArray.listingData?.maxNight!)!) > 1 ? "": "")"
             }
             cell.selectionStyle = UITableViewCell.SelectionStyle.none
             return cell
@@ -1717,7 +1718,7 @@ func initialSetup()
                             }
                             else
                                 {
-                                cell.flexLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"flexible"))!)"
+                                cell.flexLabel.text = "Гибкий График"
                             }
                         }
                           return cell
@@ -1736,7 +1737,7 @@ func initialSetup()
                             }
                             else
                             {
-                              cell.flexLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"flexible"))!)"
+                              cell.flexLabel.text = "Гибкий График"
                             }
                         }
                           return cell

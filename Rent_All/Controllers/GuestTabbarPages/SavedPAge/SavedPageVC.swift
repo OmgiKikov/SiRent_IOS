@@ -231,7 +231,7 @@ class SavedPageVC: UIViewController,UICollectionViewDelegate,UICollectionViewDat
             
             //cell.titleLabel.sizeToFit()
             
-            cell.homeLabel.text =  "\(whishlistarray[indexPath.row].wishListCount!) \((Utility.shared.getLanguage()?.value(forKey:"home"))!)\(whishlistarray[indexPath.row].wishListCount! > 1 ? "s" : "")"
+            cell.homeLabel.text =  "\(whishlistarray[indexPath.row].wishListCount!) \((Utility.shared.getLanguage()?.value(forKey:"home"))!)\(whishlistarray[indexPath.row].wishListCount! > 1 ? "" : "")"
             
         }
         else

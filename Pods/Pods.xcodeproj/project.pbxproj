@@ -120,7 +120,6 @@
 		0C3F2074BC40249F8E939CC2D16E19B6 /* LOTAnimationTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09758E1FD392DC542C33EB65549446A6 /* LOTAnimationTransitionController.m */; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061F7185203D3DFE767D71D475C2E686 /* ParameterEncoding.swift */; };
 		0CD676768EE9E661154AD38C80236930 /* STPBankAccountParams+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DFF4975D024EAF52C88520DEACB0FF /* STPBankAccountParams+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0D133BA4B2E47E575CC93DEF8435C878 /* Pods-Heku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 228F1C325F228E308ABB6992F3CB28B8 /* Pods-Heku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D1E1C444E6330336534686FD9F59F0E /* STPBankSelectionTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B09AAC35F5453BD6464836DC6018783A /* STPBankSelectionTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D29FE293CB8A319B367738FC53A0652 /* STPThreeDSTextFieldCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAE9AFFF1E4159EAAAE896096FB64ED /* STPThreeDSTextFieldCustomization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D6CDF752BA20D52B210E17C19F3DD7A /* FTPopOverMenu_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE07DB2F89DFBC49874367A0E9A7873 /* FTPopOverMenu_Swift-dummy.m */; };
@@ -172,10 +171,8 @@
 		155B6239D67C54DD3BF829B177A4F9F3 /* STPSetupIntentLastSetupError.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EE9B740BD4C85A535177B3990A231B /* STPSetupIntentLastSetupError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15686218D703280A42EBDBDA81E00493 /* LOTFillRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 55135A972F2161F8E00EEA640905D53C /* LOTFillRenderer.m */; };
 		158ED66F79A1A1B16072418E8B66E628 /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 593CEC2BB695247168A82A3CCCE224BA /* SDWebImageIndicator.m */; };
-		15A6900142EDFFF076E45E5D9C96942C /* Pods-Heku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A6E1B48FDB7ACC723CD3A5C94B2BE6 /* Pods-Heku-dummy.m */; };
 		15C27F3D7ABD0F03D9572E0BCFB00DB9 /* MaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243F703BCD90749338B924ADE74CF66D /* MaskingView.swift */; };
 		15F0D404DF94F1546A17142E40A8F3B1 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FC31648E941524F335894D24B94DCD /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15FDEBBE87544AC6B39A1AB5A361F944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E142713180FE45B3081644CE162605C2 /* Foundation.framework */; };
 		16209EE3111737366F0AA5775C120ACF /* STPPaymentMethodGiropay.h in Headers */ = {isa = PBXBuildFile; fileRef = 95747BAFAC0E9A9615DF24491E0ABC83 /* STPPaymentMethodGiropay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16F89ED9E8F4A3FD876677DEF8BFB68E /* STPPaymentMethodCardWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5EF3423DA8C209ED43780314A4AB3 /* STPPaymentMethodCardWallet.m */; };
 		173D9966F2D165404257B40BF171B1EC /* MDCElevationOverriding.h in Headers */ = {isa = PBXBuildFile; fileRef = A76D7DFC727A27F9593BE82EA489987E /* MDCElevationOverriding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -547,6 +544,7 @@
 		60C05E6967A79710F8B70E04890EA40B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF07DC45E3157359F2B2BA79729C1DDF /* UIKit.framework */; };
 		616353A2412A8D17C8D3A98D6CBA467A /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 152B524E8FE5E587A39BFD6B3A45A7DC /* MDFRTL.h */; };
 		61857850A19756A357AD6696D42E69A4 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B39B5983FBB78BF3E950DB5DDF8DD /* RightToLeft.swift */; };
+		61B70F5CC6A70818A742F84C2B46C16A /* Pods-SiRent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97436157106A62ABF590336251480C7E /* Pods-SiRent-dummy.m */; };
 		61DB45E69A4B05EA4635C717CD42A44D /* SCP_SCNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624B2F339950F043D8395AD2A1B3DBAC /* SCP_SCNormal.swift */; };
 		61DF5B25B364F721FF050A6E979BFFA8 /* STPShippingMethodsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B32501BCD0C7164FADF0BDBFDDECCE78 /* STPShippingMethodsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FE27A8D9C73FC8D9C2F1DC20D67FA6 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1116,6 +1114,7 @@
 		CB09A17F1B4822D0703C46EE0A5E21FE /* MDCPathGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFD28B8EC17C2F1938E65257A9FEE3 /* MDCPathGenerator.m */; };
 		CB18FD9A98187C0E20236E1C252016E9 /* NSBundle+Stripe_AppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F63F2523193578FDDF798D8F8BBE163 /* NSBundle+Stripe_AppName.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB2C2AC79E10889EC840CD6C3D24F96F /* Apollo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F21A9DCD7A4897902E07D9043A196E /* Apollo-dummy.m */; };
+		CBE36E62079490DDE3FF6EDF3C1F395B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E142713180FE45B3081644CE162605C2 /* Foundation.framework */; };
 		CC5B9E53652B8301F2284684283F04D6 /* LOTRoundedRectAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9953CEDA9893D05B860665ADC6D9AFB5 /* LOTRoundedRectAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CCA29B5C4F2CA2C69324201AFF0FA8F8 /* STPAuthenticationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 673A8CEF55C986F4B2F9781FBBB92BE2 /* STPAuthenticationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD8D5E804547C478414976877F564916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E142713180FE45B3081644CE162605C2 /* Foundation.framework */; };
@@ -1205,6 +1204,7 @@
 		DDB953F7BF2C12460C105F4D16C9383C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2003D6EA1869E3AEF77A09D11BCC79 /* CoreLocation.framework */; };
 		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52E7A7857C0352BC6F745CC6170EDE2 /* IQBarButtonItem.swift */; };
 		DDF91FCDF5D7E3DD186B8D3465E7F6CE /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C76F010C6E3F2F61F7FC4F70EFD324 /* SKToolbar.swift */; };
+		DEDD4E8F47D61CFEB45B49EC650084AB /* Pods-SiRent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ACFA14036E86120AFC27E79767B5C6 /* Pods-SiRent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF32AA01A71E3AAAF2F476873A472838 /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B09C3E2964300D06446B7B0B0B3ABD7 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DF34A26E7AC539A901B1BEBE064DE8E4 /* PKAddPaymentPassRequest+Stripe_Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 104A88C153C980B15A5BD5A3B0E8834A /* PKAddPaymentPassRequest+Stripe_Error.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF7586C28D3956394AFDD84664102DED /* STPPaymentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 826DB40B28E1F03984223F245C6F64A9 /* STPPaymentHandler.m */; };
@@ -1410,13 +1410,6 @@
 			remoteGlobalIDString = 93789445511E3FEAB3D09A6F552EEE2D;
 			remoteInfo = "SwiftMessages-SwiftMessages";
 		};
-		0CF4B38F98785DE65017153930B5573C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A5F14BCFE84FB7253A3EF56BA525E08;
-			remoteInfo = AssetsPickerViewController;
-		};
 		0EE2FBD6FB3C77406F124AAA2CDC2130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1424,12 +1417,19 @@
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		0FD85C5E03F14BFB9747C54FD7401C34 /* PBXContainerItemProxy */ = {
+		0F00376D1F8DB8356389411990211CEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
-			remoteInfo = MaterialComponents;
+			remoteGlobalIDString = 3BCB913ED6495EC9E66CA9955763ACBD;
+			remoteInfo = AARatingBar;
+		};
+		13DD9A3D4AAB0A0095D9D53858ED3D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885917490BC3F1DF8613D63A80B4E196;
+			remoteInfo = GooglePlacePicker;
 		};
 		1821D03A1F54E7F1CE0BBA620410B2B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1438,89 +1438,89 @@
 			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
 			remoteInfo = GooglePlaces;
 		};
-		20DEF837FBE7FC12FEA507F59538AC47 /* PBXContainerItemProxy */ = {
+		1B9D8090465B19DBA9E75BF06EAD05E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
 			remoteInfo = "Toast-Swift";
 		};
-		28C41CD18ADA648D0060995A62BB0297 /* PBXContainerItemProxy */ = {
+		1D0157C044237FE9299C60C0754E7E9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D16AA8F7EC4EF7813A32FAD35E1372E;
-			remoteInfo = MKToolTip;
+			remoteGlobalIDString = 989619F863D399C5538843E81223983E;
+			remoteInfo = FTPopOverMenu_Swift;
 		};
-		3075E26FFBC2311E6DE82AB53FFEE87F /* PBXContainerItemProxy */ = {
+		3275660300717A534B065EB2B120E339 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
-			remoteInfo = MDFTextAccessibility;
+			remoteGlobalIDString = F23D4F6156404CC63E73C0233E7F92B1;
+			remoteInfo = ISPageControl;
 		};
-		35013EF392D21B5DA24A8CC3A9EF4E52 /* PBXContainerItemProxy */ = {
+		354E7FEA6F39407F1E907AB1A4CF6FF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E109C6B6B466F202BA0B94E76B45D72B;
 			remoteInfo = JJFloatingActionButton;
 		};
-		3D52D66FD5D4CDB81497A3851352813F /* PBXContainerItemProxy */ = {
+		36CF718FAE551DECB2609B93D18FE913 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4AFB864B337D1F74C1D79F4FC8F6C67F;
-			remoteInfo = RangeSeekSlider;
+			remoteGlobalIDString = 7D16AA8F7EC4EF7813A32FAD35E1372E;
+			remoteInfo = MKToolTip;
 		};
-		465F867AA76E825B07536AD3F4A3BB17 /* PBXContainerItemProxy */ = {
+		3B0CE18744F6ED56C417862CD2930DA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
-			remoteInfo = "lottie-ios";
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
 		};
-		5F92398EC2F2EEA73AC30BD6E49C508B /* PBXContainerItemProxy */ = {
+		4FE13EC03358192B583BA39A9671B0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		504E7BC841F35D57DB5FB8940536C1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		5C12B3D41B1DB7A11AE534EDAA67794B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1696A504A8F8B95B82B2382D0A461BF4;
+			remoteInfo = GrowingTextView;
+		};
+		6317E825B74CF243AC9935A239F3F818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+		6453234A6E1134D162F07370C4974479 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 30EE3CABB612307A688C40B61BFA74CC;
 			remoteInfo = Apollo;
 		};
-		6949B3AA346237DC8904249E074591DE /* PBXContainerItemProxy */ = {
+		7213689736CD9F8D667BB0DADE647B47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAB613A18652334F6BFC5F27BADF515D;
-			remoteInfo = SwiftMessages;
-		};
-		6F40721ED37A6D9AD04745E206C986FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
-			remoteInfo = SDWebImage;
-		};
-		714CB25D62A9327E30C226EE5D193B04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF94554BF4D2D7509628207456EC737D;
-			remoteInfo = Stripe;
-		};
-		7AB00260DB2C1F8B36A0B56EC9D1A409 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
-			remoteInfo = MDFInternationalization;
-		};
-		7C9EB87C26F12398558DA0D99BC2CFD8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 951A4F930D68247FCB09CF49D69A5989;
-			remoteInfo = Cheers;
+			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
+			remoteInfo = "lottie-ios";
 		};
 		7D96D1DF3CAF610ACF08E8DFEC65ED2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1529,47 +1529,33 @@
 			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
 			remoteInfo = GoogleMaps;
 		};
-		8BE0C2672F3D27B6948C40179ADA132D /* PBXContainerItemProxy */ = {
+		81E7A73E907BB578C4003B6CAFA477FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		84F7F39309D9D128A07BE4E5C199EA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A729783D6899104794898A4D5C6298F6;
+			remoteInfo = SKPhotoBrowser;
+		};
+		99193F3E3D62FC86DC1FFB4132769913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		9C8BE993AF33ABA813E4B7D74D96A63C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF5CC1898BADE9695356609391C13D77;
 			remoteInfo = SCPageControl;
-		};
-		957574CCBCB170AF99E698394FFF2902 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BCB913ED6495EC9E66CA9955763ACBD;
-			remoteInfo = AARatingBar;
-		};
-		958038A3614AEDE49F02C569546948FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1696A504A8F8B95B82B2382D0A461BF4;
-			remoteInfo = GrowingTextView;
-		};
-		98FB85FF0C01896289B79BDE178EC64C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
-			remoteInfo = GooglePlaces;
-		};
-		A4F9535A00F752140E2E5956BC97E0E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
-			remoteInfo = Cosmos;
-		};
-		AEADF3E6C6351599A6F5246BCCA9A9C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F23D4F6156404CC63E73C0233E7F92B1;
-			remoteInfo = ISPageControl;
 		};
 		B4286FD6540D7357BBB1AFD55EB3D764 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1585,6 +1571,20 @@
 			remoteGlobalIDString = 6D88DAA122254F156CB3A8BEA17EC6BD;
 			remoteInfo = "AssetsPickerViewController-AssetsPickerViewController";
 		};
+		BB10C609706220DD3509E2C014E7B792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
+			remoteInfo = MDFTextAccessibility;
+		};
+		BCE159A0F3DFEEBE2D97E741FFA2AA77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF94554BF4D2D7509628207456EC737D;
+			remoteInfo = Stripe;
+		};
 		C0AEE8090EABEE2DC2D2DB991E97C0B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1592,47 +1592,47 @@
 			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
 			remoteInfo = MDFInternationalization;
 		};
-		C83A1251146F7FA68A633B1B873CADEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 885917490BC3F1DF8613D63A80B4E196;
-			remoteInfo = GooglePlacePicker;
-		};
-		C991B3E9A13A5BA4ADEFA0E16B75FAD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
-		};
-		CFA08B23321BD08679FC616663FD5B33 /* PBXContainerItemProxy */ = {
+		C8EB265A5DD03E7D3E6FE1AE3A7FE0B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		D1770398F001DD43804A1BD33149B34F /* PBXContainerItemProxy */ = {
+		C8F6FAF80CA534B4DC4AF3BA066510C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
+			remoteGlobalIDString = 4AFB864B337D1F74C1D79F4FC8F6C67F;
+			remoteInfo = RangeSeekSlider;
 		};
-		D7615E63E6C6ECBC7E1C289E3FF11B0A /* PBXContainerItemProxy */ = {
+		CC1EB29FDEA3BAADFF27D3DFA2F5F8CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		D3BF06A021609CEA7A7C42342ACF7C06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		D8EEFA917FBBCDFF65AA767E680DF022 /* PBXContainerItemProxy */ = {
+		D6A039379D3B362B0D661E2B01A3F4BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 989619F863D399C5538843E81223983E;
-			remoteInfo = FTPopOverMenu_Swift;
+			remoteGlobalIDString = DAB613A18652334F6BFC5F27BADF515D;
+			remoteInfo = SwiftMessages;
+		};
+		DCDAE54AF1A491972AB49958FEAAFFAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
 		};
 		DD61F799984E33D3EDA4401CE9073912 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1641,12 +1641,12 @@
 			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
 			remoteInfo = MDFTextAccessibility;
 		};
-		E58B197C6F53F805B8140240A55CBFA7 /* PBXContainerItemProxy */ = {
+		EDB32AD7D44E90444BBFB6507DB55590 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A729783D6899104794898A4D5C6298F6;
-			remoteInfo = SKPhotoBrowser;
+			remoteGlobalIDString = 1A5F14BCFE84FB7253A3EF56BA525E08;
+			remoteInfo = AssetsPickerViewController;
 		};
 		F4BFA0C4F89A0AA2B44C4F7E66928C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1655,12 +1655,12 @@
 			remoteGlobalIDString = 2C0B358979DDB18B955A5CBE02F51805;
 			remoteInfo = "Stripe-Stripe";
 		};
-		F6013CC6398BC71B7EEB80A6AAC28869 /* PBXContainerItemProxy */ = {
+		F99736D9D3BCE79DB8B937098C4745BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
+			remoteGlobalIDString = 951A4F930D68247FCB09CF49D69A5989;
+			remoteInfo = Cheers;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1801,7 +1801,6 @@
 		12EDBC060D89BE852FA217BA7990E711 /* STPPaymentHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentHandler.h; path = Stripe/PublicHeaders/Stripe/STPPaymentHandler.h; sourceTree = "<group>"; };
 		130E08F17A44EAB80E1C510129C05FEF /* GraphQLResultNormalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResultNormalizer.swift; path = Sources/Apollo/GraphQLResultNormalizer.swift; sourceTree = "<group>"; };
 		132FA87A4DF1B1E8E76360C4D93459D9 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSeekSlider.swift; path = Sources/RangeSeekSlider.swift; sourceTree = "<group>"; };
-		1384EA02CBED7B2EE1D162634C046DD0 /* Pods-Heku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heku.release.xcconfig"; sourceTree = "<group>"; };
 		1422F4D6AC4873385A4EE6C3D52F00C4 /* LOTAnimationView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTAnimationView_Internal.h; path = "lottie-ios/Classes/Private/LOTAnimationView_Internal.h"; sourceTree = "<group>"; };
 		14474446D28EB0CC9DE0C8B5D27CF9E3 /* STPCard+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPCard+Private.h"; path = "Stripe/STPCard+Private.h"; sourceTree = "<group>"; };
 		1474C294878E2497E9AF9F2E8845FF3B /* STPPaymentMethodBancontactParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodBancontactParams.h; path = Stripe/PublicHeaders/Stripe/STPPaymentMethodBancontactParams.h; sourceTree = "<group>"; };
@@ -1882,9 +1881,9 @@
 		21E6449E5A1D9A6C2906E028904D1A02 /* LOTGradientFillRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTGradientFillRender.h; path = "lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.h"; sourceTree = "<group>"; };
 		2206DE2F3FA7264A50C2C90013B40A04 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPhotoBrowser.framework; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222409A5A633739359017D2F714E1142 /* MarginAdjustable+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarginAdjustable+Animation.swift"; path = "SwiftMessages/MarginAdjustable+Animation.swift"; sourceTree = "<group>"; };
-		228F1C325F228E308ABB6992F3CB28B8 /* Pods-Heku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Heku-umbrella.h"; sourceTree = "<group>"; };
 		2291FD8E9768637A44815B504D791DC0 /* LOTFillRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTFillRenderer.h; path = "lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.h"; sourceTree = "<group>"; };
 		22A428857BB1AA4F631736969477E4A5 /* Apollo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apollo-umbrella.h"; sourceTree = "<group>"; };
+		22B0898CFB254F8AA30934A6B70B231B /* Pods_SiRent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SiRent.framework; path = "Pods-SiRent.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B37E59F455F9D1DA48B12AEA4C89BE /* STPPaymentMethodParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodParams.m; path = Stripe/STPPaymentMethodParams.m; sourceTree = "<group>"; };
 		22DE4AD0F7B3668F435F47DA5C641431 /* infoIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIcon.png; path = SwiftMessages/Resources/infoIcon.png; sourceTree = "<group>"; };
 		2324A6D1A80137FD9E56839FC9F92500 /* STPFormEncodable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPFormEncodable.h; path = Stripe/PublicHeaders/Stripe/STPFormEncodable.h; sourceTree = "<group>"; };
@@ -2042,7 +2041,6 @@
 		3D5FA6564C4219B135CEB4D17DDB1472 /* successIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconSubtle@2x.png"; path = "SwiftMessages/Resources/successIconSubtle@2x.png"; sourceTree = "<group>"; };
 		3D68ECBDDFD4F40E711C466F0184F1C2 /* SwiftMessages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.release.xcconfig; sourceTree = "<group>"; };
 		3D7386568ADA47CD81ABF50D6A0659FE /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Stripe/Resources/Localizations/nb.lproj; sourceTree = "<group>"; };
-		3D7A4D001A4CDC7FB459767FC9320AE0 /* Pods-Heku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Heku.modulemap"; sourceTree = "<group>"; };
 		3DD5015263165969EE0A529C32F1F836 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		3DFE3B503F51479622C1B340CE419191 /* STPPaymentMethodCardWalletVisaCheckout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodCardWalletVisaCheckout.h; path = Stripe/PublicHeaders/Stripe/STPPaymentMethodCardWalletVisaCheckout.h; sourceTree = "<group>"; };
 		3E1AD590B48512F602F18ECD83DD69F0 /* JJFloatingActionButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJFloatingActionButton.debug.xcconfig; sourceTree = "<group>"; };
@@ -2147,7 +2145,6 @@
 		4BBDBA0E40189B80013F2C297D0B42EA /* ResultOrPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultOrPromise.swift; path = Sources/Apollo/ResultOrPromise.swift; sourceTree = "<group>"; };
 		4BCDFCC59385B4E8EC098B56DED9B5DB /* check-and-run-apollo-cli.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "check-and-run-apollo-cli.sh"; path = "scripts/check-and-run-apollo-cli.sh"; sourceTree = "<group>"; };
 		4D059096E3E29A9E3AF377A472CBF344 /* JJFloatingActionButton+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JJFloatingActionButton+Animation.swift"; path = "Sources/JJFloatingActionButton+Animation.swift"; sourceTree = "<group>"; };
-		4D600709AD6887C0FFA07BA7E418040E /* Pods-Heku-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heku-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D642DB6C7938B1D9B79E681D4939675 /* MDCRippleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleLayer.m; path = components/Ripple/src/private/MDCRippleLayer.m; sourceTree = "<group>"; };
 		4D65100898F9BD42727A0953CC818377 /* STPPaymentMethodAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodAddress.h; path = Stripe/PublicHeaders/Stripe/STPPaymentMethodAddress.h; sourceTree = "<group>"; };
 		4D7D78E92ACD8086C008363FDE18D394 /* STPBankSelectionTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPBankSelectionTableViewCell.m; path = Stripe/STPBankSelectionTableViewCell.m; sourceTree = "<group>"; };
@@ -2264,7 +2261,6 @@
 		604323F34D3430423790F30F9C43FCC6 /* STPAddressViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAddressViewModel.m; path = Stripe/STPAddressViewModel.m; sourceTree = "<group>"; };
 		605AB7AE0475CCCFC81353F379355727 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		60726640143A83061B966834F9E3F701 /* RangeSeekSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RangeSeekSlider-Info.plist"; sourceTree = "<group>"; };
-		60A6E1B48FDB7ACC723CD3A5C94B2BE6 /* Pods-Heku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Heku-dummy.m"; sourceTree = "<group>"; };
 		6112150E30AC8F1F3442735DF19B4AEB /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
 		613094A0DC9269D3D96D4FC0EF1B50E3 /* MKToolTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKToolTip.h; path = MKToolTip/MKToolTip/MKToolTip.h; sourceTree = "<group>"; };
 		6132D590918CF5BA586C9B35F6D7AD3B /* STPCardValidationState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCardValidationState.h; path = Stripe/PublicHeaders/Stripe/STPCardValidationState.h; sourceTree = "<group>"; };
@@ -2273,7 +2269,6 @@
 		61FE27A8D9C73FC8D9C2F1DC20D67FA6 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
 		624B2F339950F043D8395AD2A1B3DBAC /* SCP_SCNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCP_SCNormal.swift; path = SCPageControl/Classes/SCP_SCNormal.swift; sourceTree = "<group>"; };
 		627E4E802D42E9DD07D111918D13E722 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
-		629F03024B52594CDFF90CEED753DFC5 /* Pods_Heku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Heku.framework; path = "Pods-Heku.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E70E2E6B4BC9BE03F1CBD93FA230D7 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		6304359699264980E220917C2C9645C8 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
 		63132223FF7F08D58C7086FE9DB6129D /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
@@ -2363,6 +2358,7 @@
 		73AADE6BD7F14425D2C3763D9FDF625F /* STPPaymentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentContext.h; path = Stripe/PublicHeaders/Stripe/STPPaymentContext.h; sourceTree = "<group>"; };
 		73B4E3FF7A623BA3534EDEC729606157 /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTAnimatedSwitch.h; path = "lottie-ios/Classes/PublicHeaders/LOTAnimatedSwitch.h"; sourceTree = "<group>"; };
 		73B52539B47069FB225D77444169A664 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		741DD80900540E96871CD2FE34766816 /* Pods-SiRent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiRent-resources.sh"; sourceTree = "<group>"; };
 		7465121362541DB3807A610CC80B7CE8 /* STPSourceVerification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPSourceVerification.m; path = Stripe/STPSourceVerification.m; sourceTree = "<group>"; };
 		746C25283C849925C91446A8B43025D1 /* libStripe3DS2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libStripe3DS2.a; path = InternalFrameworks/libStripe3DS2.a; sourceTree = "<group>"; };
 		747DFE6FC12F7434EFA398AA32B6D4DA /* GraphQLResponseGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResponseGenerator.swift; path = Sources/Apollo/GraphQLResponseGenerator.swift; sourceTree = "<group>"; };
@@ -2427,6 +2423,7 @@
 		7EED169153CBF00ECBFF4554677D3EBB /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		7F01B0922E6125E7F69FF06382E3AEE9 /* Apollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apollo.release.xcconfig; sourceTree = "<group>"; };
 		7FAA00431D4058BF46CBAE1209B6A67E /* STPPaymentMethodAUBECSDebitParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodAUBECSDebitParams.m; path = Stripe/STPPaymentMethodAUBECSDebitParams.m; sourceTree = "<group>"; };
+		7FFDD795CAA59C56431113DE1AAC74B2 /* Pods-SiRent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiRent-acknowledgements.plist"; sourceTree = "<group>"; };
 		8002DEB3A70A7C95AE2D2EDE14B159E1 /* STPPaymentMethodCardParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodCardParams.m; path = Stripe/STPPaymentMethodCardParams.m; sourceTree = "<group>"; };
 		8033F0D55ECCA65D1069B22445B3707D /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		807FE48F184DC31995D7C2DA5F44172E /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
@@ -2473,6 +2470,7 @@
 		877DC74B8660710183CE3E956416B349 /* UIViewController+Stripe_NavigationItemProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Stripe_NavigationItemProxy.m"; path = "Stripe/UIViewController+Stripe_NavigationItemProxy.m"; sourceTree = "<group>"; };
 		877FF0A7AF85A36DEA4E9DD38B5FEB12 /* LOTAssetGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTAssetGroup.m; path = "lottie-ios/Classes/Models/LOTAssetGroup.m"; sourceTree = "<group>"; };
 		87A3B1319F1B0747C7371085A81166A1 /* UIFont+MaterialSimpleEquality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialSimpleEquality.m"; path = "components/Typography/src/UIFont+MaterialSimpleEquality.m"; sourceTree = "<group>"; };
+		87ACFA14036E86120AFC27E79767B5C6 /* Pods-SiRent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiRent-umbrella.h"; sourceTree = "<group>"; };
 		87B4EB1A8059C994011BD8579BBB493D /* STPPaymentMethodEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodEnums.h; path = Stripe/PublicHeaders/Stripe/STPPaymentMethodEnums.h; sourceTree = "<group>"; };
 		87B781112A657ADF2EB94F044ACE8018 /* successIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@3x.png"; path = "SwiftMessages/Resources/successIconLight@3x.png"; sourceTree = "<group>"; };
 		880CB4045675554D4AA67F63C225AF65 /* UIApplication+MDCAppExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MDCAppExtensions.m"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.m"; sourceTree = "<group>"; };
@@ -2484,6 +2482,7 @@
 		896808F98EC06C3502C87C3D620032B7 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
 		89F39BE248CCD0E320D18F22F5ABD87A /* STPPaymentMethodCardWalletVisaCheckout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodCardWalletVisaCheckout.m; path = Stripe/STPPaymentMethodCardWalletVisaCheckout.m; sourceTree = "<group>"; };
 		89F853B1C1E788E95984F49CE1CD4B84 /* LOTShapeFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTShapeFill.m; path = "lottie-ios/Classes/Models/LOTShapeFill.m"; sourceTree = "<group>"; };
+		89FFA8BBB3DCDA55C8D6DC6D1A502CBD /* Pods-SiRent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiRent.release.xcconfig"; sourceTree = "<group>"; };
 		8A6588406D2A9507C9357C7F558AA26A /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		8A6F5AB3543EDC21463C5DBB93F2DADB /* STPPaymentMethodSofort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodSofort.m; path = Stripe/STPPaymentMethodSofort.m; sourceTree = "<group>"; };
 		8AD9EE4BDCD86105CE4334AF05D44A41 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
@@ -2559,6 +2558,7 @@
 		96DD2C411109E90E36CF8A82EDAE9CFD /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		96E934ECD9EA7F586B39B7E59373147C /* MDFTextAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFTextAccessibility.release.xcconfig; sourceTree = "<group>"; };
 		9735DAAC0DD4F570839CFED1C85A4FB5 /* LOTMaskContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTMaskContainer.m; path = "lottie-ios/Classes/AnimatableLayers/LOTMaskContainer.m"; sourceTree = "<group>"; };
+		97436157106A62ABF590336251480C7E /* Pods-SiRent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiRent-dummy.m"; sourceTree = "<group>"; };
 		9771734FA4392D7A6950BFBA4134302A /* STPPaymentCardTextFieldViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentCardTextFieldViewModel.m; path = Stripe/STPPaymentCardTextFieldViewModel.m; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B1B1B8DD0D0AE159D958E64DB05420 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
@@ -2572,6 +2572,7 @@
 		98304F819AF646C107613C153676329A /* STPBundleLocator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPBundleLocator.m; path = Stripe/STPBundleLocator.m; sourceTree = "<group>"; };
 		984A84741CD89A6843C2006EEF4B4B7C /* LOTTrimPathNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTTrimPathNode.h; path = "lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.h"; sourceTree = "<group>"; };
 		98C055C9B4AA327A87CB088A1D0C41CA /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
+		98C37CB743CAEF07E0B77EFB8714F195 /* Pods-SiRent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiRent-Info.plist"; sourceTree = "<group>"; };
 		993551645E5CABEAA2279E5018122F53 /* AssetsPickerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerConfig.swift; path = AssetsPickerViewController/Classes/Picker/AssetsPickerConfig.swift; sourceTree = "<group>"; };
 		993A08DB8238DA2ABE5C4D135AA9C00D /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		9953CEDA9893D05B860665ADC6D9AFB5 /* LOTRoundedRectAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTRoundedRectAnimator.h; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.h"; sourceTree = "<group>"; };
@@ -2613,7 +2614,6 @@
 		9FD522A8DB3DB215AC2ED16EF0081546 /* STPPaymentIntentActionRedirectToURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntentActionRedirectToURL.h; path = Stripe/PublicHeaders/Stripe/STPPaymentIntentActionRedirectToURL.h; sourceTree = "<group>"; };
 		9FD92F9FDDB7604C4B4C77B0B247E794 /* KeyboardTrackingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTrackingView.swift; path = SwiftMessages/KeyboardTrackingView.swift; sourceTree = "<group>"; };
 		9FEEF02E80BB18D8E401E0B46B352594 /* AARatingBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AARatingBar-prefix.pch"; sourceTree = "<group>"; };
-		A04585AC8379AF5167A1B46930BC28E5 /* Pods-Heku-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Heku-Info.plist"; sourceTree = "<group>"; };
 		A0A7242D5770042D0836A50F18108FEE /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		A0ADAE4020620BD73B9DCC49483248AC /* UIFont+AssetsPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+AssetsPickerViewController.swift"; path = "AssetsPickerViewController/Classes/Utility/UIFont+AssetsPickerViewController.swift"; sourceTree = "<group>"; };
 		A0BA8F1B945C78C5DD1935E54B99250E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -2800,7 +2800,6 @@
 		BD980EA3F22F619DE9E3FEFABBEBD4A5 /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
 		BDDD4CB7E733E14F641E306E35365B3B /* MDFTextAccessibility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFTextAccessibility-prefix.pch"; sourceTree = "<group>"; };
 		BDEA38816D0CB7602D3E6CEB7D80A2F9 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
-		BE415C515EE20B27CC781288920CB8AB /* Pods-Heku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Heku.debug.xcconfig"; sourceTree = "<group>"; };
 		BE81A83426280703B60CFDF832D6EE7E /* STPCardBrand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCardBrand.m; path = Stripe/STPCardBrand.m; sourceTree = "<group>"; };
 		BE884D472DEAFB7751A3285017941B79 /* STPNumericStringValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPNumericStringValidator.m; path = Stripe/STPNumericStringValidator.m; sourceTree = "<group>"; };
 		BED1B9C7152301C38A6C29D433333A6D /* STPToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPToken.m; path = Stripe/STPToken.m; sourceTree = "<group>"; };
@@ -2837,13 +2836,14 @@
 		C32E3638B86DB74D970EE024D55C73B3 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		C36FA72E806E94C77F8F9E3583005BED /* STDSJSONEncodable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDSJSONEncodable.h; path = Stripe/PublicHeaders/Stripe/STDSJSONEncodable.h; sourceTree = "<group>"; };
 		C37CFA514986925BC5F86B4DFDC7ADFA /* MDCInkTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCInkTouchController.m; path = components/Ink/src/MDCInkTouchController.m; sourceTree = "<group>"; };
-		C440914E830BB789C439AA23AD2C9683 /* Pods-Heku-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Heku-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C4537B25DD07E5BF16007A8C8E719C37 /* RecordSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordSet.swift; path = Sources/Apollo/RecordSet.swift; sourceTree = "<group>"; };
 		C4539BF700399DBFA2F9B867B07932A0 /* UIView+MaterialElevationResponding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialElevationResponding.m"; path = "components/Elevation/src/UIView+MaterialElevationResponding.m"; sourceTree = "<group>"; };
 		C45722EF3D8FCA4A4CADB7304B215A28 /* FTPopOverMenu_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPopOverMenu_Swift.release.xcconfig; sourceTree = "<group>"; };
 		C47CF7BC3862968199D9E5D00384657D /* MDCStatefulRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCStatefulRippleView.m; path = components/Ripple/src/MDCStatefulRippleView.m; sourceTree = "<group>"; };
 		C4DD6EA62CF88EE9C27D509FF8B900C0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		C4FA3E4D8F2D0FA116D70FD39A78E2CE /* MDCTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypography.m; path = components/Typography/src/MDCTypography.m; sourceTree = "<group>"; };
+		C549A7B42CD881DB4275004DED52626E /* Pods-SiRent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiRent.debug.xcconfig"; sourceTree = "<group>"; };
+		C57F8E8DE81DA9B850F3C8E735067C76 /* Pods-SiRent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiRent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5A13BEED31140D33DE830413F4CCD91 /* MDCEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCEdgeTreatment.m; path = components/Shapes/src/MDCEdgeTreatment.m; sourceTree = "<group>"; };
 		C5F094893DD2B37B97931BC8E23F4780 /* STPSourceCardDetails+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSourceCardDetails+Private.h"; path = "Stripe/STPSourceCardDetails+Private.h"; sourceTree = "<group>"; };
 		C5F890484C7424258B34ED997E2D3E5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -2971,6 +2971,7 @@
 		DAE1100D1758F66DC9096CC71A8C46B5 /* STPAUBECSFormViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAUBECSFormViewModel.m; path = Stripe/STPAUBECSFormViewModel.m; sourceTree = "<group>"; };
 		DAEAF54C06C459C8C6609131058D114F /* FTPopOverMenu_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTPopOverMenu_Swift-Info.plist"; sourceTree = "<group>"; };
 		DB2FA7AB1DAD9D880F98E66593747980 /* LOTComposition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTComposition.m; path = "lottie-ios/Classes/Private/LOTComposition.m"; sourceTree = "<group>"; };
+		DB35D2DB64606376F53959FF9239301A /* Pods-SiRent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiRent-frameworks.sh"; sourceTree = "<group>"; };
 		DB552B2405F4632C51226791FE21E1A4 /* STPCardLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCardLoadingIndicator.h; path = Stripe/STPCardLoadingIndicator.h; sourceTree = "<group>"; };
 		DBE37269E70B159D198FC6759A3298BB /* STPLabeledMultiFormTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPLabeledMultiFormTextFieldView.m; path = Stripe/STPLabeledMultiFormTextFieldView.m; sourceTree = "<group>"; };
 		DC0E4A1D7124354186F347F6AA8E935B /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
@@ -3030,7 +3031,6 @@
 		E5BD63F2249C56E1103676570A1908DA /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		E5D0A15AA520A345BB54A756F1AEB50C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		E5DE4D83500FFFD02C28762D35FCF208 /* LOTCompositionContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTCompositionContainer.m; path = "lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.m"; sourceTree = "<group>"; };
-		E5E0E52162A9A5B367520281A2F4495A /* Pods-Heku-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Heku-resources.sh"; sourceTree = "<group>"; };
 		E5E67BAE6F395B71A74D81391A6B76C2 /* NSValue+Compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Compat.h"; path = "lottie-ios/Classes/MacCompatibility/NSValue+Compat.h"; sourceTree = "<group>"; };
 		E60B6F97F347C44892A6ACC2FF892220 /* STPConfirmPaymentMethodOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPConfirmPaymentMethodOptions.m; path = Stripe/STPConfirmPaymentMethodOptions.m; sourceTree = "<group>"; };
 		E60F3C954482FB90CC300A0C9BE2D4BE /* STPSourceSEPADebitDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPSourceSEPADebitDetails.h; path = Stripe/PublicHeaders/Stripe/STPSourceSEPADebitDetails.h; sourceTree = "<group>"; };
@@ -3085,7 +3085,6 @@
 		EE5582FC3BF491059AE49FB562F61AB1 /* STPPaymentIntent+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPPaymentIntent+Private.h"; path = "Stripe/STPPaymentIntent+Private.h"; sourceTree = "<group>"; };
 		EE6DD8FC166ED967B4261137B1A50A96 /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB55CB3B5CE9A94F6E208083C770EC1 /* STPSourceParams+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSourceParams+Private.h"; path = "Stripe/STPSourceParams+Private.h"; sourceTree = "<group>"; };
-		EECA539D39E3F22996EB0ACE6D32561E /* Pods-Heku-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Heku-frameworks.sh"; sourceTree = "<group>"; };
 		EEF09A01522247A00CE3461FDFFC5CFB /* STPAnalyticsClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAnalyticsClient.h; path = Stripe/STPAnalyticsClient.h; sourceTree = "<group>"; };
 		EEFD45D7F6A8E16F7547F0C71290AD60 /* STDSAlreadyInitializedException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDSAlreadyInitializedException.h; path = Stripe/PublicHeaders/Stripe/STDSAlreadyInitializedException.h; sourceTree = "<group>"; };
 		EEFFF5D98FC3B70874F5628C8232FE47 /* LOTKeyframe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTKeyframe.m; path = "lottie-ios/Classes/AnimatableProperties/LOTKeyframe.m"; sourceTree = "<group>"; };
@@ -3157,6 +3156,7 @@
 		FA689CA586482D42568F351DED92C8D1 /* MDCShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowLayer.h; path = components/ShadowLayer/src/MDCShadowLayer.h; sourceTree = "<group>"; };
 		FA72AE136B5F1D98D9CB4AF432D05922 /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
 		FA7D0AAA9927333E2AF6EC87DE6B6AD3 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		FA7D3F710158285F242A7F7003F3504B /* Pods-SiRent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SiRent.modulemap"; sourceTree = "<group>"; };
 		FABC57F671EA8D9A14CDE79386D4E946 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		FABCDE0433CD0AA9D04DE612F15BE866 /* STPPaymentMethodCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodCard.m; path = Stripe/STPPaymentMethodCard.m; sourceTree = "<group>"; };
 		FAE9A37948B5AFC71AA2EE9FAA1ED033 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
@@ -3365,19 +3365,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2B4700D1A47E23F607C8FD29756DC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE36E62079490DDE3FF6EDF3C1F395B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3155DD0A11C6F3E8CC8E042D0B4F361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01B160CA30F5FD8DD92645B39CFB38D9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C427FA5EF59712920B7D4C54F58D8869 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15FDEBBE87544AC6B39A1AB5A361F944 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3560,42 +3560,6 @@
 			);
 			name = AssetsPickerViewController;
 			path = AssetsPickerViewController;
-			sourceTree = "<group>";
-		};
-		14AC849F18CB086B7CC8C73C706AF0C0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				64057E6DA46338429475701C4F4E188C /* AARatingBar.framework */,
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				8F1FA46A3C7AA9081BA3650A49BDE9FE /* Apollo.framework */,
-				C902AA1461A7296D041FE44817DEB00B /* AssetsPickerViewController.bundle */,
-				153A74A2AA9AC8CA4424DFBE1371B418 /* AssetsPickerViewController.framework */,
-				5DE70CB9D226D02123FBB2383F64E155 /* Cheers.framework */,
-				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
-				2766E211016ED57D4F9773C67BA09EF2 /* FTPopOverMenu_Swift.framework */,
-				EE6DD8FC166ED967B4261137B1A50A96 /* GrowingTextView.framework */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
-				C27DE6A4DFC39A45D300BED21D853815 /* ISPageControl.framework */,
-				B39ECB203814E0B477049873DBEA123C /* JJFloatingActionButton.framework */,
-				51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */,
-				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
-				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
-				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
-				9451DC2AE698A87634FF2C3291B9EEDF /* MKToolTip.framework */,
-				629F03024B52594CDFF90CEED753DFC5 /* Pods_Heku.framework */,
-				C027A7405E856E45431E9E1E7913015F /* RangeSeekSlider.framework */,
-				B6AC80DB6EF537A4E5F6AD26E6F01B8C /* SCPageControl.framework */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
-				2206DE2F3FA7264A50C2C90013B40A04 /* SKPhotoBrowser.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-				58D4DB5D2B3903AF915D0729088615E6 /* Stripe.bundle */,
-				DDE7A3F6C65E34F22503AFE43F1233CB /* Stripe.framework */,
-				753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */,
-				4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
-				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		174A48FE549A4CD3C31F8F5229678D60 /* Support Files */ = {
@@ -3847,14 +3811,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FTPopOverMenu_Swift";
-			sourceTree = "<group>";
-		};
-		4524A955EB8EF3919D17C4C2D8E704B8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B136E93344D390643D09E22C6C7C4255 /* Pods-Heku */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		47033201A5F3A6F1B1E2A44111A56E7E /* JJFloatingActionButton */ = {
@@ -4340,6 +4296,24 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		6D2762DC9772574AC0629AACFFB82FED /* Pods-SiRent */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D3F710158285F242A7F7003F3504B /* Pods-SiRent.modulemap */,
+				C57F8E8DE81DA9B850F3C8E735067C76 /* Pods-SiRent-acknowledgements.markdown */,
+				7FFDD795CAA59C56431113DE1AAC74B2 /* Pods-SiRent-acknowledgements.plist */,
+				97436157106A62ABF590336251480C7E /* Pods-SiRent-dummy.m */,
+				DB35D2DB64606376F53959FF9239301A /* Pods-SiRent-frameworks.sh */,
+				98C37CB743CAEF07E0B77EFB8714F195 /* Pods-SiRent-Info.plist */,
+				741DD80900540E96871CD2FE34766816 /* Pods-SiRent-resources.sh */,
+				87ACFA14036E86120AFC27E79767B5C6 /* Pods-SiRent-umbrella.h */,
+				C549A7B42CD881DB4275004DED52626E /* Pods-SiRent.debug.xcconfig */,
+				89FFA8BBB3DCDA55C8D6DC6D1A502CBD /* Pods-SiRent.release.xcconfig */,
+			);
+			name = "Pods-SiRent";
+			path = "Target Support Files/Pods-SiRent";
+			sourceTree = "<group>";
+		};
 		705BC32DB7EAA11057457F868BCDB246 /* ISPageControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -4635,6 +4609,42 @@
 			name = Elevation;
 			sourceTree = "<group>";
 		};
+		9B55BB46563D7515CF6D22A4EB7AD8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64057E6DA46338429475701C4F4E188C /* AARatingBar.framework */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				8F1FA46A3C7AA9081BA3650A49BDE9FE /* Apollo.framework */,
+				C902AA1461A7296D041FE44817DEB00B /* AssetsPickerViewController.bundle */,
+				153A74A2AA9AC8CA4424DFBE1371B418 /* AssetsPickerViewController.framework */,
+				5DE70CB9D226D02123FBB2383F64E155 /* Cheers.framework */,
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				2766E211016ED57D4F9773C67BA09EF2 /* FTPopOverMenu_Swift.framework */,
+				EE6DD8FC166ED967B4261137B1A50A96 /* GrowingTextView.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				C27DE6A4DFC39A45D300BED21D853815 /* ISPageControl.framework */,
+				B39ECB203814E0B477049873DBEA123C /* JJFloatingActionButton.framework */,
+				51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
+				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
+				9451DC2AE698A87634FF2C3291B9EEDF /* MKToolTip.framework */,
+				22B0898CFB254F8AA30934A6B70B231B /* Pods_SiRent.framework */,
+				C027A7405E856E45431E9E1E7913015F /* RangeSeekSlider.framework */,
+				B6AC80DB6EF537A4E5F6AD26E6F01B8C /* SCPageControl.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+				2206DE2F3FA7264A50C2C90013B40A04 /* SKPhotoBrowser.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				58D4DB5D2B3903AF915D0729088615E6 /* Stripe.bundle */,
+				DDE7A3F6C65E34F22503AFE43F1233CB /* Stripe.framework */,
+				753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */,
+				4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9C633E04CE52413B22CE111887096C19 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -4766,22 +4776,12 @@
 			path = Cosmos;
 			sourceTree = "<group>";
 		};
-		B136E93344D390643D09E22C6C7C4255 /* Pods-Heku */ = {
+		AE80EB044A6FDA2ABA8924B205901FDF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D7A4D001A4CDC7FB459767FC9320AE0 /* Pods-Heku.modulemap */,
-				C440914E830BB789C439AA23AD2C9683 /* Pods-Heku-acknowledgements.markdown */,
-				4D600709AD6887C0FFA07BA7E418040E /* Pods-Heku-acknowledgements.plist */,
-				60A6E1B48FDB7ACC723CD3A5C94B2BE6 /* Pods-Heku-dummy.m */,
-				EECA539D39E3F22996EB0ACE6D32561E /* Pods-Heku-frameworks.sh */,
-				A04585AC8379AF5167A1B46930BC28E5 /* Pods-Heku-Info.plist */,
-				E5E0E52162A9A5B367520281A2F4495A /* Pods-Heku-resources.sh */,
-				228F1C325F228E308ABB6992F3CB28B8 /* Pods-Heku-umbrella.h */,
-				BE415C515EE20B27CC781288920CB8AB /* Pods-Heku.debug.xcconfig */,
-				1384EA02CBED7B2EE1D162634C046DD0 /* Pods-Heku.release.xcconfig */,
+				6D2762DC9772574AC0629AACFFB82FED /* Pods-SiRent */,
 			);
-			name = "Pods-Heku";
-			path = "Target Support Files/Pods-Heku";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B35FA101C9FC8F413950CCB3C533E565 /* Resources */ = {
@@ -5106,8 +5106,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4228365790FCEF59E0D0C78F7470B9CD /* Frameworks */,
 				7B3E27FDB18358C083A9EDF8BF452112 /* Pods */,
-				14AC849F18CB086B7CC8C73C706AF0C0 /* Products */,
-				4524A955EB8EF3919D17C4C2D8E704B8 /* Targets Support Files */,
+				9B55BB46563D7515CF6D22A4EB7AD8D2 /* Products */,
+				AE80EB044A6FDA2ABA8924B205901FDF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -6379,11 +6379,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9975709AFB0DF16C3A2A1ACDB2F0630 /* Headers */ = {
+		DC4CD1EEEB1434AF66664A4BD0267D88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D133BA4B2E47E575CC93DEF8435C878 /* Pods-Heku-umbrella.h in Headers */,
+				DEDD4E8F47D61CFEB45B49EC650084AB /* Pods-SiRent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6661,6 +6661,52 @@
 			productReference = 64057E6DA46338429475701C4F4E188C /* AARatingBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3DE8324C63E04B63F1D44FCA6469974F /* Pods-SiRent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9254AB811371FD32B475C42005588B3 /* Build configuration list for PBXNativeTarget "Pods-SiRent" */;
+			buildPhases = (
+				DC4CD1EEEB1434AF66664A4BD0267D88 /* Headers */,
+				155AD7F5D35F6AEF8D6065DE114400B8 /* Sources */,
+				B2B4700D1A47E23F607C8FD29756DC1E /* Frameworks */,
+				A85C63914BD52E85904EB327ED8446BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ECF0B72E595E60EC4A214A5C923903 /* PBXTargetDependency */,
+				F32B7DE9DE42F051594934536B4FF644 /* PBXTargetDependency */,
+				1154D61124761B23259B5172441A75B9 /* PBXTargetDependency */,
+				240A149A9EC059C8AF1F16EA7FCD7B8B /* PBXTargetDependency */,
+				24D2EB37BC0B13DCBF0696BEC2E5B7F1 /* PBXTargetDependency */,
+				A8B400938817E2051607715C96203633 /* PBXTargetDependency */,
+				F0659CCCBBEAB9F7543643D0BFEEA9B1 /* PBXTargetDependency */,
+				61BC2CC9B646E294750566496A5367EC /* PBXTargetDependency */,
+				547AC6689CE08FC4740735ACB3177B46 /* PBXTargetDependency */,
+				E488603B140FF0687C87B3672A9C2B02 /* PBXTargetDependency */,
+				5D60AA0252C7F9186E1460B86D786DF3 /* PBXTargetDependency */,
+				DA429B21A21102B24A3EC0545BA7E49C /* PBXTargetDependency */,
+				EE6AB2B3523D63A2FAD04B808F7D6A34 /* PBXTargetDependency */,
+				1152641E26BA873E7EB49306A652ED3C /* PBXTargetDependency */,
+				7EC8F9F6E1803F80E1097763EAC7CF72 /* PBXTargetDependency */,
+				1D8B208F4A812A2355159108F5ED58C1 /* PBXTargetDependency */,
+				4138440544F88AA7EBC1E33E810B7ACF /* PBXTargetDependency */,
+				C2DEF01D74CBD2B36804BDCC17F1BA22 /* PBXTargetDependency */,
+				B3C3F52D2C86A0C6707CF6D9A497FEF6 /* PBXTargetDependency */,
+				3F697F1399F6A981BF3732ECF091974E /* PBXTargetDependency */,
+				A4CCD7D5E0E0ED7BC97741B4AD665009 /* PBXTargetDependency */,
+				EBD91B654A819213CC6CDE1DEB35923D /* PBXTargetDependency */,
+				5F0E5358F7D67133064F2CF7C6AC3CC7 /* PBXTargetDependency */,
+				B87127FC8C26F166C7C908C4A24AC774 /* PBXTargetDependency */,
+				E4E7065CB850E736CCFA47EF46F2DA8F /* PBXTargetDependency */,
+				5B63F089657A140696CE596AE29EE547 /* PBXTargetDependency */,
+				3CB27661C4E1854F72598190D5EECAAE /* PBXTargetDependency */,
+				DE2F08314E1AD81F2D01E44AF9A93E44 /* PBXTargetDependency */,
+			);
+			name = "Pods-SiRent";
+			productName = "Pods-SiRent";
+			productReference = 22B0898CFB254F8AA30934A6B70B231B /* Pods_SiRent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4AFB864B337D1F74C1D79F4FC8F6C67F /* RangeSeekSlider */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F92D2D742855D9F023A19D0AA18BCFD /* Build configuration list for PBXNativeTarget "RangeSeekSlider" */;
@@ -6714,52 +6760,6 @@
 			productName = "AssetsPickerViewController-AssetsPickerViewController";
 			productReference = C902AA1461A7296D041FE44817DEB00B /* AssetsPickerViewController.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		7704A4D25A08CE0241E4DBD20870F518 /* Pods-Heku */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE83ADF039BF332B35C08C78EF483893 /* Build configuration list for PBXNativeTarget "Pods-Heku" */;
-			buildPhases = (
-				E9975709AFB0DF16C3A2A1ACDB2F0630 /* Headers */,
-				8BEB3193D7179FE085097FE821B463D1 /* Sources */,
-				C427FA5EF59712920B7D4C54F58D8869 /* Frameworks */,
-				53FCCAE0382077CBF74D95AB180654BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41DA79E52290E305D5340D420B7FD5A1 /* PBXTargetDependency */,
-				C4FE9144C5154B179DFBCF4D1F234136 /* PBXTargetDependency */,
-				9D625DB6549F1626E3669D8CF7BAFB52 /* PBXTargetDependency */,
-				E5CBE5A1BC15EB6C4619781AD2B9F5FB /* PBXTargetDependency */,
-				17710C50C28BD30BF23DE64DB9DC1FB4 /* PBXTargetDependency */,
-				BEE111E9C7C7764330EEC1B5EC051930 /* PBXTargetDependency */,
-				5B17522CD34A30549941CCEA2CF45C2C /* PBXTargetDependency */,
-				7E3B8266998092EBCD5252EF594D4A4E /* PBXTargetDependency */,
-				DF700FD2AA50D506984EB57A4D3C8F03 /* PBXTargetDependency */,
-				8E705892FDFA546F4049F345AF5284E6 /* PBXTargetDependency */,
-				C1AC5C8458BA1EB1751FCCD28904F388 /* PBXTargetDependency */,
-				803C7DBBE0E4F5051E5A133C68FAB311 /* PBXTargetDependency */,
-				B47444183AC65D087FEBCE828DF20CC1 /* PBXTargetDependency */,
-				A997DF235B17771D761403B24D5DCF0E /* PBXTargetDependency */,
-				F499D39E37D916B6137E07BCBD58114E /* PBXTargetDependency */,
-				3DE7354FAD9A7BCAAA3BF7DC08425423 /* PBXTargetDependency */,
-				1740E71A1517297BD95B4056EF693AAD /* PBXTargetDependency */,
-				339D59874263BE8F2BB74FC945954656 /* PBXTargetDependency */,
-				C5CBD6E5AC67D05E4AEDC503CCD8499F /* PBXTargetDependency */,
-				7B0E4457A6228AF51704293345094E3C /* PBXTargetDependency */,
-				0BDF60267397535BF43B950606B67CDF /* PBXTargetDependency */,
-				56CE36F58602B5FAFAD2561EDF12D3B3 /* PBXTargetDependency */,
-				8E2FA8ECE51B1D83F424708E8F85B84C /* PBXTargetDependency */,
-				D98D20DC674947C192430AC0ACA137D1 /* PBXTargetDependency */,
-				0FF2B4BC1D2914C9501ACB66DF922CC6 /* PBXTargetDependency */,
-				08A521C3C585A2D219E4E8A00B2621D0 /* PBXTargetDependency */,
-				0EA75359AC4B47FB162304B8B7A032A7 /* PBXTargetDependency */,
-				C45032231CA431D4D2F2246B6BA75AAB /* PBXTargetDependency */,
-			);
-			name = "Pods-Heku";
-			productName = "Pods-Heku";
-			productReference = 629F03024B52594CDFF90CEED753DFC5 /* Pods_Heku.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		7D16AA8F7EC4EF7813A32FAD35E1372E /* MKToolTip */ = {
 			isa = PBXNativeTarget;
@@ -7070,7 +7070,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 14AC849F18CB086B7CC8C73C706AF0C0 /* Products */;
+			productRefGroup = 9B55BB46563D7515CF6D22A4EB7AD8D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -7094,7 +7094,7 @@
 				55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */,
 				A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */,
 				7D16AA8F7EC4EF7813A32FAD35E1372E /* MKToolTip */,
-				7704A4D25A08CE0241E4DBD20870F518 /* Pods-Heku */,
+				3DE8324C63E04B63F1D44FCA6469974F /* Pods-SiRent */,
 				4AFB864B337D1F74C1D79F4FC8F6C67F /* RangeSeekSlider */,
 				CF5CC1898BADE9695356609391C13D77 /* SCPageControl */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
@@ -7197,13 +7197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		50E77406962BAF4F71E5E4622E720B8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53FCCAE0382077CBF74D95AB180654BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -7361,6 +7354,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A85C63914BD52E85904EB327ED8446BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE58D7CE046346035791E5151FC89AE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -7492,6 +7492,14 @@
 				3B8AC6FCB3FA9EE0CB4ECC13FF368C42 /* UIView+Dimmer.swift in Sources */,
 				C2F71B7A77D12E556D86BEE3E8626448 /* UIView+Fade.swift in Sources */,
 				736E66844E7D74B1D995F83E804BE0A7 /* UIView+KVO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155AD7F5D35F6AEF8D6065DE114400B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B70F5CC6A70818A742F84C2B46C16A /* Pods-SiRent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7970,14 +7978,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BEB3193D7179FE085097FE821B463D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15A6900142EDFFF076E45E5D9C96942C /* Pods-Heku-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		901B615255AAA5CF8C591867EB1F7D45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8283,41 +8283,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08A521C3C585A2D219E4E8A00B2621D0 /* PBXTargetDependency */ = {
+		1152641E26BA873E7EB49306A652ED3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = D1770398F001DD43804A1BD33149B34F /* PBXContainerItemProxy */;
+			name = JJFloatingActionButton;
+			target = E109C6B6B466F202BA0B94E76B45D72B /* JJFloatingActionButton */;
+			targetProxy = 354E7FEA6F39407F1E907AB1A4CF6FF5 /* PBXContainerItemProxy */;
 		};
-		0BDF60267397535BF43B950606B67CDF /* PBXTargetDependency */ = {
+		1154D61124761B23259B5172441A75B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 6F40721ED37A6D9AD04745E206C986FE /* PBXContainerItemProxy */;
-		};
-		0EA75359AC4B47FB162304B8B7A032A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
-			targetProxy = 20DEF837FBE7FC12FEA507F59538AC47 /* PBXContainerItemProxy */;
-		};
-		0FF2B4BC1D2914C9501ACB66DF922CC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftMessages;
-			target = DAB613A18652334F6BFC5F27BADF515D /* SwiftMessages */;
-			targetProxy = 6949B3AA346237DC8904249E074591DE /* PBXContainerItemProxy */;
-		};
-		1740E71A1517297BD95B4056EF693AAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MKToolTip;
-			target = 7D16AA8F7EC4EF7813A32FAD35E1372E /* MKToolTip */;
-			targetProxy = 28C41CD18ADA648D0060995A62BB0297 /* PBXContainerItemProxy */;
-		};
-		17710C50C28BD30BF23DE64DB9DC1FB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cheers;
-			target = 951A4F930D68247FCB09CF49D69A5989 /* Cheers */;
-			targetProxy = 7C9EB87C26F12398558DA0D99BC2CFD8 /* PBXContainerItemProxy */;
+			name = Apollo;
+			target = 30EE3CABB612307A688C40B61BFA74CC /* Apollo */;
+			targetProxy = 6453234A6E1134D162F07370C4974479 /* PBXContainerItemProxy */;
 		};
 		1A92A05A6912D4BEFFF0B8D215B7A01B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8325,11 +8301,23 @@
 			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
 			targetProxy = DD61F799984E33D3EDA4401CE9073912 /* PBXContainerItemProxy */;
 		};
-		339D59874263BE8F2BB74FC945954656 /* PBXTargetDependency */ = {
+		1D8B208F4A812A2355159108F5ED58C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MaterialComponents;
-			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
-			targetProxy = 0FD85C5E03F14BFB9747C54FD7401C34 /* PBXContainerItemProxy */;
+			name = MDFTextAccessibility;
+			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
+			targetProxy = BB10C609706220DD3509E2C014E7B792 /* PBXContainerItemProxy */;
+		};
+		240A149A9EC059C8AF1F16EA7FCD7B8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssetsPickerViewController;
+			target = 1A5F14BCFE84FB7253A3EF56BA525E08 /* AssetsPickerViewController */;
+			targetProxy = EDB32AD7D44E90444BBFB6507DB55590 /* PBXContainerItemProxy */;
+		};
+		24D2EB37BC0B13DCBF0696BEC2E5B7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cheers;
+			target = 951A4F930D68247FCB09CF49D69A5989 /* Cheers */;
+			targetProxy = F99736D9D3BCE79DB8B937098C4745BE /* PBXContainerItemProxy */;
 		};
 		37BD99B2D6DC1C7AD4A63D5BAAC7A9AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8337,65 +8325,65 @@
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
 			targetProxy = B4286FD6540D7357BBB1AFD55EB3D764 /* PBXContainerItemProxy */;
 		};
-		3DE7354FAD9A7BCAAA3BF7DC08425423 /* PBXTargetDependency */ = {
+		3CB27661C4E1854F72598190D5EECAAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MDFTextAccessibility;
-			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
-			targetProxy = 3075E26FFBC2311E6DE82AB53FFEE87F /* PBXContainerItemProxy */;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = 1B9D8090465B19DBA9E75BF06EAD05E2 /* PBXContainerItemProxy */;
 		};
-		41DA79E52290E305D5340D420B7FD5A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AARatingBar;
-			target = 3BCB913ED6495EC9E66CA9955763ACBD /* AARatingBar */;
-			targetProxy = 957574CCBCB170AF99E698394FFF2902 /* PBXContainerItemProxy */;
-		};
-		56CE36F58602B5FAFAD2561EDF12D3B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SKPhotoBrowser;
-			target = A729783D6899104794898A4D5C6298F6 /* SKPhotoBrowser */;
-			targetProxy = E58B197C6F53F805B8140240A55CBFA7 /* PBXContainerItemProxy */;
-		};
-		5B17522CD34A30549941CCEA2CF45C2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FTPopOverMenu_Swift;
-			target = 989619F863D399C5538843E81223983E /* FTPopOverMenu_Swift */;
-			targetProxy = D8EEFA917FBBCDFF65AA767E680DF022 /* PBXContainerItemProxy */;
-		};
-		7B0E4457A6228AF51704293345094E3C /* PBXTargetDependency */ = {
+		3F697F1399F6A981BF3732ECF091974E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SCPageControl;
 			target = CF5CC1898BADE9695356609391C13D77 /* SCPageControl */;
-			targetProxy = 8BE0C2672F3D27B6948C40179ADA132D /* PBXContainerItemProxy */;
+			targetProxy = 9C8BE993AF33ABA813E4B7D74D96A63C /* PBXContainerItemProxy */;
 		};
-		7E3B8266998092EBCD5252EF594D4A4E /* PBXTargetDependency */ = {
+		4138440544F88AA7EBC1E33E810B7ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = C991B3E9A13A5BA4ADEFA0E16B75FAD1 /* PBXContainerItemProxy */;
+			name = MKToolTip;
+			target = 7D16AA8F7EC4EF7813A32FAD35E1372E /* MKToolTip */;
+			targetProxy = 36CF718FAE551DECB2609B93D18FE913 /* PBXContainerItemProxy */;
 		};
-		803C7DBBE0E4F5051E5A133C68FAB311 /* PBXTargetDependency */ = {
+		547AC6689CE08FC4740735ACB3177B46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = IQKeyboardManagerSwift;
-			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = F6013CC6398BC71B7EEB80A6AAC28869 /* PBXContainerItemProxy */;
+			name = GooglePlacePicker;
+			target = 885917490BC3F1DF8613D63A80B4E196 /* GooglePlacePicker */;
+			targetProxy = 13DD9A3D4AAB0A0095D9D53858ED3D97 /* PBXContainerItemProxy */;
 		};
-		8E2FA8ECE51B1D83F424708E8F85B84C /* PBXTargetDependency */ = {
+		5B63F089657A140696CE596AE29EE547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 504E7BC841F35D57DB5FB8940536C1C9 /* PBXContainerItemProxy */;
+		};
+		5D60AA0252C7F9186E1460B86D786DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GrowingTextView;
+			target = 1696A504A8F8B95B82B2382D0A461BF4 /* GrowingTextView */;
+			targetProxy = 5C12B3D41B1DB7A11AE534EDAA67794B /* PBXContainerItemProxy */;
+		};
+		5F0E5358F7D67133064F2CF7C6AC3CC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = D7615E63E6C6ECBC7E1C289E3FF11B0A /* PBXContainerItemProxy */;
+			targetProxy = D3BF06A021609CEA7A7C42342ACF7C06 /* PBXContainerItemProxy */;
 		};
-		8E705892FDFA546F4049F345AF5284E6 /* PBXTargetDependency */ = {
+		61BC2CC9B646E294750566496A5367EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GooglePlaces;
-			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 98FB85FF0C01896289B79BDE178EC64C /* PBXContainerItemProxy */;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = CC1EB29FDEA3BAADFF27D3DFA2F5F8CD /* PBXContainerItemProxy */;
 		};
-		9D625DB6549F1626E3669D8CF7BAFB52 /* PBXTargetDependency */ = {
+		7EC8F9F6E1803F80E1097763EAC7CF72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Apollo;
-			target = 30EE3CABB612307A688C40B61BFA74CC /* Apollo */;
-			targetProxy = 5F92398EC2F2EEA73AC30BD6E49C508B /* PBXContainerItemProxy */;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = DCDAE54AF1A491972AB49958FEAAFFAB /* PBXContainerItemProxy */;
+		};
+		A4CCD7D5E0E0ED7BC97741B4AD665009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 99193F3E3D62FC86DC1FFB4132769913 /* PBXContainerItemProxy */;
 		};
 		A7237AB06D798AB7A38C7DD67369E249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8403,47 +8391,29 @@
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
 			targetProxy = 7D96D1DF3CAF610ACF08E8DFEC65ED2D /* PBXContainerItemProxy */;
 		};
-		A997DF235B17771D761403B24D5DCF0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JJFloatingActionButton;
-			target = E109C6B6B466F202BA0B94E76B45D72B /* JJFloatingActionButton */;
-			targetProxy = 35013EF392D21B5DA24A8CC3A9EF4E52 /* PBXContainerItemProxy */;
-		};
-		B47444183AC65D087FEBCE828DF20CC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ISPageControl;
-			target = F23D4F6156404CC63E73C0233E7F92B1 /* ISPageControl */;
-			targetProxy = AEADF3E6C6351599A6F5246BCCA9A9C9 /* PBXContainerItemProxy */;
-		};
-		BEE111E9C7C7764330EEC1B5EC051930 /* PBXTargetDependency */ = {
+		A8B400938817E2051607715C96203633 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cosmos;
 			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
-			targetProxy = A4F9535A00F752140E2E5956BC97E0E5 /* PBXContainerItemProxy */;
+			targetProxy = 4FE13EC03358192B583BA39A9671B0CF /* PBXContainerItemProxy */;
 		};
-		C1AC5C8458BA1EB1751FCCD28904F388 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GrowingTextView;
-			target = 1696A504A8F8B95B82B2382D0A461BF4 /* GrowingTextView */;
-			targetProxy = 958038A3614AEDE49F02C569546948FB /* PBXContainerItemProxy */;
-		};
-		C45032231CA431D4D2F2246B6BA75AAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lottie-ios";
-			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
-			targetProxy = 465F867AA76E825B07536AD3F4A3BB17 /* PBXContainerItemProxy */;
-		};
-		C4FE9144C5154B179DFBCF4D1F234136 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = CFA08B23321BD08679FC616663FD5B33 /* PBXContainerItemProxy */;
-		};
-		C5CBD6E5AC67D05E4AEDC503CCD8499F /* PBXTargetDependency */ = {
+		B3C3F52D2C86A0C6707CF6D9A497FEF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RangeSeekSlider;
 			target = 4AFB864B337D1F74C1D79F4FC8F6C67F /* RangeSeekSlider */;
-			targetProxy = 3D52D66FD5D4CDB81497A3851352813F /* PBXContainerItemProxy */;
+			targetProxy = C8F6FAF80CA534B4DC4AF3BA066510C7 /* PBXContainerItemProxy */;
+		};
+		B87127FC8C26F166C7C908C4A24AC774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Stripe;
+			target = AF94554BF4D2D7509628207456EC737D /* Stripe */;
+			targetProxy = BCE159A0F3DFEEBE2D97E741FFA2AA77 /* PBXContainerItemProxy */;
+		};
+		C2DEF01D74CBD2B36804BDCC17F1BA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = 6317E825B74CF243AC9935A239F3F818 /* PBXContainerItemProxy */;
 		};
 		C76CF6997078311258F12C6EDEF10309 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8457,29 +8427,35 @@
 			target = 93789445511E3FEAB3D09A6F552EEE2D /* SwiftMessages-SwiftMessages */;
 			targetProxy = 04A61565CBB38FF0AEDE78873DE441A9 /* PBXContainerItemProxy */;
 		};
-		D98D20DC674947C192430AC0ACA137D1 /* PBXTargetDependency */ = {
+		DA429B21A21102B24A3EC0545BA7E49C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Stripe;
-			target = AF94554BF4D2D7509628207456EC737D /* Stripe */;
-			targetProxy = 714CB25D62A9327E30C226EE5D193B04 /* PBXContainerItemProxy */;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 81E7A73E907BB578C4003B6CAFA477FA /* PBXContainerItemProxy */;
 		};
-		DF700FD2AA50D506984EB57A4D3C8F03 /* PBXTargetDependency */ = {
+		DE2F08314E1AD81F2D01E44AF9A93E44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GooglePlacePicker;
-			target = 885917490BC3F1DF8613D63A80B4E196 /* GooglePlacePicker */;
-			targetProxy = C83A1251146F7FA68A633B1B873CADEC /* PBXContainerItemProxy */;
+			name = "lottie-ios";
+			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
+			targetProxy = 7213689736CD9F8D667BB0DADE647B47 /* PBXContainerItemProxy */;
+		};
+		E488603B140FF0687C87B3672A9C2B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 3B0CE18744F6ED56C417862CD2930DA6 /* PBXContainerItemProxy */;
+		};
+		E4E7065CB850E736CCFA47EF46F2DA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = DAB613A18652334F6BFC5F27BADF515D /* SwiftMessages */;
+			targetProxy = D6A039379D3B362B0D661E2B01A3F4BE /* PBXContainerItemProxy */;
 		};
 		E577140382BA6297F7C9DA0C213124C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
 			targetProxy = 1821D03A1F54E7F1CE0BBA620410B2B0 /* PBXContainerItemProxy */;
-		};
-		E5CBE5A1BC15EB6C4619781AD2B9F5FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AssetsPickerViewController;
-			target = 1A5F14BCFE84FB7253A3EF56BA525E08 /* AssetsPickerViewController */;
-			targetProxy = 0CF4B38F98785DE65017153930B5573C /* PBXContainerItemProxy */;
 		};
 		EA270B763698DA9740B7424EC7DC003B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8493,17 +8469,41 @@
 			target = 6D88DAA122254F156CB3A8BEA17EC6BD /* AssetsPickerViewController-AssetsPickerViewController */;
 			targetProxy = B63FB38ADD901ECE4FEEF32661C2DEC4 /* PBXContainerItemProxy */;
 		};
+		EBD91B654A819213CC6CDE1DEB35923D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKPhotoBrowser;
+			target = A729783D6899104794898A4D5C6298F6 /* SKPhotoBrowser */;
+			targetProxy = 84F7F39309D9D128A07BE4E5C199EA67 /* PBXContainerItemProxy */;
+		};
+		EE6AB2B3523D63A2FAD04B808F7D6A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISPageControl;
+			target = F23D4F6156404CC63E73C0233E7F92B1 /* ISPageControl */;
+			targetProxy = 3275660300717A534B065EB2B120E339 /* PBXContainerItemProxy */;
+		};
+		F0659CCCBBEAB9F7543643D0BFEEA9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTPopOverMenu_Swift;
+			target = 989619F863D399C5538843E81223983E /* FTPopOverMenu_Swift */;
+			targetProxy = 1D0157C044237FE9299C60C0754E7E9A /* PBXContainerItemProxy */;
+		};
 		F0EDAE1D091BB32EAE8D692C18368294 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Stripe-Stripe";
 			target = 2C0B358979DDB18B955A5CBE02F51805 /* Stripe-Stripe */;
 			targetProxy = F4BFA0C4F89A0AA2B44C4F7E66928C8A /* PBXContainerItemProxy */;
 		};
-		F499D39E37D916B6137E07BCBD58114E /* PBXTargetDependency */ = {
+		F32B7DE9DE42F051594934536B4FF644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MDFInternationalization;
-			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = 7AB00260DB2C1F8B36A0B56EC9D1A409 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = C8EB265A5DD03E7D3E6FE1AE3A7FE0B4 /* PBXContainerItemProxy */;
+		};
+		F7ECF0B72E595E60EC4A214A5C923903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AARatingBar;
+			target = 3BCB913ED6495EC9E66CA9955763ACBD /* AARatingBar */;
+			targetProxy = 0F00376D1F8DB8356389411990211CEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -8843,6 +8843,43 @@
 			};
 			name = Release;
 		};
+		3207E5BE604BB321F562FD25F0EB5ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C549A7B42CD881DB4275004DED52626E /* Pods-SiRent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiRent/Pods-SiRent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiRent/Pods-SiRent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		342D5E335C62011B2F81274257DBE322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27F7BDC9A9144D7B30A8C11E7C7CC075 /* GooglePlaces.debug.xcconfig */;
@@ -9130,6 +9167,44 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		498518118F481E0220E60177B9ADE1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FFA8BBB3DCDA55C8D6DC6D1A502CBD /* Pods-SiRent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiRent/Pods-SiRent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiRent/Pods-SiRent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4D75A0953CD3665FD2392F6A71D64130 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -10043,43 +10118,6 @@
 			};
 			name = Release;
 		};
-		C11346A7E384D041045931A55B516D76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE415C515EE20B27CC781288920CB8AB /* Pods-Heku.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Heku/Pods-Heku-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Heku/Pods-Heku.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C2556331422D9DAF77898755DD5326EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D68ECBDDFD4F40E711C466F0184F1C2 /* SwiftMessages.release.xcconfig */;
@@ -10490,44 +10528,6 @@
 			};
 			name = Release;
 		};
-		F74A4BB426162ED1DD9AA4771F0BCAAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1384EA02CBED7B2EE1D162634C046DD0 /* Pods-Heku.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Heku/Pods-Heku-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Heku/Pods-Heku.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FB65020568EC9EF80422988542C6D033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50F75E19DFDDC102FC3213ECD1B58166 /* Stripe.debug.xcconfig */;
@@ -10870,6 +10870,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C9254AB811371FD32B475C42005588B3 /* Build configuration list for PBXNativeTarget "Pods-SiRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3207E5BE604BB321F562FD25F0EB5ABE /* Debug */,
+				498518118F481E0220E60177B9ADE1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10902,15 +10911,6 @@
 			buildConfigurations = (
 				62B4B9B498266C5DAE8864313FC3FC3C /* Debug */,
 				F04A2020F3FAD95D6DD6A9C13AE04CCC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE83ADF039BF332B35C08C78EF483893 /* Build configuration list for PBXNativeTarget "Pods-Heku" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C11346A7E384D041045931A55B516D76 /* Debug */,
-				F74A4BB426162ED1DD9AA4771F0BCAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

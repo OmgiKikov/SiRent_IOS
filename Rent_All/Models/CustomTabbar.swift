@@ -19,19 +19,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
         self.delegate = self
     
         if let tabItems = self.tabBar.items {
-            // In this case we want to modify the badge number of the third tab:
-//            if((Utility.shared.getCurrentUserToken()) != nil && (Utility.shared.getCurrentUserToken()) != "")
-//            {
-//            let tabItem = tabItems[4]
-//            tabItem.badgeValue = "●"
-//            tabItem.badgeColor = .clear
-//            tabItem.setBadgeTextAttributes([NSAttributedString.Key(rawValue: NSAttributedString.Key.foregroundColor.rawValue): Red_color], for: .normal)
-//            }
-//            else
-//            {
-//                let tabItem = tabItems[4]
-//                tabItem.badgeValue = nil
-//            }
+
         }
        
       //  bannerViewConfig()
@@ -92,19 +80,19 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
         let exploreObj = ExplorePageVC()
         print(Utility.shared.getLanguage()?.value(forKey: "tabexplore"))
         
-        self.config(viewController:exploreObj, selImg:#imageLiteral(resourceName: "tabsearch_red"),unselectImg:#imageLiteral(resourceName: "tabsearch"), index: 0,title:"Explore")
+        self.config(viewController:exploreObj, selImg:#imageLiteral(resourceName: "tabsearch_red"),unselectImg:#imageLiteral(resourceName: "tabsearch"), index: 0,title:"Главная")
         //SavedPageVC
         let saveObj = SavedPageVC()
-        self.config(viewController:saveObj, selImg: #imageLiteral(resourceName: "tabsaved_red"),unselectImg:#imageLiteral(resourceName: "tabsaved"), index: 1,title:"Save")
+        self.config(viewController:saveObj, selImg: #imageLiteral(resourceName: "tabsaved_red"),unselectImg:#imageLiteral(resourceName: "tabsaved"), index: 1,title:"Избранное")
         // TripsMainVC
         let tripsObj = TripsMainVC()
-        self.config(viewController:tripsObj,selImg:#imageLiteral(resourceName: "tabtrip_red"),unselectImg:#imageLiteral(resourceName: "tabtrip"), index: 2,title:"Trips")
+        self.config(viewController:tripsObj,selImg:#imageLiteral(resourceName: "tabtrip_red"),unselectImg:#imageLiteral(resourceName: "tabtrip"), index: 2,title:"Поездки")
         // TripsMessageVC
         let messgaeObj = TripsMessageVC()
-        self.config(viewController:messgaeObj,selImg:#imageLiteral(resourceName: "tabchat_red"),unselectImg:#imageLiteral(resourceName: "tabchat"), index:3,title:"Inbox")
+        self.config(viewController:messgaeObj,selImg:#imageLiteral(resourceName: "tabchat_red"),unselectImg:#imageLiteral(resourceName: "tabchat"), index:3,title:"Сообщения")
         //ProfilePageVC
         let profileObj = ProfilePageVC()
-        self.config(viewController:profileObj,selImg:#imageLiteral(resourceName: "tabprofile_red"),unselectImg:#imageLiteral(resourceName: "tabprofile"), index:4,title:"Profile")
+        self.config(viewController:profileObj,selImg:#imageLiteral(resourceName: "tabprofile_red"),unselectImg:#imageLiteral(resourceName: "tabprofile"), index:4,title:"Профиль")
        
         //self.configBtn()
         let tabBarList = [exploreObj,saveObj,tripsObj,messgaeObj,profileObj]

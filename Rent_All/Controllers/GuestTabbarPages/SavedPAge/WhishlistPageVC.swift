@@ -201,7 +201,7 @@ class WhishlistPageVC: UIViewController,UICollectionViewDelegate,UICollectionVie
                 cell.titleLabel.frame.size.width = 261
             }
             
-            cell.homeLabel.text =  "\(whishlistarray[indexPath.row].wishListCount!) \((Utility.shared.getLanguage()?.value(forKey:"home"))!)\(whishlistarray[indexPath.row].wishListCount! > 1 ? "s" : "")"
+            cell.homeLabel.text =  "\(whishlistarray[indexPath.row].wishListCount!) \((Utility.shared.getLanguage()?.value(forKey:"home"))!)\(whishlistarray[indexPath.row].wishListCount! > 1 ? "" : "")"
         }
         else
         {

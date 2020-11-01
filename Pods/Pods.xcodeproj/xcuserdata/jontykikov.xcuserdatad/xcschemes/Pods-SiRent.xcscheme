@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7704A4D25A08CE0241E4DBD20870F518"
-               BuildableName = "Pods_Heku.framework"
-               BlueprintName = "Pods-Heku"
+               BlueprintIdentifier = "3DE8324C63E04B63F1D44FCA6469974F"
+               BuildableName = "Pods_SiRent.framework"
+               BlueprintName = "Pods-SiRent"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

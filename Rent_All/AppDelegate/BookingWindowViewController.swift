@@ -131,9 +131,9 @@ class BookingWindowViewController: BaseHostTableviewController {
     func setStaticArray()
     {
        
-        staticArray.append("\((Utility.shared.getLanguage()?.value(forKey:"flexible"))!)")
-        staticArray.append("\((Utility.shared.getLanguage()?.value(forKey:"moderate"))!)")
-        staticArray.append("\((Utility.shared.getLanguage()?.value(forKey:"strict"))!)")
+        staticArray.append("Гибкая")
+        staticArray.append("Умеренная")
+        staticArray.append("Строгий")
         if(Utility.shared.step3ValuesInfo["cancellationPolicy"] != nil)
         {
             if((Utility.shared.step3ValuesInfo["cancellationPolicy"] as? Int)! == 1)

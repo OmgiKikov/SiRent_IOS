@@ -71,8 +71,8 @@ class NoticeArrivalViewController: BaseHostTableviewController {
         }
         fromTimeArray = ["Flexible","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"]
         toTimeArray = ["Flexible","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26"]
-        fromoptionsArray = ["Flexible","8AM","9AM","10AM","11AM","12PM(noon)","1PM","2PM","3PM","4PM","5PM","6PM","7PM","8PM","9PM","10PM","11PM","12AM (mid night)","1AM (next day)"]
-        tooptionsArray = ["Flexible","9AM","10AM","11AM","12PM(noon)","1PM","2PM","3PM","4PM","5PM","6PM","7PM","8PM","9PM","10PM","11PM","12AM (mid night)","1AM (next day)","2PM (next day)"]
+        fromoptionsArray = ["Flexible","8:00","9:00","10:00","11:00","12:00(noon)","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","14:00 (mid night)","01:00 (next day)"]
+        tooptionsArray = ["Flexible","9:00","10:00","11:00","12:00(noon)","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","24:00 (mid night)","01:00 (next day)","02:00 (next day)"]
     }
     
     override func setDropdownList() {

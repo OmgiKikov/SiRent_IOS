@@ -243,8 +243,8 @@ class BookingItenaryVC: UIViewController,UITableViewDelegate,UITableViewDataSour
             }
             else
             {
-                cell.checkinLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"flexible"))!)"
-                cell.checkoutLabel.text = "\((Utility.shared.getLanguage()?.value(forKey:"flexible"))!)"
+                cell.checkinLabel.text = "Flexible"
+                cell.checkoutLabel.text = "Flexible"
             }
 //            if(getReservationArray.listData?.listingData?.checkInStart != "Flexible")
 //            {
@@ -343,7 +343,7 @@ class BookingItenaryVC: UIViewController,UITableViewDelegate,UITableViewDataSour
             
 //            let currencysymbol = Utility.shared.getSymbol(forCurrencyCode:(getReservationArray.currency!))
 //            cell.priceLabel.text =  "\(currencysymbol!)\(getReservationArray.totalWithGuestServiceFee!)"
-            cell.stayLabel.text = "\(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "s" : "")"
+            cell.stayLabel.text = "\(getReservationArray.nights!) \((Utility.shared.getLanguage()?.value(forKey:"night"))!)\(getReservationArray.nights! > 1 ? "" : "")"
             return cell
         }
     }

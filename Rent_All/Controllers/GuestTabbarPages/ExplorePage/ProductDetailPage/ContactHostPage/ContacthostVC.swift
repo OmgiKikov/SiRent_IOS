@@ -315,7 +315,7 @@ func ContacthostAPICall(message:String)
             else{
                 cell.ratingView.rating = 0
             }
-            cell.reviewLabel.text = "\(viewListingArray.reviewsCount!) \((Utility.shared.getLanguage()?.value(forKey:"review"))!)\(viewListingArray.reviewsCount! > 1 ? "s" : "")"
+            cell.reviewLabel.text = "\(viewListingArray.reviewsCount!) \((Utility.shared.getLanguage()?.value(forKey:"review"))!)\(viewListingArray.reviewsCount! > 1 ? "" : "")"
             cell.listBtn.tag = indexPath.row
             cell.listBtn.addTarget(self, action: #selector(listBtnTapped), for: .touchUpInside)
             
@@ -469,10 +469,10 @@ func ContacthostAPICall(message:String)
         self.guest_filter = adult
         
         let human = adult + children
-        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "s" : "")) : "")"
+        let infant = "\(infant > 0 ? (infant.description + " infant" + (infant > 1 ? "" : "")) : "")"
         let pet = "\(pet ? "pets" : "")"
         guest_Count = human
-        guestLabel_text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "s" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
+        guestLabel_text = "\(human) \((Utility.shared.getLanguage()?.value(forKey:"guest"))!)\(human > 1 ? "" : "")" + (infant != "" ? ", " + infant : "") + (pet != "" ? ", " + pet : "")
         contacthostTable.reloadData()
         
     }

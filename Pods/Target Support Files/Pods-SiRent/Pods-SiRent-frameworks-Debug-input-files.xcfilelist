@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-Heku/Pods-Heku-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-SiRent/Pods-SiRent-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AARatingBar/AARatingBar.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework
