@@ -82,7 +82,7 @@ class CustomHostTabbar: UITabBarController,UITabBarControllerDelegate {
         {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                 welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -93,7 +93,7 @@ class CustomHostTabbar: UITabBarController,UITabBarControllerDelegate {
         {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                   welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -111,7 +111,7 @@ class CustomHostTabbar: UITabBarController,UITabBarControllerDelegate {
         {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                   welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -128,7 +128,7 @@ class CustomHostTabbar: UITabBarController,UITabBarControllerDelegate {
         {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                 welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)

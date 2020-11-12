@@ -268,7 +268,7 @@ class GuestDetailVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                 if Utility().isConnectedToNetwork(){
                     if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
                     {
-                        let welcomeObj = WelcomePageVC()
+                        let welcomeObj = SignInViewController()
                         welcomeObj.modalPresentationStyle = .fullScreen
                         self.present(welcomeObj, animated:false, completion: nil)
                         
@@ -645,7 +645,7 @@ func initialSetup()
          if Utility().isConnectedToNetwork(){
         if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
         {
-            let welcomeObj = WelcomePageVC()
+            let welcomeObj = SignInViewController()
              welcomeObj.modalPresentationStyle = .fullScreen
             self.present(welcomeObj, animated:false, completion: nil)
             //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -702,7 +702,7 @@ func initialSetup()
         if Utility().isConnectedToNetwork(){
         if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
         {
-            let welcomeObj = WelcomePageVC()
+            let welcomeObj = SignInViewController()
             welcomeObj.modalPresentationStyle = .fullScreen
             self.present(welcomeObj, animated:false, completion: nil)
             //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -2137,7 +2137,7 @@ func initialSetup()
                     if Utility().isConnectedToNetwork(){
                         if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
                         {
-                            let welcomeObj = WelcomePageVC()
+                            let welcomeObj = SignInViewController()
                             welcomeObj.modalPresentationStyle = .fullScreen
                             self.present(welcomeObj, animated:false, completion: nil)
                             //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -2237,7 +2237,7 @@ func initialSetup()
                     if Utility().isConnectedToNetwork(){
                         if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
                         {
-                            let welcomeObj = WelcomePageVC()
+                            let welcomeObj = SignInViewController()
                             welcomeObj.modalPresentationStyle = .fullScreen
                             self.present(welcomeObj, animated:false, completion: nil)
                             //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -2334,7 +2334,7 @@ func initialSetup()
                         if Utility().isConnectedToNetwork(){
                             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
                             {
-                                let welcomeObj = WelcomePageVC()
+                                let welcomeObj = SignInViewController()
                                  welcomeObj.modalPresentationStyle = .fullScreen
                                 self.present(welcomeObj, animated:false, completion: nil)
                                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -2433,7 +2433,7 @@ func initialSetup()
                          if Utility().isConnectedToNetwork(){
                             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
                             {
-                                let welcomeObj = WelcomePageVC()
+                                let welcomeObj = SignInViewController()
                                 welcomeObj.modalPresentationStyle = .fullScreen
                                 self.present(welcomeObj, animated:false, completion: nil)
                                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -2706,7 +2706,7 @@ func initialSetup()
     {
         if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
         {
-            let welcomeObj = WelcomePageVC()
+            let welcomeObj = SignInViewController()
              welcomeObj.modalPresentationStyle = .fullScreen
             self.present(welcomeObj, animated:false, completion: nil)
             //  appDelegate.setInitialViewController(initialView: welcomeObj)

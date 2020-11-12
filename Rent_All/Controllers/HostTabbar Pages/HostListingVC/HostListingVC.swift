@@ -412,7 +412,7 @@ class HostListingVC: UIViewController,UITableViewDelegate,UITableViewDataSource,
                     
                 }else{
                     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-                     let welcomeObj = WelcomePageVC()
+                     let welcomeObj = SignInViewController()
                     // self.present(welcomeObj, animated:false, completion: nil)
                      appDelegate.setInitialViewController(initialView: welcomeObj)
                     //self.view.makeToast("Something went wrong")

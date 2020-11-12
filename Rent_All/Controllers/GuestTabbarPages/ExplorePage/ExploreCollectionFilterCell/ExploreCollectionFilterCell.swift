@@ -22,20 +22,15 @@ class ExploreCollectionFilterCell: UICollectionViewCell,ImageScrollerDelegate {
     //MARK:************************************** IBOUTLET CONNECTIONS *******************************************>
     
     @IBOutlet var homeImage: UIImageView!
-    
     @IBOutlet weak var Pagecontrol: ISPageControl!
     @IBOutlet weak var likeBtn: UIButton!
-    
     @IBOutlet weak var instantImg: UIImageView!
     @IBOutlet weak var imageScroller: ImageScroller!
-    
     @IBOutlet var transparentView: UIView!
     @IBOutlet var priceLabel: UILabel!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var entirehomeLabel: UILabel!
-    
     @IBOutlet var ratingView: CosmosView!
-    
     @IBOutlet weak var countLabel: UILabel!
     
     override func awakeFromNib() {

@@ -603,7 +603,7 @@ class ProfilePageVC: UIViewController,UITableViewDataSource,UITableViewDelegate,
         UserDefaults.standard.removeObject(forKey: "password")
         UserDefaults.standard.removeObject(forKey: "currency_rate")
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let welcomeObj = WelcomePageVC()
+        let welcomeObj = SignInViewController()
         appDelegate.setInitialViewController(initialView: welcomeObj)
     }
     func userlogoutAPICall()

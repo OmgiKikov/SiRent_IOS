@@ -79,6 +79,7 @@ PODS:
   - SDWebImage/Core (5.9.2)
   - SKPhotoBrowser (6.1.0)
   - SnapKit (5.0.1)
+  - SpringIndicator (5.0.0)
   - Stripe (20.0.0)
   - SwiftMessages (8.0.2):
     - SwiftMessages/App (= 8.0.2)
@@ -108,6 +109,7 @@ DEPENDENCIES:
   - SCPageControl
   - SDWebImage
   - SKPhotoBrowser
+  - SpringIndicator
   - Stripe
   - SwiftMessages
   - SwiftyJSON
@@ -139,6 +141,7 @@ SPEC REPOS:
     - SDWebImage
     - SKPhotoBrowser
     - SnapKit
+    - SpringIndicator
     - Stripe
     - SwiftMessages
     - SwiftyJSON
@@ -169,11 +172,12 @@ SPEC CHECKSUMS:
   SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
   SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SpringIndicator: 111bf862e1415e5ac7b3a43c0cd09633d5715fd6
   Stripe: 339e8c50d3a27dcbe9a4f35b98c260fb9715d962
   SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 4ca350bcce3818f7dd0970d587e994fffefc1645
+PODFILE CHECKSUM: 49dee35ba6a4c5a9cb3a5a26772886f9fe3bbcbf
 
 COCOAPODS: 1.9.3

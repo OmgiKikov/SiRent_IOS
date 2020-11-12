@@ -10,6 +10,13 @@
 		1E0804EC254508BD00C30D24 /* Русский.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E0804EB254508BD00C30D24 /* Русский.json */; };
 		1E0804EE2545093D00C30D24 /* English.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E0804ED2545093D00C30D24 /* English.json */; };
 		1E0804F025450A3500C30D24 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E0804EF25450A3500C30D24 /* File.strings */; };
+		1E5D839A255A0CFF00396150 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D8399255A0CFF00396150 /* Loader.swift */; };
+		1E5D83A0255A1B1100396150 /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D839F255A1B1000396150 /* UIViewController+Helpers.swift */; };
+		1E7A5C6E2554F86400285124 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A5C6C2554F86300285124 /* SignInViewController.swift */; };
+		1E7A5C6F2554F86400285124 /* SignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A5C6D2554F86400285124 /* SignInView.xib */; };
+		1E7A5C722554F8AB00285124 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A5C712554F8AB00285124 /* UITextField+Extension.swift */; };
+		1ECC760A255C573B004B7A3D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC7608255C5730004B7A3D /* SignUpViewController.swift */; };
+		1ECC760B255C573B004B7A3D /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ECC7609255C573B004B7A3D /* SignUpViewController.xib */; };
 		2C024E5522F1575B00217EBE /* BathroomsListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C024E5322F1575B00217EBE /* BathroomsListingViewController.swift */; };
 		2C024E5622F1575B00217EBE /* BathroomsListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C024E5422F1575B00217EBE /* BathroomsListingViewController.xib */; };
 		2C024E5922F19E7200217EBE /* AddressListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C024E5722F19E7200217EBE /* AddressListingViewController.swift */; };
@@ -109,8 +116,6 @@
 		B501C7312282DF4200D4E0E5 /* Language.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B501C7302282DF4200D4E0E5 /* Language.graphql */; };
 		B502241D22A1234A00E0A34A /* Reservsation.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B502241C22A1234A00E0A34A /* Reservsation.graphql */; };
 		B51E62AD2245005C00356E3F /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B51E62AC2245005C00356E3F /* profile.png */; };
-		B51F80C62240CBA300E437C1 /* WelcomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F80C42240CBA300E437C1 /* WelcomePageVC.swift */; };
-		B51F80C72240CBA300E437C1 /* WelcomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51F80C52240CBA300E437C1 /* WelcomePageVC.xib */; };
 		B51F80CB2240E30000E437C1 /* HSColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F80CA2240E30000E437C1 /* HSColor+UIColor.swift */; };
 		B51F80CD2240E30800E437C1 /* HSLabel+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F80CC2240E30800E437C1 /* HSLabel+UILabel.swift */; };
 		B51F80CF2240E31100E437C1 /* HSImage+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F80CE2240E31100E437C1 /* HSImage+UIImage.swift */; };
@@ -151,12 +156,6 @@
 		B534740F224B8054003D8F89 /* AirbnbDatePickerMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534740E224B8054003D8F89 /* AirbnbDatePickerMonthHeader.swift */; };
 		B5347411224B805F003D8F89 /* AirbnbDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5347410224B805F003D8F89 /* AirbnbDatePickerViewController.swift */; };
 		B5347413224B830D003D8F89 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5347412224B830D003D8F89 /* UIColor.swift */; };
-		B535D19022438C7000F691C4 /* EmailPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535D18E22438C7000F691C4 /* EmailPageVC.swift */; };
-		B535D19122438C7000F691C4 /* EmailPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B535D18F22438C7000F691C4 /* EmailPageVC.xib */; };
-		B535D1952243A33E00F691C4 /* DateofBirthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535D1932243A33E00F691C4 /* DateofBirthVC.swift */; };
-		B535D1962243A33E00F691C4 /* DateofBirthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B535D1942243A33E00F691C4 /* DateofBirthVC.xib */; };
-		B535D19A2243B6EB00F691C4 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535D1982243B6EB00F691C4 /* PasswordVC.swift */; };
-		B535D19B2243B6EB00F691C4 /* PasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B535D1992243B6EB00F691C4 /* PasswordVC.xib */; };
 		B53772E12248A8E900F5976C /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53772E02248A8E900F5976C /* BaseCell.swift */; };
 		B53772E32248A93300F5976C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53772E22248A93300F5976C /* Theme.swift */; };
 		B53772E52248AA7500F5976C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53772E42248AA7500F5976C /* Date.swift */; };
@@ -257,7 +256,7 @@
 		B561E6E622D5DD5B00B18368 /* whishheaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B561E6E422D5DD5B00B18368 /* whishheaderView.xib */; };
 		B56303CE22B20B4600ABAE78 /* ReceiverMessageonlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56303CC22B20B4600ABAE78 /* ReceiverMessageonlyCell.swift */; };
 		B56303CF22B20B4600ABAE78 /* ReceiverMessageonlyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56303CD22B20B4600ABAE78 /* ReceiverMessageonlyCell.xib */; };
-		B564CC0323C5D6F900F8759C /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		B564CC0323C5D6F900F8759C /* (null) in Resources */ = {isa = PBXBuildFile; };
 		B564CC0523C5DB4600F8759C /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564CC0423C5DB4600F8759C /* UIImage+Gif.swift */; };
 		B56602D422E9681E00A144CE /* InProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56602D222E9681E00A144CE /* InProgressCell.swift */; };
 		B56602D522E9681E00A144CE /* InProgressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56602D322E9681E00A144CE /* InProgressCell.xib */; };
@@ -285,8 +284,6 @@
 		B569BA1722AB98150031C6CE /* ContactusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569BA1522AB98150031C6CE /* ContactusVC.swift */; };
 		B569BA1822AB98150031C6CE /* ContactusVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B569BA1622AB98150031C6CE /* ContactusVC.xib */; };
 		B569BA1A22ABB1A80031C6CE /* contactsupport.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B569BA1922ABB1A80031C6CE /* contactsupport.graphql */; };
-		B56F3ACC22411A1E006AFEB7 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F3ACA22411A1E006AFEB7 /* LoginPageVC.swift */; };
-		B56F3ACD22411A1E006AFEB7 /* LoginPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56F3ACB22411A1E006AFEB7 /* LoginPageVC.xib */; };
 		B570950C22AE1B5D000E6A07 /* InboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570950A22AE1B5D000E6A07 /* InboxCell.swift */; };
 		B570950D22AE1B5D000E6A07 /* InboxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B570950B22AE1B5D000E6A07 /* InboxCell.xib */; };
 		B570951022AE1BCE000E6A07 /* InboxContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570950E22AE1BCE000E6A07 /* InboxContentCell.swift */; };
@@ -330,11 +327,9 @@
 		B5AD18E422E8867700EF84AC /* HostListingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AD18E222E8867700EF84AC /* HostListingVC.xib */; };
 		B5AD7DB1224207BD00E10420 /* HSTextField+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DB0224207BD00E10420 /* HSTextField+UITextField.swift */; };
 		B5AD7DB32242120000E10420 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DB22242120000E10420 /* String.swift */; };
-		B5AD7DB722424A5F00E10420 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DB522424A5F00E10420 /* ForgotPasswordVC.swift */; };
-		B5AD7DB822424A5F00E10420 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AD7DB622424A5F00E10420 /* ForgotPasswordVC.xib */; };
+		B5AD7DB722424A5F00E10420 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DB522424A5F00E10420 /* ForgotPasswordViewController.swift */; };
+		B5AD7DB822424A5F00E10420 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AD7DB622424A5F00E10420 /* ForgotPasswordViewController.xib */; };
 		B5AD7DBB2242631500E10420 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B5AD7DBA2242631500E10420 /* loading.json */; };
-		B5AD7DC02242700C00E10420 /* FirstLastnamePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DBE2242700C00E10420 /* FirstLastnamePageVC.swift */; };
-		B5AD7DC12242700C00E10420 /* FirstLastnamePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AD7DBF2242700C00E10420 /* FirstLastnamePageVC.xib */; };
 		B5B23236229C01B800515A55 /* RequestbookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B23234229C01B800515A55 /* RequestbookVC.swift */; };
 		B5B23237229C01B800515A55 /* RequestbookVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B23235229C01B800515A55 /* RequestbookVC.xib */; };
 		B5B91A6A24208EFE008AC5CB /* popularcollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B91A6824208EFE008AC5CB /* popularcollectionCell.swift */; };
@@ -388,8 +383,6 @@
 		B5D4AF41230673DF0066BD3F /* PayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4AF3F230673DF0066BD3F /* PayoutCell.swift */; };
 		B5D4AF42230673DF0066BD3F /* PayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D4AF40230673DF0066BD3F /* PayoutCell.xib */; };
 		B5D4AF44230685550066BD3F /* payout.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B5D4AF43230685550066BD3F /* payout.graphql */; };
-		B5D61CF22260962E00152DB4 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D61CF02260962E00152DB4 /* ResetPasswordVC.swift */; };
-		B5D61CF32260962E00152DB4 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D61CF12260962E00152DB4 /* ResetPasswordVC.xib */; };
 		B5E4CEDB22A0EC2900FC9A3D /* OfflinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4CEDA22A0EC2900FC9A3D /* OfflinePage.swift */; };
 		B5E4CEDD22A0EC2E00FC9A3D /* OfflinePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E4CEDC22A0EC2D00FC9A3D /* OfflinePage.xib */; };
 		B5E4CEE222A1011C00FC9A3D /* BookingItenaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4CEE022A1011C00FC9A3D /* BookingItenaryVC.swift */; };
@@ -510,6 +503,15 @@
 		1E0804EB254508BD00C30D24 /* Русский.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Русский.json"; sourceTree = "<group>"; };
 		1E0804ED2545093D00C30D24 /* English.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = English.json; sourceTree = "<group>"; };
 		1E0804EF25450A3500C30D24 /* File.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = File.strings; sourceTree = "<group>"; };
+		1E5D8399255A0CFF00396150 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		1E5D839F255A1B1000396150 /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
+		1E7A5C6C2554F86300285124 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1E7A5C6D2554F86400285124 /* SignInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInView.xib; sourceTree = "<group>"; };
+		1E7A5C712554F8AB00285124 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		1E7A5C732554F90100285124 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		1E7A5C742554F90100285124 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1ECC7608255C5730004B7A3D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1ECC7609255C573B004B7A3D /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		2C024E5322F1575B00217EBE /* BathroomsListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomsListingViewController.swift; sourceTree = "<group>"; };
 		2C024E5422F1575B00217EBE /* BathroomsListingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BathroomsListingViewController.xib; sourceTree = "<group>"; };
 		2C024E5722F19E7200217EBE /* AddressListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListingViewController.swift; sourceTree = "<group>"; };
@@ -613,8 +615,6 @@
 		B501C7302282DF4200D4E0E5 /* Language.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Language.graphql; sourceTree = "<group>"; };
 		B502241C22A1234A00E0A34A /* Reservsation.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Reservsation.graphql; sourceTree = "<group>"; };
 		B51E62AC2245005C00356E3F /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
-		B51F80C42240CBA300E437C1 /* WelcomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageVC.swift; sourceTree = "<group>"; };
-		B51F80C52240CBA300E437C1 /* WelcomePageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomePageVC.xib; sourceTree = "<group>"; };
 		B51F80CA2240E30000E437C1 /* HSColor+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HSColor+UIColor.swift"; sourceTree = "<group>"; };
 		B51F80CC2240E30800E437C1 /* HSLabel+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HSLabel+UILabel.swift"; sourceTree = "<group>"; };
 		B51F80CE2240E31100E437C1 /* HSImage+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HSImage+UIImage.swift"; sourceTree = "<group>"; };
@@ -656,12 +656,6 @@
 		B5347410224B805F003D8F89 /* AirbnbDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirbnbDatePickerViewController.swift; sourceTree = "<group>"; };
 		B5347412224B830D003D8F89 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B5347414224B8516003D8F89 /* airbnb-datepicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "airbnb-datepicker.h"; sourceTree = "<group>"; };
-		B535D18E22438C7000F691C4 /* EmailPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPageVC.swift; sourceTree = "<group>"; };
-		B535D18F22438C7000F691C4 /* EmailPageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailPageVC.xib; sourceTree = "<group>"; };
-		B535D1932243A33E00F691C4 /* DateofBirthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateofBirthVC.swift; sourceTree = "<group>"; };
-		B535D1942243A33E00F691C4 /* DateofBirthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateofBirthVC.xib; sourceTree = "<group>"; };
-		B535D1982243B6EB00F691C4 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
-		B535D1992243B6EB00F691C4 /* PasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordVC.xib; sourceTree = "<group>"; };
 		B53772E02248A8E900F5976C /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		B53772E22248A93300F5976C /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B53772E42248AA7500F5976C /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -795,8 +789,6 @@
 		B569BA1522AB98150031C6CE /* ContactusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactusVC.swift; sourceTree = "<group>"; };
 		B569BA1622AB98150031C6CE /* ContactusVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactusVC.xib; sourceTree = "<group>"; };
 		B569BA1922ABB1A80031C6CE /* contactsupport.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = contactsupport.graphql; sourceTree = "<group>"; };
-		B56F3ACA22411A1E006AFEB7 /* LoginPageVC.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; tabWidth = 2; };
-		B56F3ACB22411A1E006AFEB7 /* LoginPageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPageVC.xib; sourceTree = "<group>"; };
 		B570950A22AE1B5D000E6A07 /* InboxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxCell.swift; sourceTree = "<group>"; };
 		B570950B22AE1B5D000E6A07 /* InboxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InboxCell.xib; sourceTree = "<group>"; };
 		B570950E22AE1BCE000E6A07 /* InboxContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxContentCell.swift; sourceTree = "<group>"; };
@@ -840,11 +832,9 @@
 		B5AD18E222E8867700EF84AC /* HostListingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HostListingVC.xib; sourceTree = "<group>"; };
 		B5AD7DB0224207BD00E10420 /* HSTextField+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HSTextField+UITextField.swift"; sourceTree = "<group>"; };
 		B5AD7DB22242120000E10420 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
-		B5AD7DB522424A5F00E10420 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
-		B5AD7DB622424A5F00E10420 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		B5AD7DB522424A5F00E10420 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B5AD7DB622424A5F00E10420 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		B5AD7DBA2242631500E10420 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
-		B5AD7DBE2242700C00E10420 /* FirstLastnamePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLastnamePageVC.swift; sourceTree = "<group>"; };
-		B5AD7DBF2242700C00E10420 /* FirstLastnamePageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstLastnamePageVC.xib; sourceTree = "<group>"; };
 		B5B23234229C01B800515A55 /* RequestbookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestbookVC.swift; sourceTree = "<group>"; };
 		B5B23235229C01B800515A55 /* RequestbookVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestbookVC.xib; sourceTree = "<group>"; };
 		B5B91A6824208EFE008AC5CB /* popularcollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popularcollectionCell.swift; sourceTree = "<group>"; };
@@ -899,8 +889,6 @@
 		B5D4AF40230673DF0066BD3F /* PayoutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayoutCell.xib; sourceTree = "<group>"; };
 		B5D4AF43230685550066BD3F /* payout.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = payout.graphql; sourceTree = "<group>"; };
 		B5D61CEF22606CFA00152DB4 /* Rent_All.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rent_All.entitlements; sourceTree = "<group>"; };
-		B5D61CF02260962E00152DB4 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
-		B5D61CF12260962E00152DB4 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
 		B5E4CEDA22A0EC2900FC9A3D /* OfflinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflinePage.swift; sourceTree = "<group>"; };
 		B5E4CEDC22A0EC2D00FC9A3D /* OfflinePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfflinePage.xib; sourceTree = "<group>"; };
 		B5E4CEE022A1011C00FC9A3D /* BookingItenaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingItenaryVC.swift; sourceTree = "<group>"; };
@@ -1015,6 +1003,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E7A5C702554F89900285124 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E5D8399255A0CFF00396150 /* Loader.swift */,
+				1E5D839F255A1B1000396150 /* UIViewController+Helpers.swift */,
+				1E7A5C712554F8AB00285124 /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1ECC7607255C5628004B7A3D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC7608255C5730004B7A3D /* SignUpViewController.swift */,
+				1ECC7609255C573B004B7A3D /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		1ECC760C255C63EA004B7A3D /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD7DB4224249F000E10420 /* ForgotPasswordPage */,
+				B56F3AC9224119D7006AFEB7 /* LoginPage */,
+				1ECC7607255C5628004B7A3D /* SignUp */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
 		2C36B0C9235980E500CB8BF0 /* LanguageSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -1165,42 +1182,6 @@
 			path = contactHeaderCell;
 			sourceTree = "<group>";
 		};
-		B535D18C22438C3200F691C4 /* NamePage */ = {
-			isa = PBXGroup;
-			children = (
-				B5AD7DBE2242700C00E10420 /* FirstLastnamePageVC.swift */,
-				B5AD7DBF2242700C00E10420 /* FirstLastnamePageVC.xib */,
-			);
-			path = NamePage;
-			sourceTree = "<group>";
-		};
-		B535D18D22438C4700F691C4 /* EmailPage */ = {
-			isa = PBXGroup;
-			children = (
-				B535D18E22438C7000F691C4 /* EmailPageVC.swift */,
-				B535D18F22438C7000F691C4 /* EmailPageVC.xib */,
-			);
-			path = EmailPage;
-			sourceTree = "<group>";
-		};
-		B535D1922243A22900F691C4 /* DateofBirthPage */ = {
-			isa = PBXGroup;
-			children = (
-				B535D1932243A33E00F691C4 /* DateofBirthVC.swift */,
-				B535D1942243A33E00F691C4 /* DateofBirthVC.xib */,
-			);
-			path = DateofBirthPage;
-			sourceTree = "<group>";
-		};
-		B535D1972243B6CC00F691C4 /* PasswordPage */ = {
-			isa = PBXGroup;
-			children = (
-				B535D1982243B6EB00F691C4 /* PasswordVC.swift */,
-				B535D1992243B6EB00F691C4 /* PasswordVC.xib */,
-			);
-			path = PasswordPage;
-			sourceTree = "<group>";
-		};
 		B53772D12248A8AA00F5976C /* Date_Picker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1276,6 +1257,7 @@
 		B54D90FF223F9316003A4589 /* Rent_All */ = {
 			isa = PBXGroup;
 			children = (
+				1E7A5C702554F89900285124 /* Extensions */,
 				B5D61CEF22606CFA00152DB4 /* Rent_All.entitlements */,
 				B5263BFB225F2347003B3DE2 /* GrpahQL_Query */,
 				B5263BF7225F1F8D003B3DE2 /* API.swift */,
@@ -1375,10 +1357,7 @@
 				B5F492C222E5926A000B3085 /* HostTabbar Pages */,
 				B5E4CED922A0EC1A00FC9A3D /* offlineScreenPage */,
 				B5771A9E2244E0440070DD96 /* GuestTabbarPages */,
-				B5AD7DBD22426ECD00E10420 /* SignUpPage */,
-				B5AD7DB4224249F000E10420 /* ForgotPasswordPage */,
-				B56F3AC9224119D7006AFEB7 /* LoginPage */,
-				B56F3AC8224119B9006AFEB7 /* WelcomePage */,
+				1ECC760C255C63EA004B7A3D /* Start */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1676,20 +1655,11 @@
 			path = CalendarListingVC;
 			sourceTree = "<group>";
 		};
-		B56F3AC8224119B9006AFEB7 /* WelcomePage */ = {
-			isa = PBXGroup;
-			children = (
-				B51F80C42240CBA300E437C1 /* WelcomePageVC.swift */,
-				B51F80C52240CBA300E437C1 /* WelcomePageVC.xib */,
-			);
-			path = WelcomePage;
-			sourceTree = "<group>";
-		};
 		B56F3AC9224119D7006AFEB7 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
-				B56F3ACA22411A1E006AFEB7 /* LoginPageVC.swift */,
-				B56F3ACB22411A1E006AFEB7 /* LoginPageVC.xib */,
+				1E7A5C6C2554F86300285124 /* SignInViewController.swift */,
+				1E7A5C6D2554F86400285124 /* SignInView.xib */,
 			);
 			path = LoginPage;
 			sourceTree = "<group>";
@@ -1813,8 +1783,8 @@
 		B5AD7DB4224249F000E10420 /* ForgotPasswordPage */ = {
 			isa = PBXGroup;
 			children = (
-				B5AD7DB522424A5F00E10420 /* ForgotPasswordVC.swift */,
-				B5AD7DB622424A5F00E10420 /* ForgotPasswordVC.xib */,
+				B5AD7DB522424A5F00E10420 /* ForgotPasswordViewController.swift */,
+				B5AD7DB622424A5F00E10420 /* ForgotPasswordViewController.xib */,
 			);
 			path = ForgotPasswordPage;
 			sourceTree = "<group>";
@@ -1832,18 +1802,6 @@
 				B5C2F7B2224E14BB0084E95A /* Switch.json */,
 			);
 			path = LottieJson;
-			sourceTree = "<group>";
-		};
-		B5AD7DBD22426ECD00E10420 /* SignUpPage */ = {
-			isa = PBXGroup;
-			children = (
-				B5D61CEE226060BE00152DB4 /* ResetPasswordPage */,
-				B535D1972243B6CC00F691C4 /* PasswordPage */,
-				B535D1922243A22900F691C4 /* DateofBirthPage */,
-				B535D18D22438C4700F691C4 /* EmailPage */,
-				B535D18C22438C3200F691C4 /* NamePage */,
-			);
-			path = SignUpPage;
 			sourceTree = "<group>";
 		};
 		B5B23233229C019600515A55 /* RequestbookVC */ = {
@@ -2022,15 +1980,6 @@
 				B54C2D8D2313DD9400548172 /* lineto-circular-bold.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		B5D61CEE226060BE00152DB4 /* ResetPasswordPage */ = {
-			isa = PBXGroup;
-			children = (
-				B5D61CF02260962E00152DB4 /* ResetPasswordVC.swift */,
-				B5D61CF12260962E00152DB4 /* ResetPasswordVC.xib */,
-			);
-			path = ResetPasswordPage;
 			sourceTree = "<group>";
 		};
 		B5E4CED922A0EC1A00FC9A3D /* offlineScreenPage */ = {
@@ -2436,6 +2385,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = B54D90F4223F9316003A4589;
 			productRefGroup = B54D90FE223F9316003A4589 /* Products */;
@@ -2454,7 +2404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B564CC0323C5D6F900F8759C /* BuildFile in Resources */,
+				B564CC0323C5D6F900F8759C /* (null) in Resources */,
 				2CFAA45E22FBF209004A2B2E /* LawAndTaxViewController.xib in Resources */,
 				B5FC84D72256005F003C8EAC /* AmenityDetailCell.xib in Resources */,
 				B528EF0C228E947300C99BFC /* checkTextviewCell.xib in Resources */,
@@ -2463,9 +2413,7 @@
 				B5EF62CE229BFC8D00FB6A9D /* RequestBookcellTableViewCell.xib in Resources */,
 				B56945EA22F3FA4000595CA8 /* WWCalendarTimeSelector.storyboard in Resources */,
 				B5FE3D48229D4A240086D3FE /* BookingstepOneVC.xib in Resources */,
-				B535D19B2243B6EB00F691C4 /* PasswordVC.xib in Resources */,
 				B570950D22AE1B5D000E6A07 /* InboxCell.xib in Resources */,
-				B535D19122438C7000F691C4 /* EmailPageVC.xib in Resources */,
 				B585ABDB22EC0D400051927E /* addPhotosCell.xib in Resources */,
 				B501C72F2282DC5000D4E0E5 /* LanguageVC.xib in Resources */,
 				B55A7D0922EAC07F0051B62F /* StepTwoCell.xib in Resources */,
@@ -2494,7 +2442,6 @@
 				B5EE962022572667004E4A2D /* MapPageVC.xib in Resources */,
 				2C77EAFE23BB4A120014199D /* HostProfileViewPage.xib in Resources */,
 				B5E9E1D322A519E300B91B5B /* NameReceiptCell.xib in Resources */,
-				B51F80C72240CBA300E437C1 /* WelcomePageVC.xib in Resources */,
 				B54D910B223F9320003A4589 /* LaunchScreen.storyboard in Resources */,
 				2C2E60AA22E9AE1600937E7D /* SingleTextFieldCell.xib in Resources */,
 				B5D4AF44230685550066BD3F /* payout.graphql in Resources */,
@@ -2502,7 +2449,6 @@
 				B553A3F6224CD30700138107 /* AmenitiesCell.xib in Resources */,
 				B5EE962A22578308004E4A2D /* ShareProductVC.xib in Resources */,
 				B56181502261E09400046766 /* animation.json in Resources */,
-				B56F3ACD22411A1E006AFEB7 /* LoginPageVC.xib in Resources */,
 				B5263C05225F4E7F003B3DE2 /* AJAlertController.xib in Resources */,
 				B5CD194522803A9B00A8D83E /* EditAboutCell.xib in Resources */,
 				2CB9479F22EC2EE500AA5A63 /* GuestListingViewController.xib in Resources */,
@@ -2542,7 +2488,6 @@
 				B561814E2261A0FF00046766 /* loading_qwe.json in Resources */,
 				B54F8DFA22BCA111000B27CC /* animation_white.json in Resources */,
 				B5016A88236071E2006D1F57 /* resetPassword.graphql in Resources */,
-				B5AD7DC12242700C00E10420 /* FirstLastnamePageVC.xib in Resources */,
 				B502241D22A1234A00E0A34A /* Reservsation.graphql in Resources */,
 				B55A7CFF22EAC0410051B62F /* BecomeHostVC.xib in Resources */,
 				B552B53622F0128E0072E170 /* ListingDescriptionVC.xib in Resources */,
@@ -2559,7 +2504,6 @@
 				2CFE2EA622FAD6440064D9C4 /* BookInstantViewController.xib in Resources */,
 				B528EF04228E892700C99BFC /* ContactheaderCell.xib in Resources */,
 				B566707D22A7C6C2004D04F6 /* TripsCell.xib in Resources */,
-				B535D1962243A33E00F691C4 /* DateofBirthVC.xib in Resources */,
 				B5014023230A9CB700C88EED /* PaypalPayoutVC.xib in Resources */,
 				B56602DA22E9683F00A144CE /* CompletedCell.xib in Resources */,
 				B54D9108223F9320003A4589 /* Assets.xcassets in Resources */,
@@ -2597,7 +2541,7 @@
 				B569BA1A22ABB1A80031C6CE /* contactsupport.graphql in Resources */,
 				2C04A78222F97A2D0075433E /* CreateListing.graphql in Resources */,
 				B5F8DC602258A3DF000B3894 /* ReadmoreCell.xib in Resources */,
-				B5AD7DB822424A5F00E10420 /* ForgotPasswordVC.xib in Resources */,
+				B5AD7DB822424A5F00E10420 /* ForgotPasswordViewController.xib in Resources */,
 				B5516F2B22FE9B5A004E672E /* CalendarDetailVC.xib in Resources */,
 				B528EEF1228E73B600C99BFC /* HouseRulesVC.xib in Resources */,
 				B570951122AE1BCE000E6A07 /* InboxContentCell.xib in Resources */,
@@ -2622,7 +2566,6 @@
 				B545163622AF676F006D7009 /* InboxListingVC.xib in Resources */,
 				2CFAA45A22FBF1E9004A2B2E /* IncreaseEarningViewController.xib in Resources */,
 				B5CD192A227FF56A00A8D83E /* HeaderProfileCell.xib in Resources */,
-				B5D61CF32260962E00152DB4 /* ResetPasswordVC.xib in Resources */,
 				B5EAE9B6229FAC5600EFAAC3 /* BookingStepFourVC.xib in Resources */,
 				2C024E6622F1C4BA00217EBE /* SpaceListViewController.xib in Resources */,
 				B5FA73A6236955BE008A7E7F /* Email-success.json in Resources */,
@@ -2670,7 +2613,9 @@
 				B538521A2284030E00F9248E /* AboutmeVC.xib in Resources */,
 				B5E4CEDD22A0EC2E00FC9A3D /* OfflinePage.xib in Resources */,
 				B54C2D8E2313DD9500548172 /* lineto-circular-bold.ttf in Resources */,
+				1E7A5C6F2554F86400285124 /* SignInView.xib in Resources */,
 				2C77EAFB23BB49740014199D /* ReportuserPage.xib in Resources */,
+				1ECC760B255C573B004B7A3D /* SignUpViewController.xib in Resources */,
 				B545164622AFCD60006D7009 /* sendCell.xib in Resources */,
 				B5F992CE22B267B3005863FA /* NomessageCell.xib in Resources */,
 				B5919A8A22CDBCDF00F328D2 /* Whishlist.graphql in Resources */,
@@ -2801,10 +2746,8 @@
 				B500D64E22F9533A0050EFDA /* ReservationUpcomingHostCell.swift in Sources */,
 				B552B53022F0030E0072E170 /* ListingTitleVC.swift in Sources */,
 				B5B95FE422F7F50C00C4970C /* CalendarListCell.swift in Sources */,
-				B5AD7DC02242700C00E10420 /* FirstLastnamePageVC.swift in Sources */,
 				B58EAF4D24B82F7A00AF87BD /* ReviewlistCellTableViewCell.swift in Sources */,
 				B5E4CEF322A108DE00FC9A3D /* ItenaryaddressCell.swift in Sources */,
-				B56F3ACC22411A1E006AFEB7 /* LoginPageVC.swift in Sources */,
 				B5390912229E6A0200FD6CF5 /* BookingsteptwoVC.swift in Sources */,
 				B5EE96312257879A004E4A2D /* ShareListCell.swift in Sources */,
 				B500E171230A68400055C1D4 /* PayoutTextfieldCell.swift in Sources */,
@@ -2833,7 +2776,6 @@
 				B5EAE9B5229FAC5600EFAAC3 /* BookingStepFourVC.swift in Sources */,
 				B56945ED22F3FA4000595CA8 /* String+Timepiece.swift in Sources */,
 				B56303CE22B20B4600ABAE78 /* ReceiverMessageonlyCell.swift in Sources */,
-				B535D19A2243B6EB00F691C4 /* PasswordVC.swift in Sources */,
 				B539091E229EA14300FD6CF5 /* ReservationCell.swift in Sources */,
 				B5390916229E6AD600FD6CF5 /* bookingsteptwoCell.swift in Sources */,
 				B5FC84DA225600E8003C8EAC /* MapCell.swift in Sources */,
@@ -2850,11 +2792,9 @@
 				B5F8DC5F2258A3DF000B3894 /* ReadmoreCell.swift in Sources */,
 				B51F80CF2240E31100E437C1 /* HSImage+UIImage.swift in Sources */,
 				B5E9E1DE22A51EDF00B91B5B /* ReceiptVC.swift in Sources */,
-				B5D61CF22260962E00152DB4 /* ResetPasswordVC.swift in Sources */,
 				B5AD18D322E8634900EF84AC /* HostCalendarVC.swift in Sources */,
 				B53852122283EBDE00F9248E /* CountrycodeVC.swift in Sources */,
 				2C024E6522F1C4BA00217EBE /* SpaceListViewController.swift in Sources */,
-				B51F80C62240CBA300E437C1 /* WelcomePageVC.swift in Sources */,
 				B5E9E1D622A51B6800B91B5B /* AccommadationCell.swift in Sources */,
 				B5CFA78F224A39D800622D64 /* SearchPageVC.swift in Sources */,
 				B553A3D8224C9B5300138107 /* MoreFilterVC.swift in Sources */,
@@ -2864,7 +2804,7 @@
 				B55A7D0D22EB00020051B62F /* StepPublishCell.swift in Sources */,
 				B56945EC22F3FA4000595CA8 /* NSDate+Timepiece.swift in Sources */,
 				B5347409224B803C003D8F89 /* AirbnbDatePickerFlowLayout.swift in Sources */,
-				B5AD7DB722424A5F00E10420 /* ForgotPasswordVC.swift in Sources */,
+				B5AD7DB722424A5F00E10420 /* ForgotPasswordViewController.swift in Sources */,
 				2CFAA45922FBF1E9004A2B2E /* IncreaseEarningViewController.swift in Sources */,
 				B54D913B223F9EDA003A4589 /* ImageScroller.swift in Sources */,
 				2C93338322FAF78A00884A3B /* BookingWindowViewController.swift in Sources */,
@@ -2873,7 +2813,6 @@
 				B5263C06225F4E80003B3DE2 /* AJAlertController.swift in Sources */,
 				B5CEB6F02251E2AA004D0EF4 /* FloatMapVC.swift in Sources */,
 				B528EEF5228E865800C99BFC /* CancellationVC.swift in Sources */,
-				B535D19022438C7000F691C4 /* EmailPageVC.swift in Sources */,
 				B528EF07228E8CF800C99BFC /* contactcheckCell.swift in Sources */,
 				B5EE961F22572667004E4A2D /* MapPageVC.swift in Sources */,
 				B5B91A6A24208EFE008AC5CB /* popularcollectionCell.swift in Sources */,
@@ -2891,6 +2830,7 @@
 				B5408EDA22FAD0B40031E783 /* AvailabilityHostVC.swift in Sources */,
 				B534740B224B8043003D8F89 /* AirbnbDatePickerFooter.swift in Sources */,
 				B5FE3D4B229D502E0086D3FE /* bookinoneCell.swift in Sources */,
+				1ECC760A255C573B004B7A3D /* SignUpViewController.swift in Sources */,
 				B56945EE22F3FA4000595CA8 /* Duration.swift in Sources */,
 				B5EAE9C1229FB9B500EFAAC3 /* bookcancellationCell.swift in Sources */,
 				B5408EDE22FAD19D0031E783 /* HostAvailCell.swift in Sources */,
@@ -2909,16 +2849,19 @@
 				B501402A230AB7ED00C88EED /* BankAccountVC.swift in Sources */,
 				2C77EAF823BB49740014199D /* ReportuserheaderCell.swift in Sources */,
 				B5AD18CF22E862FD00EF84AC /* CustomHostTabbar.swift in Sources */,
+				1E5D83A0255A1B1100396150 /* UIViewController+Helpers.swift in Sources */,
 				B53772E32248A93300F5976C /* Theme.swift in Sources */,
 				B54BA46A22730E1900F6035B /* FacilitiesCell.swift in Sources */,
 				B534740F224B8054003D8F89 /* AirbnbDatePickerMonthHeader.swift in Sources */,
 				2CB6C078237926F30017C80F /* EmailGoogleFBViewController.swift in Sources */,
 				B585ABE222EC15F00051927E /* AddphotoCell.swift in Sources */,
 				B5FC84E022560137003C8EAC /* CheckingCell.swift in Sources */,
+				1E7A5C6E2554F86400285124 /* SignInViewController.swift in Sources */,
 				B5771AB12244E0FF0070DD96 /* ProfilePageVC.swift in Sources */,
 				B570951022AE1BCE000E6A07 /* InboxContentCell.swift in Sources */,
 				B5FC84D12255E58F003C8EAC /* DescriptionCell.swift in Sources */,
 				B5EAE9BD229FAF3A00EFAAC3 /* AgreetermsCell.swift in Sources */,
+				1E7A5C722554F8AB00285124 /* UITextField+Extension.swift in Sources */,
 				B5B23236229C01B800515A55 /* RequestbookVC.swift in Sources */,
 				B56945E722F3FA4000595CA8 /* NSDateComponents+Timepiece.swift in Sources */,
 				B5F992D122B277F3005863FA /* CustomTabbar.swift in Sources */,
@@ -2953,6 +2896,7 @@
 				B539091A229E946C00FD6CF5 /* BookingTotalCell.swift in Sources */,
 				2C93337F22FAE8F900884A3B /* NoticeArrivalViewController.swift in Sources */,
 				B5CD193F228037C100A8D83E /* EditnameCell.swift in Sources */,
+				1E5D839A255A0CFF00396150 /* Loader.swift in Sources */,
 				B5CD1929227FF56A00A8D83E /* HeaderProfileCell.swift in Sources */,
 				2C024E5522F1575B00217EBE /* BathroomsListingViewController.swift in Sources */,
 				B5CFA7842249EF5A00622D64 /* UIImage.swift in Sources */,
@@ -3012,7 +2956,6 @@
 				B5AD18DB22E864AA00EF84AC /* HostMessageVC.swift in Sources */,
 				B5F492C022E5924A000B3085 /* BaseHostTableviewController.swift in Sources */,
 				2CB4CB7223C85425002EE107 /* KeychainService.swift in Sources */,
-				B535D1952243A33E00F691C4 /* DateofBirthVC.swift in Sources */,
 				2CFAA45522FBF1B8004A2B2E /* DiscountViewController.swift in Sources */,
 				B5EAE9A9229F937800EFAAC3 /* BookingStepThreeVC.swift in Sources */,
 				B5FAF83122522D0600BF8DE6 /* FloatCollectionCell.swift in Sources */,
@@ -3057,6 +3000,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B54D9105223F9316003A4589 /* Base */,
+				1E7A5C732554F90100285124 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -3065,6 +3009,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B54D910A223F9320003A4589 /* Base */,
+				1E7A5C742554F90100285124 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

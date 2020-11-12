@@ -130,7 +130,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
              {
                 
                 let appDelegate = UIApplication.shared.delegate as! AppDelegate
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                // self.present(welcomeObj, animated:false, completion: nil)
                 appDelegate.setInitialViewController(initialView: welcomeObj)
             }
@@ -140,7 +140,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
         {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                  welcomeObj.modalPresentationStyle = .fullScreen
                 
                 self.present(welcomeObj, animated:false, completion: nil)
@@ -151,7 +151,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
                 
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                  welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
@@ -162,7 +162,7 @@ class CustomTabbar: UITabBarController,UITabBarControllerDelegate {
             if((Utility.shared.getCurrentUserToken()) == nil || (Utility.shared.getCurrentUserToken()) == "")
             {
                 
-                let welcomeObj = WelcomePageVC()
+                let welcomeObj = SignInViewController()
                  welcomeObj.modalPresentationStyle = .fullScreen
                 self.present(welcomeObj, animated:false, completion: nil)
                 //  appDelegate.setInitialViewController(initialView: welcomeObj)
